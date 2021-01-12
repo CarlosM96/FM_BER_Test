@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Fri Nov 20 15:11:17 2020
+# Process ID: 8772
+# Current directory: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.sim/sim_1/synth/func/xsim/xsim.dir/gtwizard_0_TB_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Diego/Documents/Fiuna/LME/Link -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/Diego/Documents/Fiuna/LME/Link" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 15:11:17 2020...

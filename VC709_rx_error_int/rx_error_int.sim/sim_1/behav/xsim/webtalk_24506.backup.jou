@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov  6 13:36:16 2020
+# Process ID: 24506
+# Current directory: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.sim/sim_1/behav/xsim/xsim.dir/rx_sim_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.sim/sim_1/behav/xsim/xsim.dir/rx_sim_top_behav/webtalk/xsim_webtalk.tcl -notrace

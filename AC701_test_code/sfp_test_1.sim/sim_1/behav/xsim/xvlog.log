@@ -1,0 +1,50 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_common_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/support/gtwizard_0_clock_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_CLOCK_MODULE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_gt_usrclk_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_GT_USRCLK_SOURCE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_cpll_railing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_cpll_railing
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_tx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_TX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_rx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_RX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_GT
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0_multi_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_multi_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_sync_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_sync_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/ip/gtwizard_0/gtwizard_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_exdes
+INFO: [VRFC 10-2458] undeclared symbol tx_k_w, assumed default net type wire [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:420]
+INFO: [VRFC 10-2458] undeclared symbol clk40_w, assumed default net type wire [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:433]
+WARNING: [VRFC 10-2938] 'tx_k_w' is already implicitly declared on line 420 [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:512]
+WARNING: [VRFC 10-3248] data object 'fifo_dout_w' is already declared [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:588]
+WARNING: [VRFC 10-3703] second declaration of 'fifo_dout_w' ignored [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:588]
+WARNING: [VRFC 10-2938] 'clk40_w' is already implicitly declared on line 433 [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:595]
+INFO: [VRFC 10-2458] undeclared symbol locked_240_w, assumed default net type wire [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:609]
+WARNING: [VRFC 10-2938] 'locked_240_w' is already implicitly declared on line 609 [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:645]
+INFO: [VRFC 10-2458] undeclared symbol TRACK_DATA_OUT, assumed default net type wire [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:681]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/top_logic_n_packs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_logic_n_packs
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/uart_delay_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_delay_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_TB
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v:113]
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v:277]
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v:283]

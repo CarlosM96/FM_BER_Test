@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sfp_test_1.srcs/sources_1/imports/i2c.vhd" \
+"../../../../sfp_test_1.srcs/sources_1/imports/si5324_init.vhd" \
+
+# Do not sort compile order
+nosort

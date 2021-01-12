@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Dec  9 15:02:20 2020
+# Process ID: 30523
+# Current directory: /home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/RX_vc709_synth_1
+# Command line: vivado -log RX_vc709.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RX_vc709.tcl
+# Log file: /home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/RX_vc709_synth_1/RX_vc709.vds
+# Journal file: /home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/RX_vc709_synth_1/vivado.jou
+#-----------------------------------------------------------
+source RX_vc709.tcl -notrace

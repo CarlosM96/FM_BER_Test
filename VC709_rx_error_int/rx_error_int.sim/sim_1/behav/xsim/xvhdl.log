@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'simple_i2c'
+INFO: [VRFC 10-3107] analyzing entity 'i2c_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/si5324_init.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'si5324_init'

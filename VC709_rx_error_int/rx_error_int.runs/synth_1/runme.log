@@ -1,0 +1,470 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7vx690tffg1761-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21428
+WARNING: [Synth 8-2611] redeclaration of ansi port reset is not allowed [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:78]
+CRITICAL WARNING: [Synth 8-976] reset has already been declared [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:78]
+CRITICAL WARNING: [Synth 8-2654] second declaration of reset ignored [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:78]
+INFO: [Synth 8-994] reset is declared here [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:33]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2361.348 ; gain = 159.680 ; free physical = 975 ; free virtual = 6447
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:24]
+INFO: [Synth 8-6157] synthesizing module 'rx_fullsuma_error_top' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/rx_fullsuma_error_top.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'rx_fullsuma_error_top' (1#1) [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/rx_fullsuma_error_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'si5324_init' [/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/si5324_init.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'si5324_init' (2#1) [/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/si5324_init.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'simple_i2c' [/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd:78]
+INFO: [Synth 8-3491] module 'i2c_core' declared at '/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd:339' bound to instance 'u1' of component 'i2c_core' [/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'i2c_core' [/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd:358]
+INFO: [Synth 8-256] done synthesizing module 'i2c_core' (3#1) [/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd:358]
+INFO: [Synth 8-256] done synthesizing module 'simple_i2c' (4#1) [/home/daphnelme/Desktop/CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd:78]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/synth_1/.Xil/Vivado-21184-daphne.linktest.lme/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (5#1) [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/synth_1/.Xil/Vivado-21184-daphne.linktest.lme/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (6#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
+INFO: [Synth 8-6157] synthesizing module 'RX_TOP' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/RX_TOP.v:92]
+	Parameter EXAMPLE_CONFIG_INDEPENDENT_LANES bound to: 1 - type: integer 
+	Parameter EXAMPLE_LANE_WITH_START_CHAR bound to: 0 - type: integer 
+	Parameter EXAMPLE_WORDS_IN_BRAM bound to: 512 - type: integer 
+	Parameter EXAMPLE_SIM_GTRESET_SPEEDUP bound to: FALSE - type: string 
+	Parameter EXAMPLE_USE_CHIPSCOPE bound to: 0 - type: integer 
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'RX_vc709' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/synth_1/.Xil/Vivado-21184-daphne.linktest.lme/realtime/RX_vc709_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RX_vc709' (7#1) [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/synth_1/.Xil/Vivado-21184-daphne.linktest.lme/realtime/RX_vc709_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RX_TOP' (8#1) [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/RX_TOP.v:92]
+WARNING: [Synth 8-7071] port 'GTTX_RESET_IN' of module 'RX_TOP' is unconnected for instance 'RX_TOP' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:396]
+WARNING: [Synth 8-7071] port 'GTRX_RESET_IN' of module 'RX_TOP' is unconnected for instance 'RX_TOP' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:396]
+WARNING: [Synth 8-7071] port 'CPLL_RESET_IN' of module 'RX_TOP' is unconnected for instance 'RX_TOP' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:396]
+WARNING: [Synth 8-7071] port 'QPLL_RESET_IN' of module 'RX_TOP' is unconnected for instance 'RX_TOP' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:396]
+WARNING: [Synth 8-7023] instance 'RX_TOP' of module 'RX_TOP' has 17 connections declared, but only 13 given [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:396]
+INFO: [Synth 8-6155] done synthesizing module 'top' (9#1) [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/top.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2412.289 ; gain = 210.621 ; free physical = 999 ; free virtual = 6473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 2427.129 ; gain = 225.461 ; free physical = 998 ; free virtual = 6472
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 2427.129 ; gain = 225.461 ; free physical = 998 ; free virtual = 6472
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2438.035 ; gain = 0.000 ; free physical = 989 ; free virtual = 6463
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc:6]
+Finished Parsing XDC File [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/RX_vc709/RX_vc709/RX_vc709_in_context.xdc] for cell 'RX_TOP/RX_vc709_support_i'
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/RX_vc709/RX_vc709/RX_vc709_in_context.xdc:2]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/RX_vc709/RX_vc709/RX_vc709_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/RX_vc709/RX_vc709/RX_vc709_in_context.xdc:6]
+Finished Parsing XDC File [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/RX_vc709/RX_vc709/RX_vc709_in_context.xdc] for cell 'RX_TOP/RX_vc709_support_i'
+Parsing XDC File [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/constrs_1/new/const.xdc]
+WARNING: [Constraints 18-619] A clock with name 'USER_CLK_P' already exists, overwriting the previous clock with the same name. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/constrs_1/new/const.xdc:78]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {NAME =~ *reset_on_error_in_r*}'. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/constrs_1/new/const.xdc:85]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter REF_PIN_NAME=~*D -of_objects [get_cells -hierarchical -filter {NAME =~ *reset_on_error_in_r*}]'. [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/constrs_1/new/const.xdc:85]
+Finished Parsing XDC File [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/constrs_1/new/const.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/constrs_1/new/const.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/constrs_1/new/const.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2573.770 ; gain = 0.000 ; free physical = 880 ; free virtual = 6367
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  OBUFDS => OBUFDS: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2573.770 ; gain = 0.000 ; free physical = 880 ; free virtual = 6367
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 2573.770 ; gain = 372.102 ; free physical = 960 ; free virtual = 6447
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 2573.770 ; gain = 372.102 ; free physical = 960 ; free virtual = 6447
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for USER_CLK_N. (constraint file  /home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for USER_CLK_N. (constraint file  /home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for USER_CLK_P. (constraint file  /home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for USER_CLK_P. (constraint file  /home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 10).
+Applied set_property DONT_TOUCH = true for clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for RX_TOP/RX_vc709_support_i. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 2573.770 ; gain = 372.102 ; free physical = 963 ; free virtual = 6450
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'clockdomainsrenamer0_state_reg' in module 'rx_fullsuma_error_top'
+INFO: [Synth 8-802] inferred FSM for state register 'clockdomainsrenamer1_state_reg' in module 'rx_fullsuma_error_top'
+INFO: [Synth 8-802] inferred FSM for state register 'clockdomainsrenamer2_state_reg' in module 'rx_fullsuma_error_top'
+INFO: [Synth 8-802] inferred FSM for state register 'clockdomainsrenamer3_state_reg' in module 'rx_fullsuma_error_top'
+INFO: [Synth 8-802] inferred FSM for state register 'i2c_wr_state_reg' in module 'si5324_init'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'i2c_core'
+INFO: [Synth 8-802] inferred FSM for state register 'statemachine.state_reg' in module 'simple_i2c'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+*
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clockdomainsrenamer1_state_reg' using encoding 'sequential' in module 'rx_fullsuma_error_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE5 |                              000 |                              000
+*
+                  iSTATE |                              001 |                              001
+                 iSTATE4 |                              010 |                              011
+                 iSTATE2 |                              011 |                              100
+                 iSTATE1 |                              100 |                              101
+                 iSTATE3 |                              101 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clockdomainsrenamer2_state_reg' using encoding 'sequential' in module 'rx_fullsuma_error_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+*
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clockdomainsrenamer3_state_reg' using encoding 'sequential' in module 'rx_fullsuma_error_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+*
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clockdomainsrenamer0_state_reg' using encoding 'sequential' in module 'rx_fullsuma_error_top'
+WARNING: [Synth 8-327] inferring latch for variable 'led_3c_reg' [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.srcs/sources_1/new/rx_fullsuma_error_top.v:274]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                     dly |                             0001 |                             0001
+                    addr |                             0010 |                             0010
+                 addrack |                             0011 |                             0011
+                 write1b |                             0100 |                             1000
+              write1back |                             0101 |                             1001
+                readaddr |                             0110 |                             1010
+             readaddrack |                             0111 |                             1011
+                write2b1 |                             1000 |                             0100
+             write2b1ack |                             1001 |                             0101
+                write2b2 |                             1010 |                             0110
+             write2b2ack |                             1011 |                             0111
+                readdata |                             1100 |                             1100
+             readdataack |                             1101 |                             1101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'i2c_wr_state_reg' using encoding 'sequential' in module 'si5324_init'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                 start_a |                             0001 |                             0001
+                 start_b |                             0010 |                             0010
+                 start_c |                             0011 |                             0011
+                 start_d |                             0100 |                             0100
+                  stop_a |                             0101 |                             0101
+                  stop_b |                             0110 |                             0110
+                  stop_c |                             0111 |                             0111
+                    wr_a |                             1000 |                             1100
+                    wr_b |                             1001 |                             1101
+                    wr_c |                             1010 |                             1110
+                    wr_d |                             1011 |                             1111
+                    rd_a |                             1100 |                             1000
+                    rd_b |                             1101 |                             1001
+                    rd_c |                             1110 |                             1010
+                    rd_d |                             1111 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'i2c_core'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_idle |                              000 |                              000
+                st_start |                              001 |                              001
+                 st_read |                              010 |                              010
+                st_write |                              011 |                              011
+                  st_ack |                              100 |                              100
+                 st_stop |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'statemachine.state_reg' using encoding 'sequential' in module 'simple_i2c'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 2573.773 ; gain = 372.105 ; free physical = 952 ; free virtual = 6440
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   13 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 1     
+	  32 Input    5 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 57    
+	   3 Input      1 Bit         XORs := 5     
+	   4 Input      1 Bit         XORs := 2     
+	  13 Input      1 Bit         XORs := 4     
+	  20 Input      1 Bit         XORs := 1     
+	  17 Input      1 Bit         XORs := 1     
+	  12 Input      1 Bit         XORs := 2     
+	   8 Input      1 Bit         XORs := 1     
+	   5 Input      1 Bit         XORs := 2     
+	  14 Input      1 Bit         XORs := 1     
+	  19 Input      1 Bit         XORs := 1     
+	  18 Input      1 Bit         XORs := 3     
+	  10 Input      1 Bit         XORs := 1     
+	   9 Input      1 Bit         XORs := 1     
+	  11 Input      1 Bit         XORs := 2     
+	  16 Input      1 Bit         XORs := 1     
+	  23 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               25 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 34    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   3 Input   32 Bit        Muxes := 1     
+	   3 Input   25 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 2     
+	   6 Input   13 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 2     
+	   4 Input   11 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 5     
+	   4 Input    8 Bit        Muxes := 2     
+	  14 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	  14 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 11    
+	  16 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 10    
+	   6 Input    3 Bit        Muxes := 4     
+	   4 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 9     
+	   3 Input    1 Bit        Muxes := 3     
+	   6 Input    1 Bit        Muxes := 18    
+	   4 Input    1 Bit        Muxes := 14    
+	  14 Input    1 Bit        Muxes := 10    
+	   5 Input    1 Bit        Muxes := 1     
+	  16 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:46 . Memory (MB): peak = 2573.773 ; gain = 372.105 ; free physical = 927 ; free virtual = 6422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+----------------------------------+---------------+----------------+
+|Module Name | RTL Object                       | Depth x Width | Implemented As | 
++------------+----------------------------------+---------------+----------------+
+|si5324_init | si5324_240_regs[0,0]             | 64x8          | LUT            | 
+|si5324_init | si5324_240_regs[0,1]             | 64x8          | LUT            | 
+|top         | si5324_init/si5324_240_regs[0,0] | 64x8          | LUT            | 
+|top         | si5324_init/si5324_240_regs[0,1] | 64x8          | LUT            | 
++------------+----------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'USER_CLK_P'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 2573.773 ; gain = 372.105 ; free physical = 803 ; free virtual = 6305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:02 . Memory (MB): peak = 2573.773 ; gain = 372.105 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:03 . Memory (MB): peak = 2581.773 ; gain = 380.105 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin RX_TOP/gt_txfsmresetdone_r_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin RX_TOP/gt_txfsmresetdone_r2_inferred:in0 to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.777 ; gain = 380.109 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.777 ; gain = 380.109 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.777 ; gain = 380.109 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.777 ; gain = 380.109 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.777 ; gain = 380.109 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.777 ; gain = 380.109 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |RX_vc709      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |RX_vc709 |     1|
+|2     |clk_wiz  |     1|
+|3     |CARRY4   |     9|
+|4     |LUT1     |     5|
+|5     |LUT2     |   108|
+|6     |LUT3     |    55|
+|7     |LUT4     |    58|
+|8     |LUT5     |    64|
+|9     |LUT6     |   184|
+|10    |FDCE     |    48|
+|11    |FDPE     |    13|
+|12    |FDRE     |   179|
+|13    |FDSE     |    22|
+|14    |LD       |     1|
+|15    |IBUF     |     5|
+|16    |IOBUF    |     2|
+|17    |OBUF     |     7|
+|18    |OBUFDS   |     1|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.777 ; gain = 380.109 ; free physical = 788 ; free virtual = 6290
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:59 . Memory (MB): peak = 2581.777 ; gain = 233.469 ; free physical = 843 ; free virtual = 6345
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:01:07 . Memory (MB): peak = 2581.781 ; gain = 380.109 ; free physical = 843 ; free virtual = 6345
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2581.781 ; gain = 0.000 ; free physical = 915 ; free virtual = 6417
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2581.781 ; gain = 0.000 ; free physical = 847 ; free virtual = 6349
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  LD => LDCE: 1 instance 
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 20 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:16 ; elapsed = 00:01:44 . Memory (MB): peak = 2581.781 ; gain = 388.125 ; free physical = 989 ; free virtual = 6491
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/RX_error_int/rx_error_int/rx_error_int.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 11 15:09:02 2021...

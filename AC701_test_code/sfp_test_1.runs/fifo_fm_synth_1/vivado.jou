@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Thu Nov 12 19:30:58 2020
+# Process ID: 11232
+# Current directory: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.runs/fifo_fm_synth_1
+# Command line: vivado.exe -log fifo_fm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_fm.tcl
+# Log file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.runs/fifo_fm_synth_1/fifo_fm.vds
+# Journal file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.runs/fifo_fm_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_fm.tcl -notrace

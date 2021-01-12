@@ -1,0 +1,6 @@
+0.6
+2019.2
+Oct 24 2019
+19:01:44
+C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.sim/sim_1/synth/func/xsim/gtwizard_0_TB_func_synth.v,1605895792,verilog,,C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v,,clk_wiz_1;clk_wiz_1_clk_wiz_1_clk_wiz;glbl;gtwizard_0;gtwizard_0_exdes;gtwizard_0_gtwizard_0_CLOCK_MODULE;gtwizard_0_gtwizard_0_GT;gtwizard_0_gtwizard_0_GT_USRCLK_SOURCE;gtwizard_0_gtwizard_0_TX_STARTUP_FSM;gtwizard_0_gtwizard_0_common;gtwizard_0_gtwizard_0_common_reset;gtwizard_0_gtwizard_0_cpll_railing;gtwizard_0_gtwizard_0_init;gtwizard_0_gtwizard_0_multi_gt;gtwizard_0_gtwizard_0_support;gtwizard_0_gtwizard_0_sync_block;gtwizard_0_gtwizard_0_sync_block_0;gtwizard_0_gtwizard_0_sync_block_1;gtwizard_0_gtwizard_0_sync_block_2;gtwizard_0_gtwizard_0_sync_block_3;gtwizard_0_gtwizard_0_sync_block_4;i2c_core;si5324_init;simple_i2c;top_logic_5000,,,../../../../../sfp_test_1.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v,1605116190,verilog,,,,gtwizard_0_TB,,,../../../../../sfp_test_1.srcs/sources_1/ip/clk_wiz_1,,,,,

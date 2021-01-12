@@ -1,0 +1,730 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  4 14:28:37 2020
+# Process ID: 8498
+# Current directory: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1
+# Command line: vivado -log TX_GTH.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TX_GTH.tcl
+# Log file: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/TX_GTH.vds
+# Journal file: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/vivado.jou
+#-----------------------------------------------------------
+source TX_GTH.tcl -notrace
+Command: synth_design -top TX_GTH -part xc7vx690tffg1761-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8864
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2359.289 ; gain = 148.707 ; free physical = 1086 ; free virtual = 7691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth.v:72]
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_support' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_support.v:70]
+	Parameter EXAMPLE_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_GT_USRCLK_SOURCE' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_gt_usrclk_source.v:68]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS_GTE2' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:33131]
+	Parameter CLKCM_CFG bound to: TRUE - type: string 
+	Parameter CLKRCV_TRST bound to: TRUE - type: string 
+	Parameter CLKSWING_CFG bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_GTE2' (1#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:33131]
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_CLOCK_MODULE' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/support/tx_gth_clock_module.v:69]
+	Parameter MULT bound to: 6.000000 - type: double 
+	Parameter DIVIDE bound to: 1 - type: integer 
+	Parameter CLK_PERIOD bound to: 8.333000 - type: double 
+	Parameter OUT0_DIVIDE bound to: 6.000000 - type: double 
+	Parameter OUT1_DIVIDE bound to: 3 - type: integer 
+	Parameter OUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter OUT3_DIVIDE bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39994]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 6.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 8.333000 - type: double 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 6.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 3 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (3#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39994]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_CLOCK_MODULE' (4#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/support/tx_gth_clock_module.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_GT_USRCLK_SOURCE' (5#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_gt_usrclk_source.v:68]
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_common' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_common.v:69]
+	Parameter WRAPPER_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter SIM_QPLLREFCLK_SEL bound to: 3'b001 
+	Parameter QPLL_FBDIV_TOP bound to: 40 - type: integer 
+	Parameter QPLL_FBDIV_IN bound to: 10'b0010000000 
+	Parameter QPLL_FBDIV_RATIO bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'GTHE2_COMMON' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:15545]
+	Parameter BIAS_CFG bound to: 64'b0000000000000000000001000000000000000000000000000001000001010000 
+	Parameter COMMON_CFG bound to: 92 - type: integer 
+	Parameter IS_DRPCLK_INVERTED bound to: 1'b0 
+	Parameter IS_GTGREFCLK_INVERTED bound to: 1'b0 
+	Parameter IS_QPLLLOCKDETCLK_INVERTED bound to: 1'b0 
+	Parameter QPLL_CFG bound to: 27'b000010010000000000111000111 
+	Parameter QPLL_CLKOUT_CFG bound to: 4'b1111 
+	Parameter QPLL_COARSE_FREQ_OVRD bound to: 6'b010000 
+	Parameter QPLL_COARSE_FREQ_OVRD_EN bound to: 1'b0 
+	Parameter QPLL_CP bound to: 10'b0000011111 
+	Parameter QPLL_CP_MONITOR_EN bound to: 1'b0 
+	Parameter QPLL_DMONITOR_SEL bound to: 1'b0 
+	Parameter QPLL_FBDIV bound to: 10'b0010000000 
+	Parameter QPLL_FBDIV_MONITOR_EN bound to: 1'b0 
+	Parameter QPLL_FBDIV_RATIO bound to: 1'b1 
+	Parameter QPLL_INIT_CFG bound to: 24'b000000000000000000000110 
+	Parameter QPLL_LOCK_CFG bound to: 16'b0000010111101000 
+	Parameter QPLL_LPF bound to: 4'b1111 
+	Parameter QPLL_REFCLK_DIV bound to: 1 - type: integer 
+	Parameter QPLL_RP_COMP bound to: 1'b0 
+	Parameter QPLL_VTRL_RESET bound to: 2'b00 
+	Parameter RCAL_CFG bound to: 2'b00 
+	Parameter RSVD_ATTR0 bound to: 16'b0000000000000000 
+	Parameter RSVD_ATTR1 bound to: 16'b0000000000000000 
+	Parameter SIM_QPLLREFCLK_SEL bound to: 3'b001 
+	Parameter SIM_RESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter SIM_VERSION bound to: 2.0 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'GTHE2_COMMON' (6#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:15545]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_common' (7#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_common.v:69]
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_common_reset' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_common_reset.v:74]
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+	Parameter STARTUP_DELAY bound to: 500 - type: integer 
+	Parameter WAIT_CYCLES bound to: 20 - type: integer 
+	Parameter WAIT_MAX bound to: 30 - type: integer 
+	Parameter INIT bound to: 1'b0 
+	Parameter ASSERT_COMMON_RESET bound to: 1'b1 
+INFO: [Synth 8-226] default block is never used [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_common_reset.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_common_reset' (8#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_common_reset.v:74]
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_init' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_init.v:71]
+	Parameter EXAMPLE_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+	Parameter EXAMPLE_USE_CHIPSCOPE bound to: 0 - type: integer 
+	Parameter RX_CDRLOCK_TIME bound to: 20833.333333 - type: double 
+	Parameter WAIT_TIME_CDRLOCK bound to: 833 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_multi_gt' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_multi_gt.v:71]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter WRAPPER_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter QPLL_FBDIV_TOP bound to: 40 - type: integer 
+	Parameter QPLL_FBDIV_IN bound to: 10'b0010000000 
+	Parameter QPLL_FBDIV_RATIO bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_GT' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_gt.v:71]
+	Parameter GT_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter SIM_CPLLREFCLK_SEL bound to: 3'b001 
+	Parameter TXSYNC_OVRD_IN bound to: 1'b1 
+	Parameter TXSYNC_MULTILANE_IN bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'GTHE2_CHANNEL' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:14711]
+	Parameter ACJTAG_DEBUG_MODE bound to: 1'b0 
+	Parameter ACJTAG_MODE bound to: 1'b0 
+	Parameter ACJTAG_RESET bound to: 1'b0 
+	Parameter ADAPT_CFG0 bound to: 20'b00000000110000010000 
+	Parameter ALIGN_COMMA_DOUBLE bound to: FALSE - type: string 
+	Parameter ALIGN_COMMA_ENABLE bound to: 10'b1111111111 
+	Parameter ALIGN_COMMA_WORD bound to: 1 - type: integer 
+	Parameter ALIGN_MCOMMA_DET bound to: TRUE - type: string 
+	Parameter ALIGN_MCOMMA_VALUE bound to: 10'b1010000011 
+	Parameter ALIGN_PCOMMA_DET bound to: TRUE - type: string 
+	Parameter ALIGN_PCOMMA_VALUE bound to: 10'b0101111100 
+	Parameter A_RXOSCALRESET bound to: 1'b0 
+	Parameter CBCC_DATA_SOURCE_SEL bound to: ENCODED - type: string 
+	Parameter CFOK_CFG bound to: 42'b100100100000000000000001000000111010000000 
+	Parameter CFOK_CFG2 bound to: 6'b100000 
+	Parameter CFOK_CFG3 bound to: 6'b100000 
+	Parameter CHAN_BOND_KEEP_ALIGN bound to: FALSE - type: string 
+	Parameter CHAN_BOND_MAX_SKEW bound to: 1 - type: integer 
+	Parameter CHAN_BOND_SEQ_1_1 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_2 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_3 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_4 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_ENABLE bound to: 4'b1111 
+	Parameter CHAN_BOND_SEQ_2_1 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_2 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_3 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_4 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_ENABLE bound to: 4'b1111 
+	Parameter CHAN_BOND_SEQ_2_USE bound to: FALSE - type: string 
+	Parameter CHAN_BOND_SEQ_LEN bound to: 1 - type: integer 
+	Parameter CLK_CORRECT_USE bound to: FALSE - type: string 
+	Parameter CLK_COR_KEEP_IDLE bound to: FALSE - type: string 
+	Parameter CLK_COR_MAX_LAT bound to: 9 - type: integer 
+	Parameter CLK_COR_MIN_LAT bound to: 7 - type: integer 
+	Parameter CLK_COR_PRECEDENCE bound to: TRUE - type: string 
+	Parameter CLK_COR_REPEAT_WAIT bound to: 0 - type: integer 
+	Parameter CLK_COR_SEQ_1_1 bound to: 10'b0100000000 
+	Parameter CLK_COR_SEQ_1_2 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_3 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_4 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_ENABLE bound to: 4'b1111 
+	Parameter CLK_COR_SEQ_2_1 bound to: 10'b0100000000 
+	Parameter CLK_COR_SEQ_2_2 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_3 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_4 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_ENABLE bound to: 4'b1111 
+	Parameter CLK_COR_SEQ_2_USE bound to: FALSE - type: string 
+	Parameter CLK_COR_SEQ_LEN bound to: 1 - type: integer 
+	Parameter CPLL_CFG bound to: 29'b00000101111000000011111011100 
+	Parameter CPLL_FBDIV bound to: 2 - type: integer 
+	Parameter CPLL_FBDIV_45 bound to: 5 - type: integer 
+	Parameter CPLL_INIT_CFG bound to: 24'b000000000000000000011110 
+	Parameter CPLL_LOCK_CFG bound to: 16'b0000000111101000 
+	Parameter CPLL_REFCLK_DIV bound to: 1 - type: integer 
+	Parameter DEC_MCOMMA_DETECT bound to: TRUE - type: string 
+	Parameter DEC_PCOMMA_DETECT bound to: TRUE - type: string 
+	Parameter DEC_VALID_COMMA_ONLY bound to: FALSE - type: string 
+	Parameter DMONITOR_CFG bound to: 24'b000000000000101000000000 
+	Parameter ES_CLK_PHASE_SEL bound to: 1'b0 
+	Parameter ES_CONTROL bound to: 6'b000000 
+	Parameter ES_ERRDET_EN bound to: FALSE - type: string 
+	Parameter ES_EYE_SCAN_EN bound to: TRUE - type: string 
+	Parameter ES_HORZ_OFFSET bound to: 12'b000000000000 
+	Parameter ES_PMA_CFG bound to: 10'b0000000000 
+	Parameter ES_PRESCALE bound to: 5'b00000 
+	Parameter ES_QUALIFIER bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_QUAL_MASK bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_SDATA_MASK bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_VERT_OFFSET bound to: 9'b000000000 
+	Parameter FTS_DESKEW_SEQ_ENABLE bound to: 4'b1111 
+	Parameter FTS_LANE_DESKEW_CFG bound to: 4'b1111 
+	Parameter FTS_LANE_DESKEW_EN bound to: FALSE - type: string 
+	Parameter GEARBOX_MODE bound to: 3'b000 
+	Parameter IS_CLKRSVD0_INVERTED bound to: 1'b0 
+	Parameter IS_CLKRSVD1_INVERTED bound to: 1'b0 
+	Parameter IS_CPLLLOCKDETCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DMONITORCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DRPCLK_INVERTED bound to: 1'b0 
+	Parameter IS_GTGREFCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RXUSRCLK2_INVERTED bound to: 1'b0 
+	Parameter IS_RXUSRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_SIGVALIDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_TXPHDLYTSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_TXUSRCLK2_INVERTED bound to: 1'b0 
+	Parameter IS_TXUSRCLK_INVERTED bound to: 1'b0 
+	Parameter LOOPBACK_CFG bound to: 1'b0 
+	Parameter OUTREFCLK_SEL_INV bound to: 2'b11 
+	Parameter PCS_PCIE_EN bound to: FALSE - type: string 
+	Parameter PCS_RSVD_ATTR bound to: 48'b000000000000000000000000000000000000000000000000 
+	Parameter PD_TRANS_TIME_FROM_P2 bound to: 12'b000000111100 
+	Parameter PD_TRANS_TIME_NONE_P2 bound to: 8'b00111100 
+	Parameter PD_TRANS_TIME_TO_P2 bound to: 8'b01100100 
+	Parameter PMA_RSV bound to: 128 - type: integer 
+	Parameter PMA_RSV2 bound to: 469762058 - type: integer 
+	Parameter PMA_RSV3 bound to: 2'b00 
+	Parameter PMA_RSV4 bound to: 15'b000000000001000 
+	Parameter PMA_RSV5 bound to: 4'b0000 
+	Parameter RESET_POWERSAVE_DISABLE bound to: 1'b0 
+	Parameter RXBUFRESET_TIME bound to: 5'b00001 
+	Parameter RXBUF_ADDR_MODE bound to: FAST - type: string 
+	Parameter RXBUF_EIDLE_HI_CNT bound to: 4'b1000 
+	Parameter RXBUF_EIDLE_LO_CNT bound to: 4'b0000 
+	Parameter RXBUF_EN bound to: TRUE - type: string 
+	Parameter RXBUF_RESET_ON_CB_CHANGE bound to: TRUE - type: string 
+	Parameter RXBUF_RESET_ON_COMMAALIGN bound to: FALSE - type: string 
+	Parameter RXBUF_RESET_ON_EIDLE bound to: FALSE - type: string 
+	Parameter RXBUF_RESET_ON_RATE_CHANGE bound to: TRUE - type: string 
+	Parameter RXBUF_THRESH_OVFLW bound to: 61 - type: integer 
+	Parameter RXBUF_THRESH_OVRD bound to: FALSE - type: string 
+	Parameter RXBUF_THRESH_UNDFLW bound to: 4 - type: integer 
+	Parameter RXCDRFREQRESET_TIME bound to: 5'b00001 
+	Parameter RXCDRPHRESET_TIME bound to: 5'b00001 
+	Parameter RXCDR_CFG bound to: 83'b00000000000001000000000011111111110001000000000000011000010000010000000000000011000 
+	Parameter RXCDR_FR_RESET_ON_EIDLE bound to: 1'b0 
+	Parameter RXCDR_HOLD_DURING_EIDLE bound to: 1'b0 
+	Parameter RXCDR_LOCK_CFG bound to: 6'b010101 
+	Parameter RXCDR_PH_RESET_ON_EIDLE bound to: 1'b0 
+	Parameter RXDFELPMRESET_TIME bound to: 7'b0001111 
+	Parameter RXDLY_CFG bound to: 16'b0000000000011111 
+	Parameter RXDLY_LCFG bound to: 9'b000110000 
+	Parameter RXDLY_TAP_CFG bound to: 16'b0000000000000000 
+	Parameter RXGEARBOX_EN bound to: FALSE - type: string 
+	Parameter RXISCANRESET_TIME bound to: 5'b00001 
+	Parameter RXLPM_HF_CFG bound to: 14'b00001000000000 
+	Parameter RXLPM_LF_CFG bound to: 18'b001001000000000000 
+	Parameter RXOOB_CFG bound to: 7'b0000110 
+	Parameter RXOOB_CLK_CFG bound to: PMA - type: string 
+	Parameter RXOSCALRESET_TIME bound to: 5'b00011 
+	Parameter RXOSCALRESET_TIMEOUT bound to: 5'b00000 
+	Parameter RXOUT_DIV bound to: 1 - type: integer 
+	Parameter RXPCSRESET_TIME bound to: 5'b00001 
+	Parameter RXPHDLY_CFG bound to: 24'b000010000100000000100000 
+	Parameter RXPH_CFG bound to: 24'b110000000000000000000010 
+	Parameter RXPH_MONITOR_SEL bound to: 5'b00000 
+	Parameter RXPI_CFG0 bound to: 2'b00 
+	Parameter RXPI_CFG1 bound to: 2'b00 
+	Parameter RXPI_CFG2 bound to: 2'b00 
+	Parameter RXPI_CFG3 bound to: 2'b11 
+	Parameter RXPI_CFG4 bound to: 1'b1 
+	Parameter RXPI_CFG5 bound to: 1'b1 
+	Parameter RXPI_CFG6 bound to: 3'b001 
+	Parameter RXPMARESET_TIME bound to: 5'b00011 
+	Parameter RXPRBS_ERR_LOOPBACK bound to: 1'b0 
+	Parameter RXSLIDE_AUTO_WAIT bound to: 7 - type: integer 
+	Parameter RXSLIDE_MODE bound to: OFF - type: string 
+	Parameter RXSYNC_MULTILANE bound to: 1'b0 
+	Parameter RXSYNC_OVRD bound to: 1'b0 
+	Parameter RXSYNC_SKIP_DA bound to: 1'b0 
+	Parameter RX_BIAS_CFG bound to: 24'b000011000000000000010000 
+	Parameter RX_BUFFER_CFG bound to: 6'b000000 
+	Parameter RX_CLK25_DIV bound to: 10 - type: integer 
+	Parameter RX_CLKMUX_PD bound to: 1'b1 
+	Parameter RX_CM_SEL bound to: 2'b01 
+	Parameter RX_CM_TRIM bound to: 4'b0000 
+	Parameter RX_DATA_WIDTH bound to: 20 - type: integer 
+	Parameter RX_DDI_SEL bound to: 6'b000000 
+	Parameter RX_DEBUG_CFG bound to: 14'b00000000000000 
+	Parameter RX_DEFER_RESET_BUF_EN bound to: TRUE - type: string 
+	Parameter RX_DFELPM_CFG0 bound to: 4'b0110 
+	Parameter RX_DFELPM_CFG1 bound to: 1'b0 
+	Parameter RX_DFELPM_KLKH_AGC_STUP_EN bound to: 1'b1 
+	Parameter RX_DFE_AGC_CFG0 bound to: 2'b00 
+	Parameter RX_DFE_AGC_CFG1 bound to: 3'b100 
+	Parameter RX_DFE_AGC_CFG2 bound to: 4'b0000 
+	Parameter RX_DFE_AGC_OVRDEN bound to: 1'b1 
+	Parameter RX_DFE_GAIN_CFG bound to: 23'b00000000010000011000000 
+	Parameter RX_DFE_H2_CFG bound to: 12'b000000000000 
+	Parameter RX_DFE_H3_CFG bound to: 12'b000001000000 
+	Parameter RX_DFE_H4_CFG bound to: 11'b00011100000 
+	Parameter RX_DFE_H5_CFG bound to: 11'b00011100000 
+	Parameter RX_DFE_H6_CFG bound to: 11'b00000100000 
+	Parameter RX_DFE_H7_CFG bound to: 11'b00000100000 
+	Parameter RX_DFE_KL_CFG bound to: 33'b001000001000000000000001100010000 
+	Parameter RX_DFE_KL_LPM_KH_CFG0 bound to: 2'b01 
+	Parameter RX_DFE_KL_LPM_KH_CFG1 bound to: 3'b010 
+	Parameter RX_DFE_KL_LPM_KH_CFG2 bound to: 4'b0010 
+	Parameter RX_DFE_KL_LPM_KH_OVRDEN bound to: 1'b1 
+	Parameter RX_DFE_KL_LPM_KL_CFG0 bound to: 2'b10 
+	Parameter RX_DFE_KL_LPM_KL_CFG1 bound to: 3'b010 
+	Parameter RX_DFE_KL_LPM_KL_CFG2 bound to: 4'b0010 
+	Parameter RX_DFE_KL_LPM_KL_OVRDEN bound to: 1'b1 
+	Parameter RX_DFE_LPM_CFG bound to: 16'b0000000010000000 
+	Parameter RX_DFE_LPM_HOLD_DURING_EIDLE bound to: 1'b0 
+	Parameter RX_DFE_ST_CFG bound to: 54'b000000111000010000000000000000000011000000000000111111 
+	Parameter RX_DFE_UT_CFG bound to: 17'b00011100000000000 
+	Parameter RX_DFE_VP_CFG bound to: 17'b00011101010100011 
+	Parameter RX_DISPERR_SEQ_MATCH bound to: FALSE - type: string 
+	Parameter RX_INT_DATAWIDTH bound to: 0 - type: integer 
+	Parameter RX_OS_CFG bound to: 13'b0000010000000 
+	Parameter RX_SIG_VALID_DLY bound to: 10 - type: integer 
+	Parameter RX_XCLK_SEL bound to: RXREC - type: string 
+	Parameter SAS_MAX_COM bound to: 64 - type: integer 
+	Parameter SAS_MIN_COM bound to: 36 - type: integer 
+	Parameter SATA_BURST_SEQ_LEN bound to: 4'b0101 
+	Parameter SATA_BURST_VAL bound to: 3'b100 
+	Parameter SATA_CPLL_CFG bound to: VCO_3000MHZ - type: string 
+	Parameter SATA_EIDLE_VAL bound to: 3'b100 
+	Parameter SATA_MAX_BURST bound to: 8 - type: integer 
+	Parameter SATA_MAX_INIT bound to: 21 - type: integer 
+	Parameter SATA_MAX_WAKE bound to: 7 - type: integer 
+	Parameter SATA_MIN_BURST bound to: 4 - type: integer 
+	Parameter SATA_MIN_INIT bound to: 12 - type: integer 
+	Parameter SATA_MIN_WAKE bound to: 4 - type: integer 
+	Parameter SHOW_REALIGN_COMMA bound to: TRUE - type: string 
+	Parameter SIM_CPLLREFCLK_SEL bound to: 3'b001 
+	Parameter SIM_RECEIVER_DETECT_PASS bound to: TRUE - type: string 
+	Parameter SIM_RESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter SIM_TX_EIDLE_DRIVE_LEVEL bound to: X - type: string 
+	Parameter SIM_VERSION bound to: 2.0 - type: string 
+	Parameter TERM_RCAL_CFG bound to: 15'b100001000010000 
+	Parameter TERM_RCAL_OVRD bound to: 3'b000 
+	Parameter TRANS_TIME_RATE bound to: 8'b00001110 
+	Parameter TST_RSV bound to: 0 - type: integer 
+	Parameter TXBUF_EN bound to: FALSE - type: string 
+	Parameter TXBUF_RESET_ON_RATE_CHANGE bound to: TRUE - type: string 
+	Parameter TXDLY_CFG bound to: 16'b0000000000011111 
+	Parameter TXDLY_LCFG bound to: 9'b000110000 
+	Parameter TXDLY_TAP_CFG bound to: 16'b0000000000000000 
+	Parameter TXGEARBOX_EN bound to: FALSE - type: string 
+	Parameter TXOOB_CFG bound to: 1'b0 
+	Parameter TXOUT_DIV bound to: 2 - type: integer 
+	Parameter TXPCSRESET_TIME bound to: 5'b00001 
+	Parameter TXPHDLY_CFG bound to: 24'b000010000100000000100000 
+	Parameter TXPH_CFG bound to: 16'b0000011110000000 
+	Parameter TXPH_MONITOR_SEL bound to: 5'b00000 
+	Parameter TXPI_CFG0 bound to: 2'b00 
+	Parameter TXPI_CFG1 bound to: 2'b00 
+	Parameter TXPI_CFG2 bound to: 2'b00 
+	Parameter TXPI_CFG3 bound to: 1'b0 
+	Parameter TXPI_CFG4 bound to: 1'b0 
+	Parameter TXPI_CFG5 bound to: 3'b100 
+	Parameter TXPI_GREY_SEL bound to: 1'b0 
+	Parameter TXPI_INVSTROBE_SEL bound to: 1'b0 
+	Parameter TXPI_PPMCLK_SEL bound to: TXUSRCLK2 - type: string 
+	Parameter TXPI_PPM_CFG bound to: 8'b00000000 
+	Parameter TXPI_SYNFREQ_PPM bound to: 3'b001 
+	Parameter TXPMARESET_TIME bound to: 5'b00001 
+	Parameter TXSYNC_MULTILANE bound to: 1'b0 
+	Parameter TXSYNC_OVRD bound to: 1'b1 
+	Parameter TXSYNC_SKIP_DA bound to: 1'b0 
+	Parameter TX_CLK25_DIV bound to: 10 - type: integer 
+	Parameter TX_CLKMUX_PD bound to: 1'b1 
+	Parameter TX_DATA_WIDTH bound to: 40 - type: integer 
+	Parameter TX_DEEMPH0 bound to: 6'b000000 
+	Parameter TX_DEEMPH1 bound to: 6'b000000 
+	Parameter TX_DRIVE_MODE bound to: DIRECT - type: string 
+	Parameter TX_EIDLE_ASSERT_DELAY bound to: 3'b110 
+	Parameter TX_EIDLE_DEASSERT_DELAY bound to: 3'b100 
+	Parameter TX_INT_DATAWIDTH bound to: 0 - type: integer 
+	Parameter TX_LOOPBACK_DRIVE_HIZ bound to: FALSE - type: string 
+	Parameter TX_MAINCURSOR_SEL bound to: 1'b0 
+	Parameter TX_MARGIN_FULL_0 bound to: 7'b1001110 
+	Parameter TX_MARGIN_FULL_1 bound to: 7'b1001001 
+	Parameter TX_MARGIN_FULL_2 bound to: 7'b1000101 
+	Parameter TX_MARGIN_FULL_3 bound to: 7'b1000010 
+	Parameter TX_MARGIN_FULL_4 bound to: 7'b1000000 
+	Parameter TX_MARGIN_LOW_0 bound to: 7'b1000110 
+	Parameter TX_MARGIN_LOW_1 bound to: 7'b1000100 
+	Parameter TX_MARGIN_LOW_2 bound to: 7'b1000010 
+	Parameter TX_MARGIN_LOW_3 bound to: 7'b1000000 
+	Parameter TX_MARGIN_LOW_4 bound to: 7'b1000000 
+	Parameter TX_QPI_STATUS_EN bound to: 1'b0 
+	Parameter TX_RXDETECT_CFG bound to: 14'b01100000110010 
+	Parameter TX_RXDETECT_PRECHARGE_TIME bound to: 17'b10101010111001100 
+	Parameter TX_RXDETECT_REF bound to: 3'b100 
+	Parameter TX_XCLK_SEL bound to: TXUSR - type: string 
+	Parameter UCODEER_CLR bound to: 1'b0 
+	Parameter USE_PCS_CLK_PHASE_SEL bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'GTHE2_CHANNEL' (9#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:14711]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_GT' (10#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_gt.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_multi_gt' (11#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_multi_gt.v:71]
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_TX_STARTUP_FSM' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_tx_startup_fsm.v:94]
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+	Parameter RETRY_COUNTER_BITWIDTH bound to: 8 - type: integer 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter TX_QPLL_USED bound to: TRUE - type: string 
+	Parameter RX_QPLL_USED bound to: FALSE - type: string 
+	Parameter PHASE_ALIGNMENT_MANUAL bound to: TRUE - type: string 
+	Parameter INIT bound to: 4'b0000 
+	Parameter ASSERT_ALL_RESETS bound to: 4'b0001 
+	Parameter WAIT_FOR_PLL_LOCK bound to: 4'b0010 
+	Parameter RELEASE_PLL_RESET bound to: 4'b0011 
+	Parameter WAIT_FOR_TXOUTCLK bound to: 4'b0100 
+	Parameter RELEASE_MMCM_RESET bound to: 4'b0101 
+	Parameter WAIT_FOR_TXUSRCLK bound to: 4'b0110 
+	Parameter WAIT_RESET_DONE bound to: 4'b0111 
+	Parameter DO_PHASE_ALIGNMENT bound to: 4'b1000 
+	Parameter RESET_FSM_DONE bound to: 4'b1001 
+	Parameter MMCM_LOCK_CNT_MAX bound to: 256 - type: integer 
+	Parameter STARTUP_DELAY bound to: 500 - type: integer 
+	Parameter WAIT_CYCLES bound to: 20 - type: integer 
+	Parameter WAIT_MAX bound to: 30 - type: integer 
+	Parameter WAIT_TIMEOUT_2ms bound to: 80000 - type: integer 
+	Parameter WAIT_TLOCK_MAX bound to: 4000 - type: integer 
+	Parameter WAIT_TIMEOUT_500us bound to: 20000 - type: integer 
+	Parameter WAIT_1us_CYCLES bound to: 40 - type: integer 
+	Parameter WAIT_1us bound to: 50 - type: integer 
+	Parameter WAIT_TIME_MAX bound to: 400 - type: integer 
+	Parameter PORT_WIDTH bound to: 17 - type: integer 
+	Parameter MAX_RETRIES bound to: 255 - type: integer 
+	Parameter MAX_WAIT_BYPASS bound to: 45824 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_sync_block' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_sync_block.v:78]
+	Parameter INITIALISE bound to: 6'b000000 
+INFO: [Synth 8-6157] synthesizing module 'FD' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13483]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FD' (12#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13483]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_sync_block' (13#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_sync_block.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_TX_STARTUP_FSM' (14#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_tx_startup_fsm.v:94]
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_TX_MANUAL_PHASE_ALIGN' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_tx_manual_phase_align.v:73]
+	Parameter NUMBER_OF_LANES bound to: 1 - type: integer 
+	Parameter MASTER_LANE_ID bound to: 0 - type: integer 
+	Parameter INIT bound to: 4'b0000 
+	Parameter WAIT_PHRST_DONE bound to: 4'b0001 
+	Parameter M_PHINIT bound to: 4'b0010 
+	Parameter M_PHALIGN bound to: 4'b0011 
+	Parameter M_DLYEN bound to: 4'b0100 
+	Parameter S_PHINIT bound to: 4'b0101 
+	Parameter S_PHALIGN bound to: 4'b0110 
+	Parameter M_DLYEN2 bound to: 4'b0111 
+	Parameter PHALIGN_DONE bound to: 4'b1000 
+INFO: [Synth 8-6157] synthesizing module 'TX_GTH_sync_pulse' [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_sync_pulse.v:75]
+	Parameter C_NUM_SRETCH_REGS bound to: 3 - type: integer 
+	Parameter C_NUM_SYNC_REGS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_sync_pulse' (15#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_sync_pulse.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_TX_MANUAL_PHASE_ALIGN' (16#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH/example_design/tx_gth_tx_manual_phase_align.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_init' (17#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_init.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH_support' (18#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth_support.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'TX_GTH' (19#1) [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/tx_gth.v:72]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2403.199 ; gain = 192.617 ; free physical = 1114 ; free virtual = 7721
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 2421.008 ; gain = 210.426 ; free physical = 1110 ; free virtual = 7716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 2421.008 ; gain = 210.426 ; free physical = 1110 ; free virtual = 7716
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2426.945 ; gain = 0.000 ; free physical = 1058 ; free virtual = 7665
+INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.srcs/sources_1/ip/TX_GTH/TX_GTH.xdc] for cell 'inst'
+Parsing XDC File [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2547.711 ; gain = 0.000 ; free physical = 945 ; free virtual = 7551
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 54 instances were transformed.
+  FD => FDRE: 54 instances
+
+INFO: [Timing 38-2] Deriving generated clocks
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2551.680 ; gain = 3.969 ; free physical = 944 ; free virtual = 7551
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 2551.680 ; gain = 341.098 ; free physical = 835 ; free virtual = 7441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 2551.680 ; gain = 341.098 ; free physical = 835 ; free virtual = 7441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 2551.680 ; gain = 341.098 ; free physical = 835 ; free virtual = 7441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'TX_GTH_TX_STARTUP_FSM'
+INFO: [Synth 8-802] inferred FSM for state register 'tx_phalign_manual_state_reg' in module 'TX_GTH_TX_MANUAL_PHASE_ALIGN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                             0000 |                             0000
+       ASSERT_ALL_RESETS |                             0001 |                             0001
+       WAIT_FOR_PLL_LOCK |                             0010 |                             0010
+       RELEASE_PLL_RESET |                             0011 |                             0011
+       WAIT_FOR_TXOUTCLK |                             0100 |                             0100
+      RELEASE_MMCM_RESET |                             0101 |                             0101
+       WAIT_FOR_TXUSRCLK |                             0110 |                             0110
+         WAIT_RESET_DONE |                             0111 |                             0111
+      DO_PHASE_ALIGNMENT |                             1000 |                             1000
+          RESET_FSM_DONE |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_state_reg' using encoding 'sequential' in module 'TX_GTH_TX_STARTUP_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                           000001 |                             0000
+         WAIT_PHRST_DONE |                           000010 |                             0001
+                M_PHINIT |                           000100 |                             0010
+               M_PHALIGN |                           001000 |                             0011
+                 M_DLYEN |                           010000 |                             0100
+            PHALIGN_DONE |                           100000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_phalign_manual_state_reg' using encoding 'one-hot' in module 'TX_GTH_TX_MANUAL_PHASE_ALIGN'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:36 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 826 ; free virtual = 7433
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 4     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 36    
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+	  10 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 14    
+	  10 Input    1 Bit        Muxes := 17    
+	   6 Input    1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 815 ; free virtual = 7425
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:54 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 568 ; free virtual = 7181
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:54 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 565 ; free virtual = 7178
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:55 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 559 ; free virtual = 7172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 525 ; free virtual = 7138
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 525 ; free virtual = 7138
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 523 ; free virtual = 7136
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 522 ; free virtual = 7136
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 522 ; free virtual = 7135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 522 ; free virtual = 7135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     3|
+|2     |CARRY4        |    14|
+|3     |GTHE2_CHANNEL |     1|
+|4     |GTHE2_COMMON  |     1|
+|5     |IBUFDS_GTE2   |     1|
+|6     |LUT1          |    24|
+|7     |LUT2          |    14|
+|8     |LUT3          |    11|
+|9     |LUT4          |    18|
+|10    |LUT5          |    19|
+|11    |LUT6          |    34|
+|12    |MMCME2_ADV    |     1|
+|13    |FD            |    48|
+|14    |FDCE          |    12|
+|15    |FDRE          |   108|
+|16    |FDSE          |     6|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 522 ; free virtual = 7135
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 2551.684 ; gain = 210.430 ; free physical = 569 ; free virtual = 7182
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 2551.684 ; gain = 341.102 ; free physical = 569 ; free virtual = 7182
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2551.684 ; gain = 0.000 ; free physical = 640 ; free virtual = 7253
+INFO: [Netlist 29-17] Analyzing 63 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2558.617 ; gain = 0.000 ; free physical = 520 ; free virtual = 7133
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 48 instances were transformed.
+  FD => FDRE: 48 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:41 . Memory (MB): peak = 2558.617 ; gain = 356.051 ; free physical = 657 ; free virtual = 7271
+INFO: [Common 17-1381] The checkpoint '/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/TX_GTH.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP TX_GTH, cache-ID = 9a94c4b800f97808
+INFO: [Coretcl 2-1174] Renamed 19 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/TX_GTH.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TX_GTH_utilization_synth.rpt -pb TX_GTH_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 14:30:41 2020...

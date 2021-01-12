@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  4 14:28:37 2020
+# Process ID: 8498
+# Current directory: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1
+# Command line: vivado -log TX_GTH.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TX_GTH.tcl
+# Log file: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/TX_GTH.vds
+# Journal file: /home/daphnelme/Desktop/CarlosPrueba/GTH_RX_SIM_Folder/GTH_RX_VC709/GTH_RX_VC709.runs/TX_GTH_synth_1/vivado.jou
+#-----------------------------------------------------------
+source TX_GTH.tcl -notrace

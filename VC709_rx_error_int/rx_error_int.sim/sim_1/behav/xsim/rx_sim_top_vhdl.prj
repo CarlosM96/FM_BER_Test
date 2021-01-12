@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/i2c.vhd" \
+"../../../../../../../CarlosPrueba/fullmode_Firmware/FM_UserExample-sGIT_master_rm-4.4_173_190220_09_34/src/example_design_virtex7/si5324_init.vhd" \
+
+# Do not sort compile order
+nosort

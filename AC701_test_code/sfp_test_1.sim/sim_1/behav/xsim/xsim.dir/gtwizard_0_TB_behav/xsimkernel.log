@@ -1,0 +1,7 @@
+Running: xsim.dir/gtwizard_0_TB_behav/xsimk -simmode gui -wdb gtwizard_0_TB_behav.wdb -simrunnum 0 -socket 39376
+Design successfully loaded
+Design Loading Memory Usage: 144168 KB (Peak: 144168 KB)
+Design Loading CPU Usage: 440 ms
+Simulation completed
+Simulation Memory Usage: 233076 KB (Peak: 283440 KB)
+Simulation CPU Usage: 110450 ms

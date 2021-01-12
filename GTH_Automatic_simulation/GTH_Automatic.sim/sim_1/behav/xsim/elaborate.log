@@ -1,0 +1,75 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/daphnelme/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto c5719f824ac64d279d94d7ee31db664b --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot rx_sim_top_behav xil_defaultlib.rx_sim_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'led1' is not connected on this instance [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/GTH_Error_test/GTH_Automatic/GTH_Automatic.srcs/sources_1/new/top.v:211]
+WARNING: [VRFC 10-5021] port 'GTTX_RESET_IN' is not connected on this instance [/home/daphnelme/Desktop/GTH_RX_SIM_Folder_diego/GTH_Error_test/GTH_Automatic/GTH_Automatic.srcs/sources_1/new/top.v:396]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module unisims_ver.IBUFDS_GTE2
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=6.0,C...
+Compiling module xil_defaultlib.TX_GTH_CLOCK_MODULE(MULT=6.0,DIV...
+Compiling module xil_defaultlib.TX_GTH_GT_USRCLK_SOURCE
+Compiling module unisims_ver.GTHE2_COMMON(BIAS_CFG=64'b010000...
+Compiling module xil_defaultlib.TX_GTH_common_default
+Compiling module xil_defaultlib.TX_GTH_common_reset(STABLE_CLOCK...
+Compiling module unisims_ver.GTHE2_CHANNEL(ALIGN_COMMA_ENABLE...
+Compiling module xil_defaultlib.TX_GTH_GT(GT_SIM_GTRESET_SPEEDUP...
+Compiling module xil_defaultlib.TX_GTH_multi_gt(WRAPPER_SIM_GTRE...
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.FD
+Compiling module xil_defaultlib.TX_GTH_sync_block
+Compiling module xil_defaultlib.TX_GTH_TX_STARTUP_FSM(STABLE_CLO...
+Compiling module unisims_ver.FD_2
+Compiling module xil_defaultlib.TX_GTH_sync_block_2
+Compiling module xil_defaultlib.TX_GTH_sync_pulse
+Compiling module xil_defaultlib.TX_GTH_TX_MANUAL_PHASE_ALIGN(NUM...
+Compiling module xil_defaultlib.TX_GTH_init_default
+Compiling module xil_defaultlib.TX_GTH_support
+Compiling module xil_defaultlib.TX_GTH
+Compiling module xil_defaultlib.TXgth_top
+Compiling module xil_defaultlib.top_logic_n_packs
+Compiling module xil_defaultlib.rx_fullsuma_error_top
+Compiling architecture rtl of entity xil_defaultlib.si5324_init [si5324_init_default]
+Compiling architecture structural of entity xil_defaultlib.i2c_core [i2c_core_default]
+Compiling architecture structural of entity xil_defaultlib.simple_i2c [simple_i2c_default]
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=32.25...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.OBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=3.0,C...
+Compiling module xil_defaultlib.RX_vc709_CLOCK_MODULE(MULT=3.0,D...
+Compiling module xil_defaultlib.RX_vc709_GT_USRCLK_SOURCE
+Compiling module unisims_ver.GTHE2_COMMON(BIAS_CFG=64'b010000...
+Compiling module xil_defaultlib.RX_vc709_common(WRAPPER_SIM_GTRE...
+Compiling module xil_defaultlib.RX_vc709_common_reset(STABLE_CLO...
+Compiling module unisims_ver.GTHE2_CHANNEL(ALIGN_COMMA_ENABLE...
+Compiling module xil_defaultlib.RX_vc709_sync_block
+Compiling module xil_defaultlib.rx_vc709_gtrxreset_seq
+Compiling module xil_defaultlib.RX_vc709_GT
+Compiling module xil_defaultlib.RX_vc709_multi_gt_default
+Compiling module unisims_ver.FDPE(INIT=1'b0)
+Compiling module unisims_ver.FDP(INIT=1'b0)
+Compiling module xil_defaultlib.RX_vc709_RX_STARTUP_FSM(EQ_MODE=...
+Compiling module xil_defaultlib.RX_vc709_AUTO_PHASE_ALIGN
+Compiling module xil_defaultlib.RX_vc709_init_default
+Compiling module xil_defaultlib.RX_vc709_support(EXAMPLE_SIM_GTR...
+Compiling module xil_defaultlib.RX_vc709
+Compiling module xil_defaultlib.RX_TOP
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.rx_sim_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot rx_sim_top_behav

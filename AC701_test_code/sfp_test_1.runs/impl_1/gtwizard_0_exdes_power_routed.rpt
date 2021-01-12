@@ -1,0 +1,164 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date             : Mon Jan 11 17:05:44 2021
+| Host             : daphne.linktest.lme running 64-bit Scientific Linux release 7.7 (Nitrogen)
+| Command          : report_power -file gtwizard_0_exdes_power_routed.rpt -pb gtwizard_0_exdes_power_summary_routed.pb -rpx gtwizard_0_exdes_power_routed.rpx
+| Design           : gtwizard_0_exdes
+| Device           : xc7a200tfbg676-2
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.577        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.408        |
+| Device Static (W)        | 0.170        |
+| Effective TJA (C/W)      | 1.9          |
+| Max Ambient (C)          | 83.9         |
+| Junction Temperature (C) | 26.1         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++-------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
++-------------------------+-----------+----------+-----------+-----------------+
+| Clocks                  |     0.011 |       13 |       --- |             --- |
+| Slice Logic             |     0.002 |     1320 |       --- |             --- |
+|   LUT as Logic          |     0.002 |      543 |    133800 |            0.41 |
+|   CARRY4                |    <0.001 |       58 |     33450 |            0.17 |
+|   Register              |    <0.001 |      497 |    267600 |            0.19 |
+|   Others                |     0.000 |       42 |       --- |             --- |
+|   LUT as Shift Register |     0.000 |        7 |     46200 |            0.02 |
+| Signals                 |     0.002 |      990 |       --- |             --- |
+| MMCM                    |     0.229 |        2 |        10 |           20.00 |
+| I/O                     |     0.056 |       17 |       400 |            4.25 |
+| GTP                     |     0.107 |        1 |       --- |             --- |
+| Static Power            |     0.170 |          |           |                 |
+| Total                   |     0.577 |          |           |                 |
++-------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Vccint    |       1.000 |     0.069 |       0.038 |      0.031 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.159 |       0.128 |      0.031 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.005 |       0.000 |      0.005 |       NA    | Unspecified | NA         |
+| Vcco25    |       2.500 |     0.025 |       0.020 |      0.005 |       NA    | Unspecified | NA         |
+| Vcco18    |       1.800 |     0.005 |       0.000 |      0.005 |       NA    | Unspecified | NA         |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| MGTAVcc   |       1.000 |     0.049 |       0.046 |      0.003 |       NA    | Unspecified | NA         |
+| MGTAVtt   |       1.200 |     0.039 |       0.034 |      0.005 |       NA    | Unspecified | NA         |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification  | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 1.9                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 3.4                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-----------------+
+| Clock                                                                                      | Domain                                                                                    | Constraint (ns) |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-----------------+
+| Q0_CLK1_GTREFCLK_PAD_P_IN                                                                  | Q0_CLK1_GTREFCLK_PAD_P_IN                                                                 |             4.2 |
+| USER_CLK_P                                                                                 | USER_CLK_P                                                                                |             6.4 |
+| clk40                                                                                      | clk_wiz_1/inst/clk_40_clk_wiz_1                                                           |            25.0 |
+| clk_240_clk_wiz_1                                                                          | clk_wiz_1/inst/clk_240_clk_wiz_1                                                          |             4.2 |
+| clkfbout                                                                                   | gtwizard_0_support_i/inst/gt_usrclk_source/txoutclk_mmcm0_i/clkfbout                      |             4.2 |
+| clkfbout_clk_wiz_1                                                                         | clk_wiz_1/inst/clkfbout_clk_wiz_1                                                         |            44.8 |
+| clkout0                                                                                    | gtwizard_0_support_i/inst/gt_usrclk_source/txoutclk_mmcm0_i/clkout0                       |             8.3 |
+| clkout1                                                                                    | gtwizard_0_support_i/inst/gt_usrclk_source/txoutclk_mmcm0_i/clkout1                       |             4.2 |
+| gtwizard_0_support_i/inst/gtwizard_0_init_i/gtwizard_0_i/gt0_gtwizard_0_i/gtpe2_i/TXOUTCLK | gtwizard_0_support_i/inst/gtwizard_0_init_i/gtwizard_0_i/gt0_gtwizard_0_i/GT0_TXOUTCLK_IN |             4.2 |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++-------------------------+-----------+
+| Name                    | Power (W) |
++-------------------------+-----------+
+| gtwizard_0_exdes        |     0.408 |
+|   clk_wiz_1             |     0.139 |
+|     inst                |     0.139 |
+|   gtwizard_0_support_i  |     0.207 |
+|     inst                |     0.207 |
+|       gt_usrclk_source  |     0.095 |
+|       gtwizard_0_init_i |     0.111 |
+|   top_logic_n_packs     |     0.006 |
++-------------------------+-----------+
+
+

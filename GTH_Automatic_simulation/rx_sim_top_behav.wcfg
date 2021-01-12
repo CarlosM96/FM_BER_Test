@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rx_sim_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rx_sim_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="223976108fs"></ZoomStartTime>
+      <ZoomEndTime time="1167976109fs"></ZoomEndTime>
+      <Cursor1Time time="807976108fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject type="logic" fp_name="/rx_sim_top/clk_p">
+      <obj_property name="ElementShortName">clk_p</obj_property>
+      <obj_property name="ObjectShortName">clk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_sim_top/clk_n">
+      <obj_property name="ElementShortName">clk_n</obj_property>
+      <obj_property name="ObjectShortName">clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_sim_top/USER_CLK_P">
+      <obj_property name="ElementShortName">USER_CLK_P</obj_property>
+      <obj_property name="ObjectShortName">USER_CLK_P</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_sim_top/USER_CLK_N">
+      <obj_property name="ElementShortName">USER_CLK_N</obj_property>
+      <obj_property name="ObjectShortName">USER_CLK_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_sim_top/txn">
+      <obj_property name="ElementShortName">txn</obj_property>
+      <obj_property name="ObjectShortName">txn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_sim_top/txp">
+      <obj_property name="ElementShortName">txp</obj_property>
+      <obj_property name="ObjectShortName">txp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_sim_top/rx_n">
+      <obj_property name="ElementShortName">rx_n</obj_property>
+      <obj_property name="ObjectShortName">rx_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_sim_top/rx_p">
+      <obj_property name="ElementShortName">rx_p</obj_property>
+      <obj_property name="ObjectShortName">rx_p</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group235">
+      <obj_property name="label">top_logic</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group384">
+      <obj_property name="label">gth_tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/Q3_CLK1_GTREFCLK_PAD_N_IN">
+         <obj_property name="ElementShortName">Q3_CLK1_GTREFCLK_PAD_N_IN</obj_property>
+         <obj_property name="ObjectShortName">Q3_CLK1_GTREFCLK_PAD_N_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/Q3_CLK1_GTREFCLK_PAD_P_IN">
+         <obj_property name="ElementShortName">Q3_CLK1_GTREFCLK_PAD_P_IN</obj_property>
+         <obj_property name="ObjectShortName">Q3_CLK1_GTREFCLK_PAD_P_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/DRP_CLK_IN1">
+         <obj_property name="ElementShortName">DRP_CLK_IN1</obj_property>
+         <obj_property name="ObjectShortName">DRP_CLK_IN1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/DATA">
+         <obj_property name="ElementShortName">DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/tx_k">
+         <obj_property name="ElementShortName">tx_k</obj_property>
+         <obj_property name="ObjectShortName">tx_k</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/GTTX_RESET_IN">
+         <obj_property name="ElementShortName">GTTX_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTTX_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/lock">
+         <obj_property name="ElementShortName">lock</obj_property>
+         <obj_property name="ObjectShortName">lock</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/GTRX_RESET_IN">
+         <obj_property name="ElementShortName">GTRX_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTRX_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/CPLL_RESET_IN">
+         <obj_property name="ElementShortName">CPLL_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">CPLL_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/QPLL_RESET_IN">
+         <obj_property name="ElementShortName">QPLL_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">QPLL_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/TXN_OUT">
+         <obj_property name="ElementShortName">TXN_OUT</obj_property>
+         <obj_property name="ObjectShortName">TXN_OUT</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/TXP_OUT">
+         <obj_property name="ElementShortName">TXP_OUT</obj_property>
+         <obj_property name="ObjectShortName">TXP_OUT</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/txclk">
+         <obj_property name="ElementShortName">txclk</obj_property>
+         <obj_property name="ObjectShortName">txclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/txinit">
+         <obj_property name="ElementShortName">txinit</obj_property>
+         <obj_property name="ObjectShortName">txinit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/soft_reset_i">
+         <obj_property name="ElementShortName">soft_reset_i</obj_property>
+         <obj_property name="ObjectShortName">soft_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/soft_reset_vio_i">
+         <obj_property name="ElementShortName">soft_reset_vio_i</obj_property>
+         <obj_property name="ObjectShortName">soft_reset_vio_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt_txfsmresetdone_i">
+         <obj_property name="ElementShortName">gt_txfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt_txfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt_rxfsmresetdone_i">
+         <obj_property name="ElementShortName">gt_rxfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt_rxfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt_txfsmresetdone_r">
+         <obj_property name="ElementShortName">gt_txfsmresetdone_r</obj_property>
+         <obj_property name="ObjectShortName">gt_txfsmresetdone_r</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt_txfsmresetdone_r2">
+         <obj_property name="ElementShortName">gt_txfsmresetdone_r2</obj_property>
+         <obj_property name="ObjectShortName">gt_txfsmresetdone_r2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txfsmresetdone_i">
+         <obj_property name="ElementShortName">gt0_txfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxfsmresetdone_i">
+         <obj_property name="ElementShortName">gt0_rxfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txfsmresetdone_r">
+         <obj_property name="ElementShortName">gt0_txfsmresetdone_r</obj_property>
+         <obj_property name="ObjectShortName">gt0_txfsmresetdone_r</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txfsmresetdone_r2">
+         <obj_property name="ElementShortName">gt0_txfsmresetdone_r2</obj_property>
+         <obj_property name="ObjectShortName">gt0_txfsmresetdone_r2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_drpaddr_i">
+         <obj_property name="ElementShortName">gt0_drpaddr_i[8:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpaddr_i[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_drpdi_i">
+         <obj_property name="ElementShortName">gt0_drpdi_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpdi_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_drpdo_i">
+         <obj_property name="ElementShortName">gt0_drpdo_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpdo_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_drpen_i">
+         <obj_property name="ElementShortName">gt0_drpen_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpen_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_drprdy_i">
+         <obj_property name="ElementShortName">gt0_drprdy_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_drprdy_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_drpwe_i">
+         <obj_property name="ElementShortName">gt0_drpwe_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpwe_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_eyescanreset_i">
+         <obj_property name="ElementShortName">gt0_eyescanreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescanreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_eyescandataerror_i">
+         <obj_property name="ElementShortName">gt0_eyescandataerror_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescandataerror_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_eyescantrigger_i">
+         <obj_property name="ElementShortName">gt0_eyescantrigger_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescantrigger_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_dmonitorout_i">
+         <obj_property name="ElementShortName">gt0_dmonitorout_i[14:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_dmonitorout_i[14:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxmonitorout_i">
+         <obj_property name="ElementShortName">gt0_rxmonitorout_i[6:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmonitorout_i[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxmonitorsel_i">
+         <obj_property name="ElementShortName">gt0_rxmonitorsel_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmonitorsel_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_gtrxreset_i">
+         <obj_property name="ElementShortName">gt0_gtrxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gtrxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_gttxreset_i">
+         <obj_property name="ElementShortName">gt0_gttxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gttxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txuserrdy_i">
+         <obj_property name="ElementShortName">gt0_txuserrdy_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txuserrdy_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txdata_i">
+         <obj_property name="ElementShortName">gt0_txdata_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txdata_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_gthtxn_i">
+         <obj_property name="ElementShortName">gt0_gthtxn_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gthtxn_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_gthtxp_i">
+         <obj_property name="ElementShortName">gt0_gthtxp_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gthtxp_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txoutclk_i">
+         <obj_property name="ElementShortName">gt0_txoutclk_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txoutclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txoutclkfabric_i">
+         <obj_property name="ElementShortName">gt0_txoutclkfabric_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txoutclkfabric_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txoutclkpcs_i">
+         <obj_property name="ElementShortName">gt0_txoutclkpcs_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txoutclkpcs_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txresetdone_i">
+         <obj_property name="ElementShortName">gt0_txresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txcharisk_i">
+         <obj_property name="ElementShortName">gt0_txcharisk_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txcharisk_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_gtrefclk1_common_i">
+         <obj_property name="ElementShortName">gt0_gtrefclk1_common_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gtrefclk1_common_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_qplllock_i">
+         <obj_property name="ElementShortName">gt0_qplllock_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_qplllock_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_qpllrefclklost_i">
+         <obj_property name="ElementShortName">gt0_qpllrefclklost_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_qpllrefclklost_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_qpllreset_i">
+         <obj_property name="ElementShortName">gt0_qpllreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_qpllreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/drpclk_in_i">
+         <obj_property name="ElementShortName">drpclk_in_i</obj_property>
+         <obj_property name="ObjectShortName">drpclk_in_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/DRPCLK_IN">
+         <obj_property name="ElementShortName">DRPCLK_IN</obj_property>
+         <obj_property name="ObjectShortName">DRPCLK_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_tx_system_reset_c">
+         <obj_property name="ElementShortName">gt0_tx_system_reset_c</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_system_reset_c</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rx_system_reset_c">
+         <obj_property name="ElementShortName">gt0_rx_system_reset_c</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_system_reset_c</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/tied_to_ground_i">
+         <obj_property name="ElementShortName">tied_to_ground_i</obj_property>
+         <obj_property name="ObjectShortName">tied_to_ground_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/tied_to_ground_vec_i">
+         <obj_property name="ElementShortName">tied_to_ground_vec_i[63:0]</obj_property>
+         <obj_property name="ObjectShortName">tied_to_ground_vec_i[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/tied_to_vcc_i">
+         <obj_property name="ElementShortName">tied_to_vcc_i</obj_property>
+         <obj_property name="ObjectShortName">tied_to_vcc_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/tied_to_vcc_vec_i">
+         <obj_property name="ElementShortName">tied_to_vcc_vec_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tied_to_vcc_vec_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/GTTXRESET_IN">
+         <obj_property name="ElementShortName">GTTXRESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTTXRESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/GTRXRESET_IN">
+         <obj_property name="ElementShortName">GTRXRESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTRXRESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/QPLLRESET_IN">
+         <obj_property name="ElementShortName">QPLLRESET_IN</obj_property>
+         <obj_property name="ObjectShortName">QPLLRESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txusrclk_i">
+         <obj_property name="ElementShortName">gt0_txusrclk_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txusrclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txusrclk2_i">
+         <obj_property name="ElementShortName">gt0_txusrclk2_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txusrclk2_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxusrclk_i">
+         <obj_property name="ElementShortName">gt0_rxusrclk_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxusrclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxusrclk2_i">
+         <obj_property name="ElementShortName">gt0_rxusrclk2_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxusrclk2_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txmmcm_lock_i">
+         <obj_property name="ElementShortName">gt0_txmmcm_lock_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txmmcm_lock_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txmmcm_reset_i">
+         <obj_property name="ElementShortName">gt0_txmmcm_reset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txmmcm_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/q3_clk1_refclk_i">
+         <obj_property name="ElementShortName">q3_clk1_refclk_i</obj_property>
+         <obj_property name="ObjectShortName">q3_clk1_refclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_matchn_i">
+         <obj_property name="ElementShortName">gt0_matchn_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_matchn_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txcharisk_float_i">
+         <obj_property name="ElementShortName">gt0_txcharisk_float_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txcharisk_float_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txdata_float16_i">
+         <obj_property name="ElementShortName">gt0_txdata_float16_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txdata_float16_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txdata_float_i">
+         <obj_property name="ElementShortName">gt0_txdata_float_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txdata_float_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_block_sync_i">
+         <obj_property name="ElementShortName">gt0_block_sync_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_block_sync_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_track_data_i">
+         <obj_property name="ElementShortName">gt0_track_data_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_track_data_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_error_count_i">
+         <obj_property name="ElementShortName">gt0_error_count_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_error_count_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_frame_check_reset_i">
+         <obj_property name="ElementShortName">gt0_frame_check_reset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_frame_check_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_inc_in_i">
+         <obj_property name="ElementShortName">gt0_inc_in_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_inc_in_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_inc_out_i">
+         <obj_property name="ElementShortName">gt0_inc_out_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_inc_out_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_unscrambled_data_i">
+         <obj_property name="ElementShortName">gt0_unscrambled_data_i[19:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_unscrambled_data_i[19:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/reset_on_data_error_i">
+         <obj_property name="ElementShortName">reset_on_data_error_i</obj_property>
+         <obj_property name="ObjectShortName">reset_on_data_error_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/track_data_out_i">
+         <obj_property name="ElementShortName">track_data_out_i</obj_property>
+         <obj_property name="ObjectShortName">track_data_out_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/tx_data_vio_control_i">
+         <obj_property name="ElementShortName">tx_data_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/rx_data_vio_control_i">
+         <obj_property name="ElementShortName">rx_data_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/shared_vio_control_i">
+         <obj_property name="ElementShortName">shared_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">shared_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/ila_control_i">
+         <obj_property name="ElementShortName">ila_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">ila_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/channel_drp_vio_control_i">
+         <obj_property name="ElementShortName">channel_drp_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/common_drp_vio_control_i">
+         <obj_property name="ElementShortName">common_drp_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/tx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">tx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/tx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">tx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/tx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">tx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/tx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">tx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/rx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">rx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/rx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">rx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/rx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">rx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/rx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">rx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/shared_vio_in_i">
+         <obj_property name="ElementShortName">shared_vio_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">shared_vio_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/shared_vio_out_i">
+         <obj_property name="ElementShortName">shared_vio_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">shared_vio_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/ila_in_i">
+         <obj_property name="ElementShortName">ila_in_i[163:0]</obj_property>
+         <obj_property name="ObjectShortName">ila_in_i[163:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/channel_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">channel_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/channel_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">channel_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/channel_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">channel_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/channel_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">channel_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/common_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">common_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/common_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">common_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/common_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">common_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/common_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">common_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_tx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_tx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_tx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_tx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_ila_in_i">
+         <obj_property name="ElementShortName">gt0_ila_in_i[163:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_ila_in_i[163:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_channel_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_channel_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_channel_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_channel_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_common_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_common_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_common_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_common_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gttxreset_i">
+         <obj_property name="ElementShortName">gttxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gttxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gtrxreset_i">
+         <obj_property name="ElementShortName">gtrxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gtrxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/user_tx_reset_i">
+         <obj_property name="ElementShortName">user_tx_reset_i</obj_property>
+         <obj_property name="ObjectShortName">user_tx_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/user_rx_reset_i">
+         <obj_property name="ElementShortName">user_rx_reset_i</obj_property>
+         <obj_property name="ObjectShortName">user_rx_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/tx_vio_clk_i">
+         <obj_property name="ElementShortName">tx_vio_clk_i</obj_property>
+         <obj_property name="ObjectShortName">tx_vio_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/tx_vio_clk_mux_out_i">
+         <obj_property name="ElementShortName">tx_vio_clk_mux_out_i</obj_property>
+         <obj_property name="ObjectShortName">tx_vio_clk_mux_out_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/rx_vio_ila_clk_i">
+         <obj_property name="ElementShortName">rx_vio_ila_clk_i</obj_property>
+         <obj_property name="ObjectShortName">rx_vio_ila_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/rx_vio_ila_clk_mux_out_i">
+         <obj_property name="ElementShortName">rx_vio_ila_clk_mux_out_i</obj_property>
+         <obj_property name="ObjectShortName">rx_vio_ila_clk_mux_out_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/qpllreset_i">
+         <obj_property name="ElementShortName">qpllreset_i</obj_property>
+         <obj_property name="ObjectShortName">qpllreset_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/zero_vector_rx_80">
+         <obj_property name="ElementShortName">zero_vector_rx_80[59:0]</obj_property>
+         <obj_property name="ObjectShortName">zero_vector_rx_80[59:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/zero_vector_rx_8">
+         <obj_property name="ElementShortName">zero_vector_rx_8[5:0]</obj_property>
+         <obj_property name="ObjectShortName">zero_vector_rx_8[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxdata_ila">
+         <obj_property name="ElementShortName">gt0_rxdata_ila[79:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdata_ila[79:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxdatavalid_ila">
+         <obj_property name="ElementShortName">gt0_rxdatavalid_ila[1:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdatavalid_ila[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxcharisk_ila">
+         <obj_property name="ElementShortName">gt0_rxcharisk_ila[7:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxcharisk_ila[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txmmcm_lock_ila">
+         <obj_property name="ElementShortName">gt0_txmmcm_lock_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_txmmcm_lock_ila</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxmmcm_lock_ila">
+         <obj_property name="ElementShortName">gt0_rxmmcm_lock_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmmcm_lock_ila</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_rxresetdone_ila">
+         <obj_property name="ElementShortName">gt0_rxresetdone_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxresetdone_ila</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/TXgth_top/gt0_txresetdone_ila">
+         <obj_property name="ElementShortName">gt0_txresetdone_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_txresetdone_ila</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/EXAMPLE_CONFIG_INDEPENDENT_LANES">
+         <obj_property name="ElementShortName">EXAMPLE_CONFIG_INDEPENDENT_LANES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_CONFIG_INDEPENDENT_LANES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/EXAMPLE_LANE_WITH_START_CHAR">
+         <obj_property name="ElementShortName">EXAMPLE_LANE_WITH_START_CHAR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_LANE_WITH_START_CHAR[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/EXAMPLE_WORDS_IN_BRAM">
+         <obj_property name="ElementShortName">EXAMPLE_WORDS_IN_BRAM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_WORDS_IN_BRAM[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/EXAMPLE_SIM_GTRESET_SPEEDUP">
+         <obj_property name="ElementShortName">EXAMPLE_SIM_GTRESET_SPEEDUP[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_SIM_GTRESET_SPEEDUP[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/EXAMPLE_USE_CHIPSCOPE">
+         <obj_property name="ElementShortName">EXAMPLE_USE_CHIPSCOPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_USE_CHIPSCOPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/TXgth_top/STABLE_CLOCK_PERIOD">
+         <obj_property name="ElementShortName">STABLE_CLOCK_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STABLE_CLOCK_PERIOD[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group553">
+      <obj_property name="label">gth_rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/Q3_CLK0_GTREFCLK_PAD_N_IN">
+         <obj_property name="ElementShortName">Q3_CLK0_GTREFCLK_PAD_N_IN</obj_property>
+         <obj_property name="ObjectShortName">Q3_CLK0_GTREFCLK_PAD_N_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/Q3_CLK0_GTREFCLK_PAD_P_IN">
+         <obj_property name="ElementShortName">Q3_CLK0_GTREFCLK_PAD_P_IN</obj_property>
+         <obj_property name="ObjectShortName">Q3_CLK0_GTREFCLK_PAD_P_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/DRP_CLK_IN1">
+         <obj_property name="ElementShortName">DRP_CLK_IN1</obj_property>
+         <obj_property name="ObjectShortName">DRP_CLK_IN1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/lock">
+         <obj_property name="ElementShortName">lock</obj_property>
+         <obj_property name="ObjectShortName">lock</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/GTTX_RESET_IN">
+         <obj_property name="ElementShortName">GTTX_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTTX_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/GTRX_RESET_IN">
+         <obj_property name="ElementShortName">GTRX_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTRX_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/CPLL_RESET_IN">
+         <obj_property name="ElementShortName">CPLL_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">CPLL_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/QPLL_RESET_IN">
+         <obj_property name="ElementShortName">QPLL_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">QPLL_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/RX_DATA_OUT">
+         <obj_property name="ElementShortName">RX_DATA_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RX_DATA_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/RXN_IN">
+         <obj_property name="ElementShortName">RXN_IN</obj_property>
+         <obj_property name="ObjectShortName">RXN_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/RXP_IN">
+         <obj_property name="ElementShortName">RXP_IN</obj_property>
+         <obj_property name="ObjectShortName">RXP_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/RXUSR_CLK">
+         <obj_property name="ElementShortName">RXUSR_CLK</obj_property>
+         <obj_property name="ObjectShortName">RXUSR_CLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/RX_initDone">
+         <obj_property name="ElementShortName">RX_initDone</obj_property>
+         <obj_property name="ObjectShortName">RX_initDone</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/commadet">
+         <obj_property name="ElementShortName">commadet</obj_property>
+         <obj_property name="ObjectShortName">commadet</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/k_out">
+         <obj_property name="ElementShortName">k_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">k_out[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/soft_reset_i">
+         <obj_property name="ElementShortName">soft_reset_i</obj_property>
+         <obj_property name="ObjectShortName">soft_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/soft_reset_vio_i">
+         <obj_property name="ElementShortName">soft_reset_vio_i</obj_property>
+         <obj_property name="ObjectShortName">soft_reset_vio_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt_txfsmresetdone_i">
+         <obj_property name="ElementShortName">gt_txfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt_txfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt_rxfsmresetdone_i">
+         <obj_property name="ElementShortName">gt_rxfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt_rxfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt_txfsmresetdone_r">
+         <obj_property name="ElementShortName">gt_txfsmresetdone_r</obj_property>
+         <obj_property name="ObjectShortName">gt_txfsmresetdone_r</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt_txfsmresetdone_r2">
+         <obj_property name="ElementShortName">gt_txfsmresetdone_r2</obj_property>
+         <obj_property name="ObjectShortName">gt_txfsmresetdone_r2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txfsmresetdone_i">
+         <obj_property name="ElementShortName">gt0_txfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxfsmresetdone_i">
+         <obj_property name="ElementShortName">gt0_rxfsmresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxfsmresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxfsmresetdone_r">
+         <obj_property name="ElementShortName">gt0_rxfsmresetdone_r</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxfsmresetdone_r</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxfsmresetdone_r2">
+         <obj_property name="ElementShortName">gt0_rxfsmresetdone_r2</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxfsmresetdone_r2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxresetdone_r">
+         <obj_property name="ElementShortName">gt0_rxresetdone_r</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxresetdone_r</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxresetdone_r2">
+         <obj_property name="ElementShortName">gt0_rxresetdone_r2</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxresetdone_r2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxresetdone_r3">
+         <obj_property name="ElementShortName">gt0_rxresetdone_r3</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxresetdone_r3</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_drpaddr_i">
+         <obj_property name="ElementShortName">gt0_drpaddr_i[8:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpaddr_i[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_drpdi_i">
+         <obj_property name="ElementShortName">gt0_drpdi_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpdi_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_drpdo_i">
+         <obj_property name="ElementShortName">gt0_drpdo_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpdo_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_drpen_i">
+         <obj_property name="ElementShortName">gt0_drpen_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpen_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_drprdy_i">
+         <obj_property name="ElementShortName">gt0_drprdy_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_drprdy_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_drpwe_i">
+         <obj_property name="ElementShortName">gt0_drpwe_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpwe_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_eyescanreset_i">
+         <obj_property name="ElementShortName">gt0_eyescanreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescanreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxuserrdy_i">
+         <obj_property name="ElementShortName">gt0_rxuserrdy_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxuserrdy_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_eyescandataerror_i">
+         <obj_property name="ElementShortName">gt0_eyescandataerror_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescandataerror_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_eyescantrigger_i">
+         <obj_property name="ElementShortName">gt0_eyescantrigger_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescantrigger_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_dmonitorout_i">
+         <obj_property name="ElementShortName">gt0_dmonitorout_i[14:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_dmonitorout_i[14:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxdata_i">
+         <obj_property name="ElementShortName">gt0_rxdata_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdata_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxdisperr_i">
+         <obj_property name="ElementShortName">gt0_rxdisperr_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdisperr_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxnotintable_i">
+         <obj_property name="ElementShortName">gt0_rxnotintable_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxnotintable_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_gthrxn_i">
+         <obj_property name="ElementShortName">gt0_gthrxn_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gthrxn_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxdlysreset_i">
+         <obj_property name="ElementShortName">gt0_rxdlysreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdlysreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxdlysresetdone_i">
+         <obj_property name="ElementShortName">gt0_rxdlysresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdlysresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxphaligndone_i">
+         <obj_property name="ElementShortName">gt0_rxphaligndone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxphaligndone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxphdlyreset_i">
+         <obj_property name="ElementShortName">gt0_rxphdlyreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxphdlyreset_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxphmonitor_i">
+         <obj_property name="ElementShortName">gt0_rxphmonitor_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxphmonitor_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxphslipmonitor_i">
+         <obj_property name="ElementShortName">gt0_rxphslipmonitor_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxphslipmonitor_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxsyncallin_i">
+         <obj_property name="ElementShortName">gt0_rxsyncallin_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxsyncallin_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxsyncdone_i">
+         <obj_property name="ElementShortName">gt0_rxsyncdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxsyncdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxsyncin_i">
+         <obj_property name="ElementShortName">gt0_rxsyncin_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxsyncin_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxsyncmode_i">
+         <obj_property name="ElementShortName">gt0_rxsyncmode_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxsyncmode_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxsyncout_i">
+         <obj_property name="ElementShortName">gt0_rxsyncout_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxsyncout_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxbyteisaligned_i">
+         <obj_property name="ElementShortName">gt0_rxbyteisaligned_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxbyteisaligned_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxcommadet_i">
+         <obj_property name="ElementShortName">gt0_rxcommadet_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxcommadet_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxmcommaalignen_i">
+         <obj_property name="ElementShortName">gt0_rxmcommaalignen_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmcommaalignen_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxpcommaalignen_i">
+         <obj_property name="ElementShortName">gt0_rxpcommaalignen_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxpcommaalignen_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxmonitorout_i">
+         <obj_property name="ElementShortName">gt0_rxmonitorout_i[6:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmonitorout_i[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxmonitorsel_i">
+         <obj_property name="ElementShortName">gt0_rxmonitorsel_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmonitorsel_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxoutclk_i">
+         <obj_property name="ElementShortName">gt0_rxoutclk_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxoutclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxoutclkfabric_i">
+         <obj_property name="ElementShortName">gt0_rxoutclkfabric_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxoutclkfabric_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_gtrxreset_i">
+         <obj_property name="ElementShortName">gt0_gtrxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gtrxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxcharisk_i">
+         <obj_property name="ElementShortName">gt0_rxcharisk_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxcharisk_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_gthrxp_i">
+         <obj_property name="ElementShortName">gt0_gthrxp_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gthrxp_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxresetdone_i">
+         <obj_property name="ElementShortName">gt0_rxresetdone_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxresetdone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_gttxreset_i">
+         <obj_property name="ElementShortName">gt0_gttxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gttxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_gtrefclk1_common_i">
+         <obj_property name="ElementShortName">gt0_gtrefclk1_common_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_gtrefclk1_common_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_qplllock_i">
+         <obj_property name="ElementShortName">gt0_qplllock_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_qplllock_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_qpllrefclklost_i">
+         <obj_property name="ElementShortName">gt0_qpllrefclklost_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_qpllrefclklost_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_qpllreset_i">
+         <obj_property name="ElementShortName">gt0_qpllreset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_qpllreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/drpclk_in_i">
+         <obj_property name="ElementShortName">drpclk_in_i</obj_property>
+         <obj_property name="ObjectShortName">drpclk_in_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/DRPCLK_IN">
+         <obj_property name="ElementShortName">DRPCLK_IN</obj_property>
+         <obj_property name="ObjectShortName">DRPCLK_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_tx_system_reset_c">
+         <obj_property name="ElementShortName">gt0_tx_system_reset_c</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_system_reset_c</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rx_system_reset_c">
+         <obj_property name="ElementShortName">gt0_rx_system_reset_c</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_system_reset_c</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/tied_to_ground_i">
+         <obj_property name="ElementShortName">tied_to_ground_i</obj_property>
+         <obj_property name="ObjectShortName">tied_to_ground_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/tied_to_ground_vec_i">
+         <obj_property name="ElementShortName">tied_to_ground_vec_i[63:0]</obj_property>
+         <obj_property name="ObjectShortName">tied_to_ground_vec_i[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/tied_to_vcc_i">
+         <obj_property name="ElementShortName">tied_to_vcc_i</obj_property>
+         <obj_property name="ObjectShortName">tied_to_vcc_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/tied_to_vcc_vec_i">
+         <obj_property name="ElementShortName">tied_to_vcc_vec_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tied_to_vcc_vec_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/GTTXRESET_IN">
+         <obj_property name="ElementShortName">GTTXRESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTTXRESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/GTRXRESET_IN">
+         <obj_property name="ElementShortName">GTRXRESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GTRXRESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/QPLLRESET_IN">
+         <obj_property name="ElementShortName">QPLLRESET_IN</obj_property>
+         <obj_property name="ObjectShortName">QPLLRESET_IN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txusrclk_i">
+         <obj_property name="ElementShortName">gt0_txusrclk_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txusrclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txusrclk2_i">
+         <obj_property name="ElementShortName">gt0_txusrclk2_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_txusrclk2_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxusrclk_i">
+         <obj_property name="ElementShortName">gt0_rxusrclk_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxusrclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxusrclk2_i">
+         <obj_property name="ElementShortName">gt0_rxusrclk2_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxusrclk2_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxmmcm_lock_i">
+         <obj_property name="ElementShortName">gt0_rxmmcm_lock_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmmcm_lock_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxmmcm_reset_i">
+         <obj_property name="ElementShortName">gt0_rxmmcm_reset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmmcm_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/q3_clk0_refclk_i">
+         <obj_property name="ElementShortName">q3_clk0_refclk_i</obj_property>
+         <obj_property name="ObjectShortName">q3_clk0_refclk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_matchn_i">
+         <obj_property name="ElementShortName">gt0_matchn_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_matchn_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txcharisk_float_i">
+         <obj_property name="ElementShortName">gt0_txcharisk_float_i[5:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txcharisk_float_i[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txdata_float16_i">
+         <obj_property name="ElementShortName">gt0_txdata_float16_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txdata_float16_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txdata_float_i">
+         <obj_property name="ElementShortName">gt0_txdata_float_i[43:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txdata_float_i[43:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_block_sync_i">
+         <obj_property name="ElementShortName">gt0_block_sync_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_block_sync_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_track_data_i">
+         <obj_property name="ElementShortName">gt0_track_data_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_track_data_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_error_count_i">
+         <obj_property name="ElementShortName">gt0_error_count_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_error_count_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_frame_check_reset_i">
+         <obj_property name="ElementShortName">gt0_frame_check_reset_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_frame_check_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_inc_in_i">
+         <obj_property name="ElementShortName">gt0_inc_in_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_inc_in_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_inc_out_i">
+         <obj_property name="ElementShortName">gt0_inc_out_i</obj_property>
+         <obj_property name="ObjectShortName">gt0_inc_out_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_unscrambled_data_i">
+         <obj_property name="ElementShortName">gt0_unscrambled_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_unscrambled_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/reset_on_data_error_i">
+         <obj_property name="ElementShortName">reset_on_data_error_i</obj_property>
+         <obj_property name="ObjectShortName">reset_on_data_error_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/track_data_out_i">
+         <obj_property name="ElementShortName">track_data_out_i</obj_property>
+         <obj_property name="ObjectShortName">track_data_out_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/tx_data_vio_control_i">
+         <obj_property name="ElementShortName">tx_data_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/rx_data_vio_control_i">
+         <obj_property name="ElementShortName">rx_data_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/shared_vio_control_i">
+         <obj_property name="ElementShortName">shared_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">shared_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/ila_control_i">
+         <obj_property name="ElementShortName">ila_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">ila_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/channel_drp_vio_control_i">
+         <obj_property name="ElementShortName">channel_drp_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/common_drp_vio_control_i">
+         <obj_property name="ElementShortName">common_drp_vio_control_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_control_i[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/tx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">tx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/tx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">tx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/tx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">tx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/tx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">tx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/rx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">rx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/rx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">rx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/rx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">rx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/rx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">rx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/shared_vio_in_i">
+         <obj_property name="ElementShortName">shared_vio_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">shared_vio_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/shared_vio_out_i">
+         <obj_property name="ElementShortName">shared_vio_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">shared_vio_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/ila_in_i">
+         <obj_property name="ElementShortName">ila_in_i[163:0]</obj_property>
+         <obj_property name="ObjectShortName">ila_in_i[163:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/channel_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">channel_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/channel_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">channel_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/channel_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">channel_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/channel_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">channel_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">channel_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/common_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">common_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/common_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">common_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/common_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">common_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/common_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">common_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">common_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_tx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_tx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_tx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_tx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_tx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rx_data_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rx_data_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rx_data_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rx_data_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_rx_data_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_data_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_ila_in_i">
+         <obj_property name="ElementShortName">gt0_ila_in_i[163:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_ila_in_i[163:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_channel_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_channel_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_channel_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_channel_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_channel_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_channel_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_common_drp_vio_async_in_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_async_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_async_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_common_drp_vio_sync_in_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_sync_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_sync_in_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_common_drp_vio_async_out_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_async_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_async_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_common_drp_vio_sync_out_i">
+         <obj_property name="ElementShortName">gt0_common_drp_vio_sync_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_common_drp_vio_sync_out_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gttxreset_i">
+         <obj_property name="ElementShortName">gttxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gttxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gtrxreset_i">
+         <obj_property name="ElementShortName">gtrxreset_i</obj_property>
+         <obj_property name="ObjectShortName">gtrxreset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/user_tx_reset_i">
+         <obj_property name="ElementShortName">user_tx_reset_i</obj_property>
+         <obj_property name="ObjectShortName">user_tx_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/user_rx_reset_i">
+         <obj_property name="ElementShortName">user_rx_reset_i</obj_property>
+         <obj_property name="ObjectShortName">user_rx_reset_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/tx_vio_clk_i">
+         <obj_property name="ElementShortName">tx_vio_clk_i</obj_property>
+         <obj_property name="ObjectShortName">tx_vio_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/tx_vio_clk_mux_out_i">
+         <obj_property name="ElementShortName">tx_vio_clk_mux_out_i</obj_property>
+         <obj_property name="ObjectShortName">tx_vio_clk_mux_out_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/rx_vio_ila_clk_i">
+         <obj_property name="ElementShortName">rx_vio_ila_clk_i</obj_property>
+         <obj_property name="ObjectShortName">rx_vio_ila_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/rx_vio_ila_clk_mux_out_i">
+         <obj_property name="ElementShortName">rx_vio_ila_clk_mux_out_i</obj_property>
+         <obj_property name="ObjectShortName">rx_vio_ila_clk_mux_out_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/qpllreset_i">
+         <obj_property name="ElementShortName">qpllreset_i</obj_property>
+         <obj_property name="ObjectShortName">qpllreset_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/zero_vector_rx_80">
+         <obj_property name="ElementShortName">zero_vector_rx_80[47:0]</obj_property>
+         <obj_property name="ObjectShortName">zero_vector_rx_80[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/zero_vector_rx_8">
+         <obj_property name="ElementShortName">zero_vector_rx_8[3:0]</obj_property>
+         <obj_property name="ObjectShortName">zero_vector_rx_8[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxdata_ila">
+         <obj_property name="ElementShortName">gt0_rxdata_ila[79:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdata_ila[79:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxdatavalid_ila">
+         <obj_property name="ElementShortName">gt0_rxdatavalid_ila[1:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxdatavalid_ila[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxcharisk_ila">
+         <obj_property name="ElementShortName">gt0_rxcharisk_ila[7:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxcharisk_ila[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txmmcm_lock_ila">
+         <obj_property name="ElementShortName">gt0_txmmcm_lock_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_txmmcm_lock_ila</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxmmcm_lock_ila">
+         <obj_property name="ElementShortName">gt0_rxmmcm_lock_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxmmcm_lock_ila</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_rxresetdone_ila">
+         <obj_property name="ElementShortName">gt0_rxresetdone_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxresetdone_ila</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/RX_TOP/gt0_txresetdone_ila">
+         <obj_property name="ElementShortName">gt0_txresetdone_ila</obj_property>
+         <obj_property name="ObjectShortName">gt0_txresetdone_ila</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/EXAMPLE_CONFIG_INDEPENDENT_LANES">
+         <obj_property name="ElementShortName">EXAMPLE_CONFIG_INDEPENDENT_LANES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_CONFIG_INDEPENDENT_LANES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/EXAMPLE_LANE_WITH_START_CHAR">
+         <obj_property name="ElementShortName">EXAMPLE_LANE_WITH_START_CHAR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_LANE_WITH_START_CHAR[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/EXAMPLE_WORDS_IN_BRAM">
+         <obj_property name="ElementShortName">EXAMPLE_WORDS_IN_BRAM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_WORDS_IN_BRAM[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/EXAMPLE_SIM_GTRESET_SPEEDUP">
+         <obj_property name="ElementShortName">EXAMPLE_SIM_GTRESET_SPEEDUP[39:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_SIM_GTRESET_SPEEDUP[39:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/EXAMPLE_USE_CHIPSCOPE">
+         <obj_property name="ElementShortName">EXAMPLE_USE_CHIPSCOPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXAMPLE_USE_CHIPSCOPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/RX_TOP/STABLE_CLOCK_PERIOD">
+         <obj_property name="ElementShortName">STABLE_CLOCK_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STABLE_CLOCK_PERIOD[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3373">
+      <obj_property name="label">rx_fullerror</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group602">
+      <obj_property name="label">rx_error</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1152">
+      <obj_property name="label">top_logic_5000</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group617">
+      <obj_property name="label">top_logic_n_packs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/push">
+         <obj_property name="ElementShortName">push</obj_property>
+         <obj_property name="ObjectShortName">push</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/link_ready">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/led0">
+         <obj_property name="ElementShortName">led0</obj_property>
+         <obj_property name="ObjectShortName">led0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/led1">
+         <obj_property name="ElementShortName">led1</obj_property>
+         <obj_property name="ObjectShortName">led1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/led2">
+         <obj_property name="ElementShortName">led2</obj_property>
+         <obj_property name="ObjectShortName">led2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/led3">
+         <obj_property name="ElementShortName">led3</obj_property>
+         <obj_property name="ObjectShortName">led3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/reset">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_clk">
+         <obj_property name="ElementShortName">tx_clk</obj_property>
+         <obj_property name="ObjectShortName">tx_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/txinit_done">
+         <obj_property name="ElementShortName">txinit_done</obj_property>
+         <obj_property name="ObjectShortName">txinit_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_data">
+         <obj_property name="ElementShortName">tx_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_k">
+         <obj_property name="ElementShortName">tx_k</obj_property>
+         <obj_property name="ObjectShortName">tx_k</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/link_ready1">
+         <obj_property name="ElementShortName">link_ready1</obj_property>
+         <obj_property name="ObjectShortName">link_ready1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/we2">
+         <obj_property name="ElementShortName">we2</obj_property>
+         <obj_property name="ObjectShortName">we2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/link_ready2">
+         <obj_property name="ElementShortName">link_ready2</obj_property>
+         <obj_property name="ObjectShortName">link_ready2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/data_type_in">
+         <obj_property name="ElementShortName">data_type_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data_type_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/fifo_empty0">
+         <obj_property name="ElementShortName">fifo_empty0</obj_property>
+         <obj_property name="ObjectShortName">fifo_empty0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/fifo_re">
+         <obj_property name="ElementShortName">fifo_re</obj_property>
+         <obj_property name="ObjectShortName">fifo_re</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_init_done0">
+         <obj_property name="ElementShortName">tx_init_done0</obj_property>
+         <obj_property name="ObjectShortName">tx_init_done0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/k">
+         <obj_property name="ElementShortName">k</obj_property>
+         <obj_property name="ObjectShortName">k</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/crc_encoder_i_data_payload">
+         <obj_property name="ElementShortName">crc_encoder_i_data_payload[31:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_i_data_payload[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/crc_encoder_i_data_strobe">
+         <obj_property name="ElementShortName">crc_encoder_i_data_strobe</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_i_data_strobe</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/crc_encoder_o_crc">
+         <obj_property name="ElementShortName">crc_encoder_o_crc[19:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_o_crc[19:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/crc_encoder_reset">
+         <obj_property name="ElementShortName">crc_encoder_reset</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_reset</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/crc_encoder_crc_dat">
+         <obj_property name="ElementShortName">crc_encoder_crc_dat[31:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_crc_dat[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/crc_encoder_crc_cur">
+         <obj_property name="ElementShortName">crc_encoder_crc_cur[19:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_crc_cur[19:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/crc_encoder_crc_next">
+         <obj_property name="ElementShortName">crc_encoder_crc_next[19:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_crc_next[19:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_link_ready">
+         <obj_property name="ElementShortName">stream_controller_link_ready</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_link_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_fifo_empty">
+         <obj_property name="ElementShortName">stream_controller_fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_fifo_empty</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_data_type">
+         <obj_property name="ElementShortName">stream_controller_data_type[1:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_data_type[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_tx_init_done">
+         <obj_property name="ElementShortName">stream_controller_tx_init_done</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_tx_init_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_sop">
+         <obj_property name="ElementShortName">stream_controller_sop</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_sop</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_eop">
+         <obj_property name="ElementShortName">stream_controller_eop</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_eop</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_ign">
+         <obj_property name="ElementShortName">stream_controller_ign</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_ign</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_idle">
+         <obj_property name="ElementShortName">stream_controller_idle</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_idle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_intermediate">
+         <obj_property name="ElementShortName">stream_controller_intermediate</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_intermediate</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_encoder_ready">
+         <obj_property name="ElementShortName">stream_controller_encoder_ready</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_encoder_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_fifo_re">
+         <obj_property name="ElementShortName">stream_controller_fifo_re</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_fifo_re</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_strobe_crc">
+         <obj_property name="ElementShortName">stream_controller_strobe_crc</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_strobe_crc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_reset_crc">
+         <obj_property name="ElementShortName">stream_controller_reset_crc</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_reset_crc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_aux_ign">
+         <obj_property name="ElementShortName">stream_controller_aux_ign</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_aux_ign</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_reset">
+         <obj_property name="ElementShortName">stream_controller_reset</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_reset</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_init_done1">
+         <obj_property name="ElementShortName">tx_init_done1</obj_property>
+         <obj_property name="ObjectShortName">tx_init_done1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/fifo_empty1">
+         <obj_property name="ElementShortName">fifo_empty1</obj_property>
+         <obj_property name="ObjectShortName">fifo_empty1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_clk_1">
+         <obj_property name="ElementShortName">tx_clk_1</obj_property>
+         <obj_property name="ObjectShortName">tx_clk_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_rst">
+         <obj_property name="ElementShortName">tx_rst</obj_property>
+         <obj_property name="ObjectShortName">tx_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/o">
+         <obj_property name="ElementShortName">o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/enable">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/state">
+         <obj_property name="ElementShortName">state[6:0]</obj_property>
+         <obj_property name="ObjectShortName">state[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/prbs_en">
+         <obj_property name="ElementShortName">prbs_en</obj_property>
+         <obj_property name="ObjectShortName">prbs_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/data_type">
+         <obj_property name="ElementShortName">data_type[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data_type[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/index">
+         <obj_property name="ElementShortName">index[63:0]</obj_property>
+         <obj_property name="ObjectShortName">index[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/pack_index">
+         <obj_property name="ElementShortName">pack_index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pack_index[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/i_ignored">
+         <obj_property name="ElementShortName">i_ignored[9:0]</obj_property>
+         <obj_property name="ObjectShortName">i_ignored[9:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/write_fifo">
+         <obj_property name="ElementShortName">write_fifo</obj_property>
+         <obj_property name="ObjectShortName">write_fifo</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/idle_counter">
+         <obj_property name="ElementShortName">idle_counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_counter[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/aux">
+         <obj_property name="ElementShortName">aux</obj_property>
+         <obj_property name="ObjectShortName">aux</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/done_packs">
+         <obj_property name="ElementShortName">done_packs</obj_property>
+         <obj_property name="ObjectShortName">done_packs</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_state">
+         <obj_property name="ElementShortName">tx_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/tx_next_state">
+         <obj_property name="ElementShortName">tx_next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_next_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_fifo_re_clockdomainsrenamer0_t_next_value0">
+         <obj_property name="ElementShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_fifo_re_clockdomainsrenamer0_t_next_value_ce0">
+         <obj_property name="ElementShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_sop_clockdomainsrenamer0_t_next_value1">
+         <obj_property name="ElementShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_sop_clockdomainsrenamer0_t_next_value_ce1">
+         <obj_property name="ElementShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_idle_clockdomainsrenamer0_t_next_value2">
+         <obj_property name="ElementShortName">stream_controller_idle_clockdomainsrenamer0_t_next_value2</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_idle_clockdomainsrenamer0_t_next_value2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_idle_clockdomainsrenamer0_t_next_value_ce2">
+         <obj_property name="ElementShortName">stream_controller_idle_clockdomainsrenamer0_t_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_idle_clockdomainsrenamer0_t_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_encoder_ready_clockdomainsrenamer0_next_value0">
+         <obj_property name="ElementShortName">stream_controller_encoder_ready_clockdomainsrenamer0_next_value0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_encoder_ready_clockdomainsrenamer0_next_value0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_encoder_ready_clockdomainsrenamer0_next_value_ce0">
+         <obj_property name="ElementShortName">stream_controller_encoder_ready_clockdomainsrenamer0_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_encoder_ready_clockdomainsrenamer0_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_intermediate_clockdomainsrenamer0_next_value1">
+         <obj_property name="ElementShortName">stream_controller_intermediate_clockdomainsrenamer0_next_value1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_intermediate_clockdomainsrenamer0_next_value1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_intermediate_clockdomainsrenamer0_next_value_ce1">
+         <obj_property name="ElementShortName">stream_controller_intermediate_clockdomainsrenamer0_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_intermediate_clockdomainsrenamer0_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_strobe_crc_clockdomainsrenamer0_next_value2">
+         <obj_property name="ElementShortName">stream_controller_strobe_crc_clockdomainsrenamer0_next_value2</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_strobe_crc_clockdomainsrenamer0_next_value2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_strobe_crc_clockdomainsrenamer0_next_value_ce2">
+         <obj_property name="ElementShortName">stream_controller_strobe_crc_clockdomainsrenamer0_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_strobe_crc_clockdomainsrenamer0_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_aux_ign_clockdomainsrenamer0_cases_next_value0">
+         <obj_property name="ElementShortName">stream_controller_aux_ign_clockdomainsrenamer0_cases_next_value0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_aux_ign_clockdomainsrenamer0_cases_next_value0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_aux_ign_clockdomainsrenamer0_cases_next_value_ce0">
+         <obj_property name="ElementShortName">stream_controller_aux_ign_clockdomainsrenamer0_cases_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_aux_ign_clockdomainsrenamer0_cases_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_eop_clockdomainsrenamer0_cases_next_value1">
+         <obj_property name="ElementShortName">stream_controller_eop_clockdomainsrenamer0_cases_next_value1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_eop_clockdomainsrenamer0_cases_next_value1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_eop_clockdomainsrenamer0_cases_next_value_ce1">
+         <obj_property name="ElementShortName">stream_controller_eop_clockdomainsrenamer0_cases_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_eop_clockdomainsrenamer0_cases_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_reset_crc_clockdomainsrenamer0_cases_next_value2">
+         <obj_property name="ElementShortName">stream_controller_reset_crc_clockdomainsrenamer0_cases_next_value2</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_reset_crc_clockdomainsrenamer0_cases_next_value2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/stream_controller_reset_crc_clockdomainsrenamer0_cases_next_value_ce2">
+         <obj_property name="ElementShortName">stream_controller_reset_crc_clockdomainsrenamer0_cases_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_reset_crc_clockdomainsrenamer0_cases_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/fsm_state">
+         <obj_property name="ElementShortName">fsm_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fsm_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/fsm_next_state">
+         <obj_property name="ElementShortName">fsm_next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fsm_next_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/data_type_clockdomainsrenamer1_t_next_value0">
+         <obj_property name="ElementShortName">data_type_clockdomainsrenamer1_t_next_value0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data_type_clockdomainsrenamer1_t_next_value0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/data_type_clockdomainsrenamer1_t_next_value_ce0">
+         <obj_property name="ElementShortName">data_type_clockdomainsrenamer1_t_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">data_type_clockdomainsrenamer1_t_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/write_fifo_clockdomainsrenamer1_t_next_value1">
+         <obj_property name="ElementShortName">write_fifo_clockdomainsrenamer1_t_next_value1</obj_property>
+         <obj_property name="ObjectShortName">write_fifo_clockdomainsrenamer1_t_next_value1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/write_fifo_clockdomainsrenamer1_t_next_value_ce1">
+         <obj_property name="ElementShortName">write_fifo_clockdomainsrenamer1_t_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">write_fifo_clockdomainsrenamer1_t_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/prbs_en_clockdomainsrenamer1_t_next_value2">
+         <obj_property name="ElementShortName">prbs_en_clockdomainsrenamer1_t_next_value2</obj_property>
+         <obj_property name="ObjectShortName">prbs_en_clockdomainsrenamer1_t_next_value2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/prbs_en_clockdomainsrenamer1_t_next_value_ce2">
+         <obj_property name="ElementShortName">prbs_en_clockdomainsrenamer1_t_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">prbs_en_clockdomainsrenamer1_t_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/index_clockdomainsrenamer1_next_value">
+         <obj_property name="ElementShortName">index_clockdomainsrenamer1_next_value[63:0]</obj_property>
+         <obj_property name="ObjectShortName">index_clockdomainsrenamer1_next_value[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/index_clockdomainsrenamer1_next_value_ce">
+         <obj_property name="ElementShortName">index_clockdomainsrenamer1_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">index_clockdomainsrenamer1_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/idle_counter_clockdomainsrenamer1_t_next_value3">
+         <obj_property name="ElementShortName">idle_counter_clockdomainsrenamer1_t_next_value3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_counter_clockdomainsrenamer1_t_next_value3[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/idle_counter_clockdomainsrenamer1_t_next_value_ce3">
+         <obj_property name="ElementShortName">idle_counter_clockdomainsrenamer1_t_next_value_ce3</obj_property>
+         <obj_property name="ObjectShortName">idle_counter_clockdomainsrenamer1_t_next_value_ce3</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/top_logic_n_packs/pack_index_clockdomainsrenamer1_f_next_value">
+         <obj_property name="ElementShortName">pack_index_clockdomainsrenamer1_f_next_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pack_index_clockdomainsrenamer1_f_next_value[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/pack_index_clockdomainsrenamer1_f_next_value_ce">
+         <obj_property name="ElementShortName">pack_index_clockdomainsrenamer1_f_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">pack_index_clockdomainsrenamer1_f_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/aux_clockdomainsrenamer1_f_t_next_value">
+         <obj_property name="ElementShortName">aux_clockdomainsrenamer1_f_t_next_value</obj_property>
+         <obj_property name="ObjectShortName">aux_clockdomainsrenamer1_f_t_next_value</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/aux_clockdomainsrenamer1_f_t_next_value_ce">
+         <obj_property name="ElementShortName">aux_clockdomainsrenamer1_f_t_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">aux_clockdomainsrenamer1_f_t_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/done_packs_clockdomainsrenamer1_f_f_next_value">
+         <obj_property name="ElementShortName">done_packs_clockdomainsrenamer1_f_f_next_value</obj_property>
+         <obj_property name="ObjectShortName">done_packs_clockdomainsrenamer1_f_f_next_value</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/done_packs_clockdomainsrenamer1_f_f_next_value_ce">
+         <obj_property name="ElementShortName">done_packs_clockdomainsrenamer1_f_f_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">done_packs_clockdomainsrenamer1_f_f_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/multiregimpl0_regs0">
+         <obj_property name="ElementShortName">multiregimpl0_regs0</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl0_regs0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/multiregimpl0_regs1">
+         <obj_property name="ElementShortName">multiregimpl0_regs1</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl0_regs1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/multiregimpl1_regs0">
+         <obj_property name="ElementShortName">multiregimpl1_regs0</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl1_regs0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/multiregimpl1_regs1">
+         <obj_property name="ElementShortName">multiregimpl1_regs1</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl1_regs1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_s">
+         <obj_property name="ElementShortName">dummy_s</obj_property>
+         <obj_property name="ObjectShortName">dummy_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d">
+         <obj_property name="ElementShortName">dummy_d</obj_property>
+         <obj_property name="ObjectShortName">dummy_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_1">
+         <obj_property name="ElementShortName">dummy_d_1</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_2">
+         <obj_property name="ElementShortName">dummy_d_2</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_3">
+         <obj_property name="ElementShortName">dummy_d_3</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_4">
+         <obj_property name="ElementShortName">dummy_d_4</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_5">
+         <obj_property name="ElementShortName">dummy_d_5</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_5</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_6">
+         <obj_property name="ElementShortName">dummy_d_6</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_6</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_7">
+         <obj_property name="ElementShortName">dummy_d_7</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_7</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/top_logic_n_packs/dummy_d_8">
+         <obj_property name="ElementShortName">dummy_d_8</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group706">
+      <obj_property name="label">rx_fullsuma</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/rx_data">
+         <obj_property name="ElementShortName">rx_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/rx_clk">
+         <obj_property name="ElementShortName">rx_clk</obj_property>
+         <obj_property name="ObjectShortName">rx_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/reset">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/trans_en">
+         <obj_property name="ElementShortName">trans_en</obj_property>
+         <obj_property name="ObjectShortName">trans_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_serial">
+         <obj_property name="ElementShortName">tx_serial</obj_property>
+         <obj_property name="ObjectShortName">tx_serial</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/led_3c">
+         <obj_property name="ElementShortName">led_3c</obj_property>
+         <obj_property name="ObjectShortName">led_3c</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/aligned">
+         <obj_property name="ElementShortName">aligned</obj_property>
+         <obj_property name="ObjectShortName">aligned</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/rx_k">
+         <obj_property name="ElementShortName">rx_k[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_k[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/rx_clk_1">
+         <obj_property name="ElementShortName">rx_clk_1</obj_property>
+         <obj_property name="ObjectShortName">rx_clk_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/rx_rst">
+         <obj_property name="ElementShortName">rx_rst</obj_property>
+         <obj_property name="ObjectShortName">rx_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/total_error">
+         <obj_property name="ElementShortName">total_error[7:0]</obj_property>
+         <obj_property name="ObjectShortName">total_error[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_counter">
+         <obj_property name="ElementShortName">tx_counter[10:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_counter[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_serial1">
+         <obj_property name="ElementShortName">tx_serial1</obj_property>
+         <obj_property name="ObjectShortName">tx_serial1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_data">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_strobe">
+         <obj_property name="ElementShortName">tx_strobe</obj_property>
+         <obj_property name="ObjectShortName">tx_strobe</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_bitn">
+         <obj_property name="ElementShortName">tx_bitn[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bitn[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_ready">
+         <obj_property name="ElementShortName">tx_ready</obj_property>
+         <obj_property name="ObjectShortName">tx_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_latch">
+         <obj_property name="ElementShortName">tx_latch[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_latch[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_done">
+         <obj_property name="ElementShortName">tx_done</obj_property>
+         <obj_property name="ObjectShortName">tx_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/rx_data1">
+         <obj_property name="ElementShortName">rx_data1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/error">
+         <obj_property name="ElementShortName">error[4:0]</obj_property>
+         <obj_property name="ObjectShortName">error[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/enable0">
+         <obj_property name="ElementShortName">enable0</obj_property>
+         <obj_property name="ObjectShortName">enable0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/reset1">
+         <obj_property name="ElementShortName">reset1</obj_property>
+         <obj_property name="ObjectShortName">reset1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/k0">
+         <obj_property name="ElementShortName">k0</obj_property>
+         <obj_property name="ObjectShortName">k0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/o">
+         <obj_property name="ElementShortName">o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/enable1">
+         <obj_property name="ElementShortName">enable1</obj_property>
+         <obj_property name="ObjectShortName">enable1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/state">
+         <obj_property name="ElementShortName">state[6:0]</obj_property>
+         <obj_property name="ObjectShortName">state[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/i_data_payload">
+         <obj_property name="ElementShortName">i_data_payload[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data_payload[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/i_data_strobe">
+         <obj_property name="ElementShortName">i_data_strobe</obj_property>
+         <obj_property name="ObjectShortName">i_data_strobe</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/o_crc">
+         <obj_property name="ElementShortName">o_crc[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_crc[19:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/reset2">
+         <obj_property name="ElementShortName">reset2</obj_property>
+         <obj_property name="ObjectShortName">reset2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/crc_dat">
+         <obj_property name="ElementShortName">crc_dat[31:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_dat[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/crc_cur">
+         <obj_property name="ElementShortName">crc_cur[19:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_cur[19:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/crc_next">
+         <obj_property name="ElementShortName">crc_next[19:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_next[19:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/data_r">
+         <obj_property name="ElementShortName">data_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/error_xor">
+         <obj_property name="ElementShortName">error_xor[31:0]</obj_property>
+         <obj_property name="ObjectShortName">error_xor[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/k0_r">
+         <obj_property name="ElementShortName">k0_r</obj_property>
+         <obj_property name="ObjectShortName">k0_r</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/rx_data_r">
+         <obj_property name="ElementShortName">rx_data_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/sop">
+         <obj_property name="ElementShortName">sop</obj_property>
+         <obj_property name="ObjectShortName">sop</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/eop">
+         <obj_property name="ElementShortName">eop</obj_property>
+         <obj_property name="ObjectShortName">eop</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/wait_1">
+         <obj_property name="ElementShortName">wait_1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">wait_1[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/error_send_done">
+         <obj_property name="ElementShortName">error_send_done</obj_property>
+         <obj_property name="ObjectShortName">error_send_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/aux">
+         <obj_property name="ElementShortName">aux</obj_property>
+         <obj_property name="ObjectShortName">aux</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer0_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer0_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer0_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer0_next_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer0_next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer0_next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_latch_clockdomainsrenamer0_t_next_value0">
+         <obj_property name="ElementShortName">tx_latch_clockdomainsrenamer0_t_next_value0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_latch_clockdomainsrenamer0_t_next_value0[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_latch_clockdomainsrenamer0_t_next_value_ce0">
+         <obj_property name="ElementShortName">tx_latch_clockdomainsrenamer0_t_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">tx_latch_clockdomainsrenamer0_t_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_counter_clockdomainsrenamer0_t_next_value1">
+         <obj_property name="ElementShortName">tx_counter_clockdomainsrenamer0_t_next_value1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_counter_clockdomainsrenamer0_t_next_value1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_counter_clockdomainsrenamer0_t_next_value_ce1">
+         <obj_property name="ElementShortName">tx_counter_clockdomainsrenamer0_t_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">tx_counter_clockdomainsrenamer0_t_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_serial1_clockdomainsrenamer0_f_next_value">
+         <obj_property name="ElementShortName">tx_serial1_clockdomainsrenamer0_f_next_value</obj_property>
+         <obj_property name="ObjectShortName">tx_serial1_clockdomainsrenamer0_f_next_value</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_serial1_clockdomainsrenamer0_f_next_value_ce">
+         <obj_property name="ElementShortName">tx_serial1_clockdomainsrenamer0_f_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">tx_serial1_clockdomainsrenamer0_f_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_bitn_clockdomainsrenamer0_t_next_value2">
+         <obj_property name="ElementShortName">tx_bitn_clockdomainsrenamer0_t_next_value2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bitn_clockdomainsrenamer0_t_next_value2[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_bitn_clockdomainsrenamer0_t_next_value_ce2">
+         <obj_property name="ElementShortName">tx_bitn_clockdomainsrenamer0_t_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">tx_bitn_clockdomainsrenamer0_t_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_done_clockdomainsrenamer0_t_next_value3">
+         <obj_property name="ElementShortName">tx_done_clockdomainsrenamer0_t_next_value3</obj_property>
+         <obj_property name="ObjectShortName">tx_done_clockdomainsrenamer0_t_next_value3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_done_clockdomainsrenamer0_t_next_value_ce3">
+         <obj_property name="ElementShortName">tx_done_clockdomainsrenamer0_t_next_value_ce3</obj_property>
+         <obj_property name="ObjectShortName">tx_done_clockdomainsrenamer0_t_next_value_ce3</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer1_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer1_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer1_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer1_next_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer1_next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer1_next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/i_data_strobe_clockdomainsrenamer1_next_value">
+         <obj_property name="ElementShortName">i_data_strobe_clockdomainsrenamer1_next_value</obj_property>
+         <obj_property name="ObjectShortName">i_data_strobe_clockdomainsrenamer1_next_value</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/i_data_strobe_clockdomainsrenamer1_next_value_ce">
+         <obj_property name="ElementShortName">i_data_strobe_clockdomainsrenamer1_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">i_data_strobe_clockdomainsrenamer1_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer2_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer2_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer2_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer2_next_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer2_next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer2_next_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/enable0_clockdomainsrenamer2_t_next_value0">
+         <obj_property name="ElementShortName">enable0_clockdomainsrenamer2_t_next_value0</obj_property>
+         <obj_property name="ObjectShortName">enable0_clockdomainsrenamer2_t_next_value0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/enable0_clockdomainsrenamer2_t_next_value_ce0">
+         <obj_property name="ElementShortName">enable0_clockdomainsrenamer2_t_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">enable0_clockdomainsrenamer2_t_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/sop_clockdomainsrenamer2_t_next_value1">
+         <obj_property name="ElementShortName">sop_clockdomainsrenamer2_t_next_value1</obj_property>
+         <obj_property name="ObjectShortName">sop_clockdomainsrenamer2_t_next_value1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/sop_clockdomainsrenamer2_t_next_value_ce1">
+         <obj_property name="ElementShortName">sop_clockdomainsrenamer2_t_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">sop_clockdomainsrenamer2_t_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/total_error_clockdomainsrenamer2_next_value0">
+         <obj_property name="ElementShortName">total_error_clockdomainsrenamer2_next_value0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">total_error_clockdomainsrenamer2_next_value0[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/total_error_clockdomainsrenamer2_next_value_ce0">
+         <obj_property name="ElementShortName">total_error_clockdomainsrenamer2_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">total_error_clockdomainsrenamer2_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/aux_clockdomainsrenamer2_next_value1">
+         <obj_property name="ElementShortName">aux_clockdomainsrenamer2_next_value1</obj_property>
+         <obj_property name="ObjectShortName">aux_clockdomainsrenamer2_next_value1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/aux_clockdomainsrenamer2_next_value_ce1">
+         <obj_property name="ElementShortName">aux_clockdomainsrenamer2_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">aux_clockdomainsrenamer2_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/wait_clockdomainsrenamer2_next_value2">
+         <obj_property name="ElementShortName">wait_clockdomainsrenamer2_next_value2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">wait_clockdomainsrenamer2_next_value2[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/wait_clockdomainsrenamer2_next_value_ce2">
+         <obj_property name="ElementShortName">wait_clockdomainsrenamer2_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">wait_clockdomainsrenamer2_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/eop_clockdomainsrenamer2_f_next_value">
+         <obj_property name="ElementShortName">eop_clockdomainsrenamer2_f_next_value</obj_property>
+         <obj_property name="ObjectShortName">eop_clockdomainsrenamer2_f_next_value</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/eop_clockdomainsrenamer2_f_next_value_ce">
+         <obj_property name="ElementShortName">eop_clockdomainsrenamer2_f_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">eop_clockdomainsrenamer2_f_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer3_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer3_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer3_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/clockdomainsrenamer3_next_state">
+         <obj_property name="ElementShortName">clockdomainsrenamer3_next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">clockdomainsrenamer3_next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/error_send_done_clockdomainsrenamer3_next_value0">
+         <obj_property name="ElementShortName">error_send_done_clockdomainsrenamer3_next_value0</obj_property>
+         <obj_property name="ObjectShortName">error_send_done_clockdomainsrenamer3_next_value0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/error_send_done_clockdomainsrenamer3_next_value_ce0">
+         <obj_property name="ElementShortName">error_send_done_clockdomainsrenamer3_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">error_send_done_clockdomainsrenamer3_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_data_clockdomainsrenamer3_next_value1">
+         <obj_property name="ElementShortName">tx_data_clockdomainsrenamer3_next_value1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_clockdomainsrenamer3_next_value1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_data_clockdomainsrenamer3_next_value_ce1">
+         <obj_property name="ElementShortName">tx_data_clockdomainsrenamer3_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">tx_data_clockdomainsrenamer3_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_ready_clockdomainsrenamer3_next_value2">
+         <obj_property name="ElementShortName">tx_ready_clockdomainsrenamer3_next_value2</obj_property>
+         <obj_property name="ObjectShortName">tx_ready_clockdomainsrenamer3_next_value2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/tx_ready_clockdomainsrenamer3_next_value_ce2">
+         <obj_property name="ElementShortName">tx_ready_clockdomainsrenamer3_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">tx_ready_clockdomainsrenamer3_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/dummy_s">
+         <obj_property name="ElementShortName">dummy_s</obj_property>
+         <obj_property name="ObjectShortName">dummy_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/dummy_d">
+         <obj_property name="ElementShortName">dummy_d</obj_property>
+         <obj_property name="ObjectShortName">dummy_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/dummy_d_1">
+         <obj_property name="ElementShortName">dummy_d_1</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/dummy_d_2">
+         <obj_property name="ElementShortName">dummy_d_2</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/dummy_d_3">
+         <obj_property name="ElementShortName">dummy_d_3</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/dummy_d_4">
+         <obj_property name="ElementShortName">dummy_d_4</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rx_sim_top/top1/rx_fullsuma_error_top/dummy_d_5">
+         <obj_property name="ElementShortName">dummy_d_5</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_5</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../test_clk_gen.srcs/sources_1/ip/fifo_generator/sim/fifo_generator.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

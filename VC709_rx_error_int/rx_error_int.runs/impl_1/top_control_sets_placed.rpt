@@ -1,0 +1,114 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Mon Jan 11 15:11:15 2021
+| Host         : daphne.linktest.lme running 64-bit Scientific Linux release 7.7 (Nitrogen)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7vx690t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    36 |
+|    Minimum number of control sets                        |    36 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   102 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    36 |
+| >= 0 to < 4        |     4 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     5 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    11 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             106 |           26 |
+| No           | No                    | Yes                    |              32 |           16 |
+| No           | Yes                   | No                     |             114 |           43 |
+| Yes          | No                    | No                     |              48 |           12 |
+| Yes          | No                    | Yes                    |              65 |           19 |
+| Yes          | Yes                   | No                     |             165 |           57 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|                                     Clock Signal                                    |                                                Enable Signal                                               |                                        Set/Reset Signal                                        | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out | rx_fullsuma_error_top/tx_serial1_clockdomainsrenamer0_f_next_value_ce                                      | RX_TOP/SR[0]                                                                                   |                1 |              1 |         1.00 |
+|  RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxoutclk_i2                     |                                                                                                            | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/gtrxreset_s                    |                1 |              1 |         1.00 |
+|  rx_fullsuma_error_top/led_3c_reg_i_2_n_0                                           |                                                                                                            |                                                                                                |                1 |              1 |         1.00 |
+|  RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxoutclk_i2                     |                                                                                                            | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/gtrxreset_rx_i                 |                1 |              2 |         2.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rx_auto_phase_align_i/phalign_state_n_0                 | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/SR[0]                          |                2 |              4 |         2.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/sync_data_valid/E[0]                       | simple_i2c/u1/bbstub_locked                                                                    |                3 |              4 |         1.33 |
+|  clk_wiz_0/inst/clk_40                                                              | simple_i2c/u1/clk_en                                                                                       | simple_i2c/u1/bbstub_locked                                                                    |                3 |              5 |         1.67 |
+|  clk_wiz_0/inst/clk_40                                                              | simple_i2c/u1/E[0]                                                                                         | simple_i2c/u1/bbstub_locked                                                                    |                1 |              6 |         6.00 |
+|  clk_wiz_0/inst/clk_40                                                              | si5324_init/cnt[5]_i_1_n_0                                                                                 | simple_i2c/u1/bbstub_locked                                                                    |                2 |              6 |         3.00 |
+|  clk_wiz_0/inst/clk_40                                                              | si5324_init/wrfifo_dout0                                                                                   |                                                                                                |                3 |              6 |         2.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/init_wait_count[7]_i_1__0_n_0              | simple_i2c/u1/bbstub_locked                                                                    |                3 |              8 |         2.67 |
+|  clk_wiz_0/inst/clk_40                                                              | simple_i2c/u1/cnt[7]_i_1_n_0                                                                               | simple_i2c/u1/bbstub_locked                                                                    |                2 |              8 |         4.00 |
+|  clk_wiz_0/inst/clk_40                                                              | simple_i2c/sr[7]_i_1_n_0                                                                                   |                                                                                                |                1 |              8 |         8.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/common_reset_i/init_wait_count[7]_i_1_n_0                                   |                                                                                                |                2 |              8 |         4.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/mmcm_lock_count[7]_i_2_n_0                 | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/SR[0] |                2 |              8 |         4.00 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out | rx_fullsuma_error_top/total_error_clockdomainsrenamer2_next_value_ce0                                      | RX_TOP/SR[0]                                                                                   |                2 |              8 |         4.00 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out | rx_fullsuma_error_top/tx_latch_clockdomainsrenamer0_t_next_value_ce0                                       | RX_TOP/SR[0]                                                                                   |                2 |              8 |         4.00 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out | rx_fullsuma_error_top/tx_data_clockdomainsrenamer3_next_value_ce1                                          | RX_TOP/SR[0]                                                                                   |                2 |              8 |         4.00 |
+|  clk_wiz_0/inst/clk_40                                                              | si5324_init/start_s0                                                                                       |                                                                                                |                3 |             10 |         3.33 |
+|  RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxoutclk_i2                     |                                                                                                            |                                                                                                |                2 |             12 |         6.00 |
+|  clk_wiz_0/inst/clk_40                                                              | si5324_init/wrfifo_dout0                                                                                   | si5324_init/wrfifo_dout[23]_i_1_n_0                                                            |                3 |             12 |         4.00 |
+|  clk_wiz_0/inst/clk_40                                                              |                                                                                                            | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/AR[0]                          |                3 |             12 |         4.00 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out | rx_fullsuma_error_top/wait_clockdomainsrenamer2_next_value_ce2                                             | RX_TOP/SR[0]                                                                                   |                6 |             13 |         2.17 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk_out  | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/wait_bypass_count[0]_i_2_n_0               | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/clear                          |                4 |             13 |         3.25 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk_out  |                                                                                                            |                                                                                                |                2 |             15 |         7.50 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/RX_vc709_i/gt0_RX_vc709_i/gtrxreset_seq_i/next_rd_data      | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/AR[0]                          |                4 |             16 |         4.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/RX_vc709_i/gt0_RX_vc709_i/gtrxreset_seq_i/original_rd_data0 |                                                                                                |                3 |             16 |         5.33 |
+|  clk_wiz_0/inst/clk_40                                                              | si5324_init/startup_delay[0]_i_1_n_0                                                                       | simple_i2c/u1/bbstub_locked                                                                    |                4 |             16 |         4.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/sel                                        | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/wait_time_cnt[0]_i_1_n_0       |                4 |             16 |         4.00 |
+|  clk_wiz_0/inst/clk_40                                                              | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/time_out_counter                           | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/reset_time_out                 |                5 |             17 |         3.40 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out | rx_fullsuma_error_top/i_data_strobe                                                                        | RX_TOP/SR[0]                                                                                   |               12 |             20 |         1.67 |
+|  clk_wiz_0/inst/clk_40                                                              |                                                                                                            | simple_i2c/u1/bbstub_locked                                                                    |               16 |             27 |         1.69 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out | rx_fullsuma_error_top/enable0                                                                              | RX_TOP/SR[0]                                                                                   |                9 |             33 |         3.67 |
+|  clk_wiz_0/inst/clk_40                                                              |                                                                                                            | RX_TOP/RX_vc709_support_i/inst/RX_vc709_init_i/gt0_rxresetfsm_i/gtrxreset_i                    |               15 |             35 |         2.33 |
+|  RX_TOP/RX_vc709_support_i/inst/gt_usrclk_source/rxoutclk_mmcm0_i/gt0_rxusrclk2_out |                                                                                                            | RX_TOP/SR[0]                                                                                   |               23 |             69 |         3.00 |
+|  clk_wiz_0/inst/clk_40                                                              |                                                                                                            |                                                                                                |               21 |             78 |         3.71 |
++-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+

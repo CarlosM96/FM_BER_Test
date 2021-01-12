@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="gtwizard_0_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="gtwizard_0_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="340000001fs"></ZoomEndTime>
+      <Cursor1Time time="42769262fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="243"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="75" />
+   <wvobject fp_name="/gtwizard_0_TB/tx_refclk_n_r" type="logic">
+      <obj_property name="ElementShortName">tx_refclk_n_r</obj_property>
+      <obj_property name="ObjectShortName">tx_refclk_n_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/rx_refclk_n_r" type="logic">
+      <obj_property name="ElementShortName">rx_refclk_n_r</obj_property>
+      <obj_property name="ObjectShortName">rx_refclk_n_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/drp_clk_r" type="logic">
+      <obj_property name="ElementShortName">drp_clk_r</obj_property>
+      <obj_property name="ObjectShortName">drp_clk_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/sysclk_r" type="logic">
+      <obj_property name="ElementShortName">sysclk_r</obj_property>
+      <obj_property name="ObjectShortName">sysclk_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/tx_usrclk_r" type="logic">
+      <obj_property name="ElementShortName">tx_usrclk_r</obj_property>
+      <obj_property name="ObjectShortName">tx_usrclk_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/rx_usrclk_r" type="logic">
+      <obj_property name="ElementShortName">rx_usrclk_r</obj_property>
+      <obj_property name="ObjectShortName">rx_usrclk_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gsr_r" type="logic">
+      <obj_property name="ElementShortName">gsr_r</obj_property>
+      <obj_property name="ObjectShortName">gsr_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gts_r" type="logic">
+      <obj_property name="ElementShortName">gts_r</obj_property>
+      <obj_property name="ObjectShortName">gts_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gttx_reset_i" type="logic">
+      <obj_property name="ElementShortName">gttx_reset_i</obj_property>
+      <obj_property name="ObjectShortName">gttx_reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtrx_reset_i" type="logic">
+      <obj_property name="ElementShortName">gtrx_reset_i</obj_property>
+      <obj_property name="ObjectShortName">gtrx_reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/pll0_reset_i" type="logic">
+      <obj_property name="ElementShortName">pll0_reset_i</obj_property>
+      <obj_property name="ObjectShortName">pll0_reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/pll1_reset_i" type="logic">
+      <obj_property name="ElementShortName">pll1_reset_i</obj_property>
+      <obj_property name="ObjectShortName">pll1_reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/track_data_high_r" type="logic">
+      <obj_property name="ElementShortName">track_data_high_r</obj_property>
+      <obj_property name="ObjectShortName">track_data_high_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/track_data_low_r" type="logic">
+      <obj_property name="ElementShortName">track_data_low_r</obj_property>
+      <obj_property name="ObjectShortName">track_data_low_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/tx_refclk_p_r" type="logic">
+      <obj_property name="ElementShortName">tx_refclk_p_r</obj_property>
+      <obj_property name="ObjectShortName">tx_refclk_p_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/rx_refclk_p_r" type="logic">
+      <obj_property name="ElementShortName">rx_refclk_p_r</obj_property>
+      <obj_property name="ObjectShortName">rx_refclk_p_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/track_data_i" type="logic">
+      <obj_property name="ElementShortName">track_data_i</obj_property>
+      <obj_property name="ObjectShortName">track_data_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/rxn_in_i" type="logic">
+      <obj_property name="ElementShortName">rxn_in_i</obj_property>
+      <obj_property name="ObjectShortName">rxn_in_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/rxp_in_i" type="logic">
+      <obj_property name="ElementShortName">rxp_in_i</obj_property>
+      <obj_property name="ObjectShortName">rxp_in_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/txn_out_i" type="logic">
+      <obj_property name="ElementShortName">txn_out_i</obj_property>
+      <obj_property name="ObjectShortName">txn_out_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/txp_out_i" type="logic">
+      <obj_property name="ElementShortName">txp_out_i</obj_property>
+      <obj_property name="ObjectShortName">txp_out_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/tied_to_ground_i" type="logic">
+      <obj_property name="ElementShortName">tied_to_ground_i</obj_property>
+      <obj_property name="ObjectShortName">tied_to_ground_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/TX_REFCLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">TX_REFCLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">TX_REFCLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/RX_REFCLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">RX_REFCLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">RX_REFCLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/SYSCLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">SYSCLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">SYSCLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/DCLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">DCLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">DCLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_txdata_i" type="array">
+      <obj_property name="ElementShortName">gt0_txdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gt0_txdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/SW0" type="logic">
+      <obj_property name="ElementShortName">SW0</obj_property>
+      <obj_property name="ObjectShortName">SW0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_txusrclk2_i" type="logic">
+      <obj_property name="ElementShortName">gt0_txusrclk2_i</obj_property>
+      <obj_property name="ObjectShortName">gt0_txusrclk2_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txresetdone_out" type="logic">
+      <obj_property name="ElementShortName">gt0_txresetdone_out</obj_property>
+      <obj_property name="ObjectShortName">gt0_txresetdone_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_tx_fsm_reset_done_out" type="logic">
+      <obj_property name="ElementShortName">gt0_tx_fsm_reset_done_out</obj_property>
+      <obj_property name="ObjectShortName">gt0_tx_fsm_reset_done_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_rx_fsm_reset_done_out" type="logic">
+      <obj_property name="ElementShortName">gt0_rx_fsm_reset_done_out</obj_property>
+      <obj_property name="ObjectShortName">gt0_rx_fsm_reset_done_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/Q0_CLK1_GTREFCLK_PAD_N_IN" type="logic">
+      <obj_property name="ElementShortName">Q0_CLK1_GTREFCLK_PAD_N_IN</obj_property>
+      <obj_property name="ObjectShortName">Q0_CLK1_GTREFCLK_PAD_N_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/Q0_CLK1_GTREFCLK_PAD_P_IN" type="logic">
+      <obj_property name="ElementShortName">Q0_CLK1_GTREFCLK_PAD_P_IN</obj_property>
+      <obj_property name="ObjectShortName">Q0_CLK1_GTREFCLK_PAD_P_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/RXN_IN" type="logic">
+      <obj_property name="ElementShortName">RXN_IN</obj_property>
+      <obj_property name="ObjectShortName">RXN_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/RXP_IN" type="logic">
+      <obj_property name="ElementShortName">RXP_IN</obj_property>
+      <obj_property name="ObjectShortName">RXP_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/TXN_OUT" type="logic">
+      <obj_property name="ElementShortName">TXN_OUT</obj_property>
+      <obj_property name="ObjectShortName">TXN_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/TXP_OUT" type="logic">
+      <obj_property name="ElementShortName">TXP_OUT</obj_property>
+      <obj_property name="ObjectShortName">TXP_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt_txfsmresetdone_r" type="logic">
+      <obj_property name="ElementShortName">gt_txfsmresetdone_r</obj_property>
+      <obj_property name="ObjectShortName">gt_txfsmresetdone_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt_txfsmresetdone_r2" type="logic">
+      <obj_property name="ElementShortName">gt_txfsmresetdone_r2</obj_property>
+      <obj_property name="ObjectShortName">gt_txfsmresetdone_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_txfsmresetdone_i" type="logic">
+      <obj_property name="ElementShortName">gt0_txfsmresetdone_i</obj_property>
+      <obj_property name="ObjectShortName">gt0_txfsmresetdone_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_txfsmresetdone_r" type="logic">
+      <obj_property name="ElementShortName">gt0_txfsmresetdone_r</obj_property>
+      <obj_property name="ObjectShortName">gt0_txfsmresetdone_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_txfsmresetdone_r2" type="logic">
+      <obj_property name="ElementShortName">gt0_txfsmresetdone_r2</obj_property>
+      <obj_property name="ObjectShortName">gt0_txfsmresetdone_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_rxfsmresetdone_r" type="logic">
+      <obj_property name="ElementShortName">gt0_rxfsmresetdone_r</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxfsmresetdone_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_rxfsmresetdone_r2" type="logic">
+      <obj_property name="ElementShortName">gt0_rxfsmresetdone_r2</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxfsmresetdone_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_rxresetdone_r" type="logic">
+      <obj_property name="ElementShortName">gt0_rxresetdone_r</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxresetdone_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_rxresetdone_r2" type="logic">
+      <obj_property name="ElementShortName">gt0_rxresetdone_r2</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxresetdone_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_rxresetdone_r3" type="logic">
+      <obj_property name="ElementShortName">gt0_rxresetdone_r3</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxresetdone_r3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_txdata_i" type="array">
+      <obj_property name="ElementShortName">gt0_txdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gt0_txdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gt0_txusrclk2_i" type="logic">
+      <obj_property name="ElementShortName">gt0_txusrclk2_i</obj_property>
+      <obj_property name="ObjectShortName">gt0_txusrclk2_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/TXSERIAL" type="logic">
+      <obj_property name="ElementShortName">TXSERIAL</obj_property>
+      <obj_property name="ObjectShortName">TXSERIAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="group349" type="group">
+      <obj_property name="label">gt_wizard_support</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/dont_reset_on_data_error_in" type="logic">
+         <obj_property name="ElementShortName">dont_reset_on_data_error_in</obj_property>
+         <obj_property name="ObjectShortName">dont_reset_on_data_error_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_data_valid_in" type="logic">
+         <obj_property name="ElementShortName">gt0_data_valid_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_data_valid_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_dmonitorout_out" type="array">
+         <obj_property name="ElementShortName">gt0_dmonitorout_out[14:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_dmonitorout_out[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_drpaddr_in" type="array">
+         <obj_property name="ElementShortName">gt0_drpaddr_in[8:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpaddr_in[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_drpdi_in" type="array">
+         <obj_property name="ElementShortName">gt0_drpdi_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpdi_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_drpdo_out" type="array">
+         <obj_property name="ElementShortName">gt0_drpdo_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpdo_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_drpen_in" type="logic">
+         <obj_property name="ElementShortName">gt0_drpen_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpen_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_drprdy_out" type="logic">
+         <obj_property name="ElementShortName">gt0_drprdy_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_drprdy_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_drpwe_in" type="logic">
+         <obj_property name="ElementShortName">gt0_drpwe_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_drpwe_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_eyescandataerror_out" type="logic">
+         <obj_property name="ElementShortName">gt0_eyescandataerror_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescandataerror_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_eyescanreset_in" type="logic">
+         <obj_property name="ElementShortName">gt0_eyescanreset_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescanreset_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_eyescantrigger_in" type="logic">
+         <obj_property name="ElementShortName">gt0_eyescantrigger_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_eyescantrigger_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_gtptxn_out" type="logic">
+         <obj_property name="ElementShortName">gt0_gtptxn_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_gtptxn_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_gtptxp_out" type="logic">
+         <obj_property name="ElementShortName">gt0_gtptxp_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_gtptxp_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_gtrxreset_in" type="logic">
+         <obj_property name="ElementShortName">gt0_gtrxreset_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_gtrxreset_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_gttxreset_in" type="logic">
+         <obj_property name="ElementShortName">gt0_gttxreset_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_gttxreset_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_pll0lock_out" type="logic">
+         <obj_property name="ElementShortName">gt0_pll0lock_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_pll0lock_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_pll0outclk_out" type="logic">
+         <obj_property name="ElementShortName">gt0_pll0outclk_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_pll0outclk_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_pll0outrefclk_out" type="logic">
+         <obj_property name="ElementShortName">gt0_pll0outrefclk_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_pll0outrefclk_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_pll0refclklost_out" type="logic">
+         <obj_property name="ElementShortName">gt0_pll0refclklost_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_pll0refclklost_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_pll1outclk_out" type="logic">
+         <obj_property name="ElementShortName">gt0_pll1outclk_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_pll1outclk_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_pll1outrefclk_out" type="logic">
+         <obj_property name="ElementShortName">gt0_pll1outrefclk_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_pll1outrefclk_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_rx_fsm_reset_done_out" type="logic">
+         <obj_property name="ElementShortName">gt0_rx_fsm_reset_done_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_rx_fsm_reset_done_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_rxlpmreset_in" type="logic">
+         <obj_property name="ElementShortName">gt0_rxlpmreset_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_rxlpmreset_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_tx_fsm_reset_done_out" type="logic">
+         <obj_property name="ElementShortName">gt0_tx_fsm_reset_done_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_fsm_reset_done_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_tx_mmcm_lock_out" type="logic">
+         <obj_property name="ElementShortName">gt0_tx_mmcm_lock_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_tx_mmcm_lock_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txcharisk_in" type="array">
+         <obj_property name="ElementShortName">gt0_txcharisk_in[3:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txcharisk_in[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txdata_in" type="array">
+         <obj_property name="ElementShortName">gt0_txdata_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gt0_txdata_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txoutclkfabric_out" type="logic">
+         <obj_property name="ElementShortName">gt0_txoutclkfabric_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_txoutclkfabric_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txoutclkpcs_out" type="logic">
+         <obj_property name="ElementShortName">gt0_txoutclkpcs_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_txoutclkpcs_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txresetdone_out" type="logic">
+         <obj_property name="ElementShortName">gt0_txresetdone_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_txresetdone_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txuserrdy_in" type="logic">
+         <obj_property name="ElementShortName">gt0_txuserrdy_in</obj_property>
+         <obj_property name="ObjectShortName">gt0_txuserrdy_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txusrclk2_out" type="logic">
+         <obj_property name="ElementShortName">gt0_txusrclk2_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_txusrclk2_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/gt0_txusrclk_out" type="logic">
+         <obj_property name="ElementShortName">gt0_txusrclk_out</obj_property>
+         <obj_property name="ObjectShortName">gt0_txusrclk_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/soft_reset_tx_in" type="logic">
+         <obj_property name="ElementShortName">soft_reset_tx_in</obj_property>
+         <obj_property name="ObjectShortName">soft_reset_tx_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/gtwizard_0_support_i/sysclk_in" type="logic">
+         <obj_property name="ElementShortName">sysclk_in</obj_property>
+         <obj_property name="ObjectShortName">sysclk_in</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group428" type="group">
+      <obj_property name="label">rx_simple_sin_fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group437" type="group">
+      <obj_property name="label">fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group307" type="group">
+      <obj_property name="label">si5324_init</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_init/wrfifo_dout" type="array">
+         <obj_property name="ElementShortName">wrfifo_dout[24:0]</obj_property>
+         <obj_property name="ObjectShortName">wrfifo_dout[24:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_init/i2c_wr_state" type="other">
+         <obj_property name="ElementShortName">i2c_wr_state</obj_property>
+         <obj_property name="ObjectShortName">i2c_wr_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_init/twobytes" type="logic">
+         <obj_property name="ElementShortName">twobytes</obj_property>
+         <obj_property name="ObjectShortName">twobytes</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_init/cmd_ack_pipe" type="logic">
+         <obj_property name="ElementShortName">cmd_ack_pipe</obj_property>
+         <obj_property name="ObjectShortName">cmd_ack_pipe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_init/start_s" type="logic">
+         <obj_property name="ElementShortName">start_s</obj_property>
+         <obj_property name="ObjectShortName">start_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_init/stop_s" type="logic">
+         <obj_property name="ElementShortName">stop_s</obj_property>
+         <obj_property name="ObjectShortName">stop_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_init/startup_delay" type="other">
+         <obj_property name="ElementShortName">startup_delay</obj_property>
+         <obj_property name="ObjectShortName">startup_delay</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group338" type="group">
+      <obj_property name="label">simple_i2c</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/simple_i2c/Dout" type="array">
+         <obj_property name="ElementShortName">Dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/simple_i2c/sr" type="array">
+         <obj_property name="ElementShortName">sr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/simple_i2c/shift" type="logic">
+         <obj_property name="ElementShortName">shift</obj_property>
+         <obj_property name="ObjectShortName">shift</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/simple_i2c/ld" type="logic">
+         <obj_property name="ElementShortName">ld</obj_property>
+         <obj_property name="ObjectShortName">ld</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/pcie_mgt_clk_sel0" type="logic">
+      <obj_property name="ElementShortName">pcie_mgt_clk_sel0</obj_property>
+      <obj_property name="ObjectShortName">pcie_mgt_clk_sel0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/pcie_mgt_clk_sel1" type="logic">
+      <obj_property name="ElementShortName">pcie_mgt_clk_sel1</obj_property>
+      <obj_property name="ObjectShortName">pcie_mgt_clk_sel1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/SCL" type="logic">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/clk_si5324_240_out_p" type="logic">
+      <obj_property name="ElementShortName">clk_si5324_240_out_p</obj_property>
+      <obj_property name="ObjectShortName">clk_si5324_240_out_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/clk_si5324_240_out_n" type="logic">
+      <obj_property name="ElementShortName">clk_si5324_240_out_n</obj_property>
+      <obj_property name="ObjectShortName">clk_si5324_240_out_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/si5324_resetn" type="logic">
+      <obj_property name="ElementShortName">si5324_resetn</obj_property>
+      <obj_property name="ObjectShortName">si5324_resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/i2cmux_rst" type="logic">
+      <obj_property name="ElementShortName">i2cmux_rst</obj_property>
+      <obj_property name="ObjectShortName">i2cmux_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/TXSERIAL" type="logic">
+      <obj_property name="ElementShortName">TXSERIAL</obj_property>
+      <obj_property name="ObjectShortName">TXSERIAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/locked_240_w" type="logic">
+      <obj_property name="ElementShortName">locked_240_w</obj_property>
+      <obj_property name="ObjectShortName">locked_240_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="group409" type="group">
+      <obj_property name="label">fifo_fm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group1201" type="group">
+      <obj_property name="label">top_logic_max</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group1336" type="group">
+      <obj_property name="label">top_logic_5000</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/fifo_empty0" type="logic">
+         <obj_property name="ElementShortName">fifo_empty0</obj_property>
+         <obj_property name="ObjectShortName">fifo_empty0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/crc_encoder_i_data_strobe" type="logic">
+         <obj_property name="ElementShortName">crc_encoder_i_data_strobe</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_i_data_strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/crc_encoder_crc_next" type="array">
+         <obj_property name="ElementShortName">crc_encoder_crc_next[19:0]</obj_property>
+         <obj_property name="ObjectShortName">crc_encoder_crc_next[19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_sop" type="logic">
+         <obj_property name="ElementShortName">stream_controller_sop</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_sop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_idle" type="logic">
+         <obj_property name="ElementShortName">stream_controller_idle</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_idle</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_encoder_ready" type="logic">
+         <obj_property name="ElementShortName">stream_controller_encoder_ready</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_encoder_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_fifo_re" type="logic">
+         <obj_property name="ElementShortName">stream_controller_fifo_re</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_fifo_re</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_strobe_crc" type="logic">
+         <obj_property name="ElementShortName">stream_controller_strobe_crc</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_strobe_crc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_reset_crc" type="logic">
+         <obj_property name="ElementShortName">stream_controller_reset_crc</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_reset_crc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/asyncfifo_readable" type="logic">
+         <obj_property name="ElementShortName">asyncfifo_readable</obj_property>
+         <obj_property name="ObjectShortName">asyncfifo_readable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/graycounter0_q_next" type="array">
+         <obj_property name="ElementShortName">graycounter0_q_next[15:0]</obj_property>
+         <obj_property name="ObjectShortName">graycounter0_q_next[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/graycounter0_q_next_binary" type="array">
+         <obj_property name="ElementShortName">graycounter0_q_next_binary[15:0]</obj_property>
+         <obj_property name="ObjectShortName">graycounter0_q_next_binary[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/graycounter1_q" type="array">
+         <obj_property name="ElementShortName">graycounter1_q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">graycounter1_q[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/graycounter1_q_next" type="array">
+         <obj_property name="ElementShortName">graycounter1_q_next[15:0]</obj_property>
+         <obj_property name="ObjectShortName">graycounter1_q_next[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/graycounter1_q_next_binary" type="array">
+         <obj_property name="ElementShortName">graycounter1_q_next_binary[15:0]</obj_property>
+         <obj_property name="ObjectShortName">graycounter1_q_next_binary[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/wrport_dat_w" type="array">
+         <obj_property name="ElementShortName">wrport_dat_w[33:0]</obj_property>
+         <obj_property name="ObjectShortName">wrport_dat_w[33:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/counter" type="array">
+         <obj_property name="ElementShortName">counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/index" type="array">
+         <obj_property name="ElementShortName">index[12:0]</obj_property>
+         <obj_property name="ObjectShortName">index[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/write_fifo" type="logic">
+         <obj_property name="ElementShortName">write_fifo</obj_property>
+         <obj_property name="ObjectShortName">write_fifo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/tx_state" type="array">
+         <obj_property name="ElementShortName">tx_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/tx_next_state" type="array">
+         <obj_property name="ElementShortName">tx_next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_next_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_fifo_re_clockdomainsrenamer0_t_next_value0" type="logic">
+         <obj_property name="ElementShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_fifo_re_clockdomainsrenamer0_t_next_value_ce0" type="logic">
+         <obj_property name="ElementShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_fifo_re_clockdomainsrenamer0_t_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_sop_clockdomainsrenamer0_t_next_value1" type="logic">
+         <obj_property name="ElementShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/stream_controller_sop_clockdomainsrenamer0_t_next_value_ce1" type="logic">
+         <obj_property name="ElementShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">stream_controller_sop_clockdomainsrenamer0_t_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/fsm_state" type="array">
+         <obj_property name="ElementShortName">fsm_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fsm_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/index_clockdomainsrenamer1_next_value3" type="array">
+         <obj_property name="ElementShortName">index_clockdomainsrenamer1_next_value3[12:0]</obj_property>
+         <obj_property name="ObjectShortName">index_clockdomainsrenamer1_next_value3[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/multiregimpl0_regs0" type="logic">
+         <obj_property name="ElementShortName">multiregimpl0_regs0</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl0_regs0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/multiregimpl0_regs1" type="logic">
+         <obj_property name="ElementShortName">multiregimpl0_regs1</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl0_regs1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/multiregimpl1_regs0" type="logic">
+         <obj_property name="ElementShortName">multiregimpl1_regs0</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl1_regs0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/multiregimpl1_regs1" type="logic">
+         <obj_property name="ElementShortName">multiregimpl1_regs1</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl1_regs1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/multiregimpl2_regs0" type="array">
+         <obj_property name="ElementShortName">multiregimpl2_regs0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl2_regs0[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/multiregimpl2_regs1" type="array">
+         <obj_property name="ElementShortName">multiregimpl2_regs1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl2_regs1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/top_logic_5000/multiregimpl3_regs0" type="array">
+         <obj_property name="ElementShortName">multiregimpl3_regs0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">multiregimpl3_regs0[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/link_ready_r" type="logic">
+      <obj_property name="ElementShortName">link_ready_r</obj_property>
+      <obj_property name="ObjectShortName">link_ready_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/led3" type="logic">
+      <obj_property name="ElementShortName">led3</obj_property>
+      <obj_property name="ObjectShortName">led3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/led0" type="logic">
+      <obj_property name="ElementShortName">led0</obj_property>
+      <obj_property name="ObjectShortName">led0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/led1" type="logic">
+      <obj_property name="ElementShortName">led1</obj_property>
+      <obj_property name="ObjectShortName">led1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/led2" type="logic">
+      <obj_property name="ElementShortName">led2</obj_property>
+      <obj_property name="ObjectShortName">led2</obj_property>
+   </wvobject>
+   <wvobject fp_name="group189" type="group">
+      <obj_property name="label">uart_delay_test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/rx_clk" type="logic">
+         <obj_property name="ElementShortName">rx_clk</obj_property>
+         <obj_property name="ObjectShortName">rx_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/trans_en" type="logic">
+         <obj_property name="ElementShortName">trans_en</obj_property>
+         <obj_property name="ObjectShortName">trans_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_serial" type="logic">
+         <obj_property name="ElementShortName">tx_serial</obj_property>
+         <obj_property name="ObjectShortName">tx_serial</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/rx_clk_1" type="logic">
+         <obj_property name="ElementShortName">rx_clk_1</obj_property>
+         <obj_property name="ObjectShortName">rx_clk_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/rx_rst" type="logic">
+         <obj_property name="ElementShortName">rx_rst</obj_property>
+         <obj_property name="ObjectShortName">rx_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_counter" type="array">
+         <obj_property name="ElementShortName">tx_counter[10:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_counter[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_serial1" type="logic">
+         <obj_property name="ElementShortName">tx_serial1</obj_property>
+         <obj_property name="ObjectShortName">tx_serial1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_strobe" type="logic">
+         <obj_property name="ElementShortName">tx_strobe</obj_property>
+         <obj_property name="ObjectShortName">tx_strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_bitn" type="array">
+         <obj_property name="ElementShortName">tx_bitn[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bitn[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_ready" type="logic">
+         <obj_property name="ElementShortName">tx_ready</obj_property>
+         <obj_property name="ObjectShortName">tx_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_latch" type="array">
+         <obj_property name="ElementShortName">tx_latch[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_latch[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_done" type="logic">
+         <obj_property name="ElementShortName">tx_done</obj_property>
+         <obj_property name="ObjectShortName">tx_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_latch_t_next_value0" type="array">
+         <obj_property name="ElementShortName">tx_latch_t_next_value0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_latch_t_next_value0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_latch_t_next_value_ce0" type="logic">
+         <obj_property name="ElementShortName">tx_latch_t_next_value_ce0</obj_property>
+         <obj_property name="ObjectShortName">tx_latch_t_next_value_ce0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_counter_t_next_value1" type="array">
+         <obj_property name="ElementShortName">tx_counter_t_next_value1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_counter_t_next_value1[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_counter_t_next_value_ce1" type="logic">
+         <obj_property name="ElementShortName">tx_counter_t_next_value_ce1</obj_property>
+         <obj_property name="ObjectShortName">tx_counter_t_next_value_ce1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_serial1_f_next_value" type="logic">
+         <obj_property name="ElementShortName">tx_serial1_f_next_value</obj_property>
+         <obj_property name="ObjectShortName">tx_serial1_f_next_value</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_serial1_f_next_value_ce" type="logic">
+         <obj_property name="ElementShortName">tx_serial1_f_next_value_ce</obj_property>
+         <obj_property name="ObjectShortName">tx_serial1_f_next_value_ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_bitn_t_next_value2" type="array">
+         <obj_property name="ElementShortName">tx_bitn_t_next_value2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bitn_t_next_value2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_bitn_t_next_value_ce2" type="logic">
+         <obj_property name="ElementShortName">tx_bitn_t_next_value_ce2</obj_property>
+         <obj_property name="ObjectShortName">tx_bitn_t_next_value_ce2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_done_t_next_value3" type="logic">
+         <obj_property name="ElementShortName">tx_done_t_next_value3</obj_property>
+         <obj_property name="ObjectShortName">tx_done_t_next_value3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/tx_done_t_next_value_ce3" type="logic">
+         <obj_property name="ElementShortName">tx_done_t_next_value_ce3</obj_property>
+         <obj_property name="ObjectShortName">tx_done_t_next_value_ce3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/dummy_s" type="logic">
+         <obj_property name="ElementShortName">dummy_s</obj_property>
+         <obj_property name="ObjectShortName">dummy_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/dummy_d" type="logic">
+         <obj_property name="ElementShortName">dummy_d</obj_property>
+         <obj_property name="ObjectShortName">dummy_d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/uart_delay_test/dummy_d_1" type="logic">
+         <obj_property name="ElementShortName">dummy_d_1</obj_property>
+         <obj_property name="ObjectShortName">dummy_d_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/counter1" type="array">
+         <obj_property name="ElementShortName">counter1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">counter1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/gtwizard_0_TB/gtwizard_0_exdes_i/counter2" type="array">
+         <obj_property name="ElementShortName">counter2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">counter2[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

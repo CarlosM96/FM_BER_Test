@@ -1,0 +1,843 @@
+
+*** Running vivado
+    with args -log gtwizard_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source gtwizard_0.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+  **** IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source gtwizard_0.tcl -notrace
+Command: synth_design -top gtwizard_0 -part xc7a200tfbg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11016 
+WARNING: [Synth 8-2507] parameter declaration becomes local in gtwizard_0_common with formal parameter declaration list [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:94]
+WARNING: [Synth 8-2507] parameter declaration becomes local in gtwizard_0_common with formal parameter declaration list [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:95]
+WARNING: [Synth 8-2507] parameter declaration becomes local in gtwizard_0_common with formal parameter declaration list [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:96]
+WARNING: [Synth 8-2507] parameter declaration becomes local in gtwizard_0_common with formal parameter declaration list [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:97]
+WARNING: [Synth 8-2507] parameter declaration becomes local in gtwizard_0_common with formal parameter declaration list [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:98]
+WARNING: [Synth 8-2507] parameter declaration becomes local in gtwizard_0_common with formal parameter declaration list [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:99]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1023.379 ; gain = 243.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0.v:72]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_support' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_support.v:70]
+	Parameter EXAMPLE_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_GT_USRCLK_SOURCE' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_gt_usrclk_source.v:68]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS_GTE2' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:33090]
+	Parameter CLKCM_CFG bound to: TRUE - type: string 
+	Parameter CLKRCV_TRST bound to: TRUE - type: string 
+	Parameter CLKSWING_CFG bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_GTE2' (1#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:33090]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_CLOCK_MODULE' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/support/gtwizard_0_clock_module.v:69]
+	Parameter MULT bound to: 3.000000 - type: double 
+	Parameter DIVIDE bound to: 1 - type: integer 
+	Parameter CLK_PERIOD bound to: 4.166000 - type: double 
+	Parameter OUT0_DIVIDE bound to: 6.000000 - type: double 
+	Parameter OUT1_DIVIDE bound to: 3 - type: integer 
+	Parameter OUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter OUT3_DIVIDE bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39940]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 3.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 4.166000 - type: double 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 6.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 3 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (3#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39940]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_CLOCK_MODULE' (4#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/support/gtwizard_0_clock_module.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_GT_USRCLK_SOURCE' (5#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_gt_usrclk_source.v:68]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_cpll_railing' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_cpll_railing.v:68]
+	Parameter USE_BUFG bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BUFH' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1311]
+INFO: [Synth 8-6155] done synthesizing module 'BUFH' (6#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1311]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_cpll_railing' (7#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_cpll_railing.v:68]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_common' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:69]
+	Parameter WRAPPER_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter SIM_PLL0REFCLK_SEL bound to: 3'b001 
+	Parameter SIM_PLL1REFCLK_SEL bound to: 3'b001 
+	Parameter PLL0_FBDIV_IN bound to: 2 - type: integer 
+	Parameter PLL1_FBDIV_IN bound to: 1 - type: integer 
+	Parameter PLL0_FBDIV_45_IN bound to: 5 - type: integer 
+	Parameter PLL1_FBDIV_45_IN bound to: 4 - type: integer 
+	Parameter PLL0_REFCLK_DIV_IN bound to: 1 - type: integer 
+	Parameter PLL1_REFCLK_DIV_IN bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'GTPE2_COMMON' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:20663]
+	Parameter BIAS_CFG bound to: 64'b0000000000000000000000000000000000000000000001010000000000000001 
+	Parameter COMMON_CFG bound to: 0 - type: integer 
+	Parameter IS_DRPCLK_INVERTED bound to: 1'b0 
+	Parameter IS_GTGREFCLK0_INVERTED bound to: 1'b0 
+	Parameter IS_GTGREFCLK1_INVERTED bound to: 1'b0 
+	Parameter IS_PLL0LOCKDETCLK_INVERTED bound to: 1'b0 
+	Parameter IS_PLL1LOCKDETCLK_INVERTED bound to: 1'b0 
+	Parameter PLL0_CFG bound to: 27'b000000111110000001111011100 
+	Parameter PLL0_DMON_CFG bound to: 1'b0 
+	Parameter PLL0_FBDIV bound to: 2 - type: integer 
+	Parameter PLL0_FBDIV_45 bound to: 5 - type: integer 
+	Parameter PLL0_INIT_CFG bound to: 24'b000000000000000000011110 
+	Parameter PLL0_LOCK_CFG bound to: 9'b111101000 
+	Parameter PLL0_REFCLK_DIV bound to: 1 - type: integer 
+	Parameter PLL1_CFG bound to: 27'b000000111110000001111011100 
+	Parameter PLL1_DMON_CFG bound to: 1'b0 
+	Parameter PLL1_FBDIV bound to: 1 - type: integer 
+	Parameter PLL1_FBDIV_45 bound to: 4 - type: integer 
+	Parameter PLL1_INIT_CFG bound to: 24'b000000000000000000011110 
+	Parameter PLL1_LOCK_CFG bound to: 9'b111101000 
+	Parameter PLL1_REFCLK_DIV bound to: 1 - type: integer 
+	Parameter PLL_CLKOUT_CFG bound to: 8'b00000000 
+	Parameter RSVD_ATTR0 bound to: 16'b0000000000000000 
+	Parameter RSVD_ATTR1 bound to: 16'b0000000000000000 
+	Parameter SIM_PLL0REFCLK_SEL bound to: 3'b001 
+	Parameter SIM_PLL1REFCLK_SEL bound to: 3'b001 
+	Parameter SIM_RESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter SIM_VERSION bound to: 2.0 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'GTPE2_COMMON' (8#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:20663]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_common' (9#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common.v:69]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_common_reset' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common_reset.v:74]
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+	Parameter STARTUP_DELAY bound to: 500 - type: integer 
+	Parameter WAIT_CYCLES bound to: 20 - type: integer 
+	Parameter WAIT_MAX bound to: 30 - type: integer 
+	Parameter INIT bound to: 1'b0 
+	Parameter ASSERT_COMMON_RESET bound to: 1'b1 
+INFO: [Synth 8-226] default block is never used [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common_reset.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_common_reset' (10#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_common_reset.v:74]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_init' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_init.v:71]
+	Parameter EXAMPLE_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+	Parameter EXAMPLE_USE_CHIPSCOPE bound to: 0 - type: integer 
+	Parameter RX_CDRLOCK_TIME bound to: 20833.333333 - type: double 
+	Parameter WAIT_TIME_CDRLOCK bound to: 833 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_multi_gt' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_multi_gt.v:71]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter WRAPPER_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter PLL0_FBDIV_IN bound to: 2 - type: integer 
+	Parameter PLL1_FBDIV_IN bound to: 1 - type: integer 
+	Parameter PLL0_FBDIV_45_IN bound to: 5 - type: integer 
+	Parameter PLL1_FBDIV_45_IN bound to: 4 - type: integer 
+	Parameter PLL0_REFCLK_DIV_IN bound to: 1 - type: integer 
+	Parameter PLL1_REFCLK_DIV_IN bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_GT' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_gt.v:71]
+	Parameter GT_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter TXSYNC_OVRD_IN bound to: 1'b0 
+	Parameter TXSYNC_MULTILANE_IN bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'GTPE2_CHANNEL' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:19961]
+	Parameter ACJTAG_DEBUG_MODE bound to: 1'b0 
+	Parameter ACJTAG_MODE bound to: 1'b0 
+	Parameter ACJTAG_RESET bound to: 1'b0 
+	Parameter ADAPT_CFG0 bound to: 20'b00000000000000000000 
+	Parameter ALIGN_COMMA_DOUBLE bound to: FALSE - type: string 
+	Parameter ALIGN_COMMA_ENABLE bound to: 10'b1111111111 
+	Parameter ALIGN_COMMA_WORD bound to: 1 - type: integer 
+	Parameter ALIGN_MCOMMA_DET bound to: TRUE - type: string 
+	Parameter ALIGN_MCOMMA_VALUE bound to: 10'b1010000011 
+	Parameter ALIGN_PCOMMA_DET bound to: TRUE - type: string 
+	Parameter ALIGN_PCOMMA_VALUE bound to: 10'b0101111100 
+	Parameter CBCC_DATA_SOURCE_SEL bound to: DECODED - type: string 
+	Parameter CFOK_CFG bound to: 43'b1001001000000000000000001000000111010000000 
+	Parameter CFOK_CFG2 bound to: 7'b0100000 
+	Parameter CFOK_CFG3 bound to: 7'b0100000 
+	Parameter CFOK_CFG4 bound to: 1'b0 
+	Parameter CFOK_CFG5 bound to: 2'b00 
+	Parameter CFOK_CFG6 bound to: 4'b0000 
+	Parameter CHAN_BOND_KEEP_ALIGN bound to: FALSE - type: string 
+	Parameter CHAN_BOND_MAX_SKEW bound to: 1 - type: integer 
+	Parameter CHAN_BOND_SEQ_1_1 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_2 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_3 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_4 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_ENABLE bound to: 4'b1111 
+	Parameter CHAN_BOND_SEQ_2_1 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_2 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_3 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_4 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_ENABLE bound to: 4'b1111 
+	Parameter CHAN_BOND_SEQ_2_USE bound to: FALSE - type: string 
+	Parameter CHAN_BOND_SEQ_LEN bound to: 1 - type: integer 
+	Parameter CLK_COMMON_SWING bound to: 1'b0 
+	Parameter CLK_CORRECT_USE bound to: FALSE - type: string 
+	Parameter CLK_COR_KEEP_IDLE bound to: FALSE - type: string 
+	Parameter CLK_COR_MAX_LAT bound to: 9 - type: integer 
+	Parameter CLK_COR_MIN_LAT bound to: 7 - type: integer 
+	Parameter CLK_COR_PRECEDENCE bound to: TRUE - type: string 
+	Parameter CLK_COR_REPEAT_WAIT bound to: 0 - type: integer 
+	Parameter CLK_COR_SEQ_1_1 bound to: 10'b0100000000 
+	Parameter CLK_COR_SEQ_1_2 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_3 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_4 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_ENABLE bound to: 4'b1111 
+	Parameter CLK_COR_SEQ_2_1 bound to: 10'b0100000000 
+	Parameter CLK_COR_SEQ_2_2 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_3 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_4 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_ENABLE bound to: 4'b1111 
+	Parameter CLK_COR_SEQ_2_USE bound to: FALSE - type: string 
+	Parameter CLK_COR_SEQ_LEN bound to: 1 - type: integer 
+	Parameter DEC_MCOMMA_DETECT bound to: TRUE - type: string 
+	Parameter DEC_PCOMMA_DETECT bound to: TRUE - type: string 
+	Parameter DEC_VALID_COMMA_ONLY bound to: FALSE - type: string 
+	Parameter DMONITOR_CFG bound to: 24'b000000000000101000000000 
+	Parameter ES_CLK_PHASE_SEL bound to: 1'b0 
+	Parameter ES_CONTROL bound to: 6'b000000 
+	Parameter ES_ERRDET_EN bound to: FALSE - type: string 
+	Parameter ES_EYE_SCAN_EN bound to: FALSE - type: string 
+	Parameter ES_HORZ_OFFSET bound to: 12'b000000010000 
+	Parameter ES_PMA_CFG bound to: 10'b0000000000 
+	Parameter ES_PRESCALE bound to: 5'b00000 
+	Parameter ES_QUALIFIER bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_QUAL_MASK bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_SDATA_MASK bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_VERT_OFFSET bound to: 9'b000000000 
+	Parameter FTS_DESKEW_SEQ_ENABLE bound to: 4'b1111 
+	Parameter FTS_LANE_DESKEW_CFG bound to: 4'b1111 
+	Parameter FTS_LANE_DESKEW_EN bound to: FALSE - type: string 
+	Parameter GEARBOX_MODE bound to: 3'b000 
+	Parameter IS_CLKRSVD0_INVERTED bound to: 1'b0 
+	Parameter IS_CLKRSVD1_INVERTED bound to: 1'b0 
+	Parameter IS_DMONITORCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DRPCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RXUSRCLK2_INVERTED bound to: 1'b0 
+	Parameter IS_RXUSRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_SIGVALIDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_TXPHDLYTSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_TXUSRCLK2_INVERTED bound to: 1'b0 
+	Parameter IS_TXUSRCLK_INVERTED bound to: 1'b0 
+	Parameter LOOPBACK_CFG bound to: 1'b0 
+	Parameter OUTREFCLK_SEL_INV bound to: 2'b11 
+	Parameter PCS_PCIE_EN bound to: FALSE - type: string 
+	Parameter PCS_RSVD_ATTR bound to: 48'b000000000000000000000000000000000000000000000000 
+	Parameter PD_TRANS_TIME_FROM_P2 bound to: 12'b000000111100 
+	Parameter PD_TRANS_TIME_NONE_P2 bound to: 8'b00111100 
+	Parameter PD_TRANS_TIME_TO_P2 bound to: 8'b01100100 
+	Parameter PMA_LOOPBACK_CFG bound to: 1'b0 
+	Parameter PMA_RSV bound to: 819 - type: integer 
+	Parameter PMA_RSV2 bound to: 8256 - type: integer 
+	Parameter PMA_RSV3 bound to: 2'b00 
+	Parameter PMA_RSV4 bound to: 4'b0000 
+	Parameter PMA_RSV5 bound to: 1'b0 
+	Parameter PMA_RSV6 bound to: 1'b0 
+	Parameter PMA_RSV7 bound to: 1'b0 
+	Parameter RXBUFRESET_TIME bound to: 5'b00001 
+	Parameter RXBUF_ADDR_MODE bound to: FAST - type: string 
+	Parameter RXBUF_EIDLE_HI_CNT bound to: 4'b1000 
+	Parameter RXBUF_EIDLE_LO_CNT bound to: 4'b0000 
+	Parameter RXBUF_EN bound to: TRUE - type: string 
+	Parameter RXBUF_RESET_ON_CB_CHANGE bound to: TRUE - type: string 
+	Parameter RXBUF_RESET_ON_COMMAALIGN bound to: FALSE - type: string 
+	Parameter RXBUF_RESET_ON_EIDLE bound to: FALSE - type: string 
+	Parameter RXBUF_RESET_ON_RATE_CHANGE bound to: TRUE - type: string 
+	Parameter RXBUF_THRESH_OVFLW bound to: 61 - type: integer 
+	Parameter RXBUF_THRESH_OVRD bound to: FALSE - type: string 
+	Parameter RXBUF_THRESH_UNDFLW bound to: 4 - type: integer 
+	Parameter RXCDRFREQRESET_TIME bound to: 5'b00001 
+	Parameter RXCDRPHRESET_TIME bound to: 5'b00001 
+	Parameter RXCDR_CFG bound to: 83'b00000000000000000010000011111111110010000000110000000000001000001000001000000010000 
+	Parameter RXCDR_FR_RESET_ON_EIDLE bound to: 1'b0 
+	Parameter RXCDR_HOLD_DURING_EIDLE bound to: 1'b0 
+	Parameter RXCDR_LOCK_CFG bound to: 6'b001001 
+	Parameter RXCDR_PH_RESET_ON_EIDLE bound to: 1'b0 
+	Parameter RXDLY_CFG bound to: 16'b0000000000011111 
+	Parameter RXDLY_LCFG bound to: 9'b000110000 
+	Parameter RXDLY_TAP_CFG bound to: 16'b0000000000000000 
+	Parameter RXGEARBOX_EN bound to: FALSE - type: string 
+	Parameter RXISCANRESET_TIME bound to: 5'b00001 
+	Parameter RXLPMRESET_TIME bound to: 7'b0001111 
+	Parameter RXLPM_BIAS_STARTUP_DISABLE bound to: 1'b0 
+	Parameter RXLPM_CFG bound to: 4'b0110 
+	Parameter RXLPM_CFG1 bound to: 1'b0 
+	Parameter RXLPM_CM_CFG bound to: 1'b0 
+	Parameter RXLPM_GC_CFG bound to: 9'b111100010 
+	Parameter RXLPM_GC_CFG2 bound to: 3'b001 
+	Parameter RXLPM_HF_CFG bound to: 14'b00001111110000 
+	Parameter RXLPM_HF_CFG2 bound to: 5'b01010 
+	Parameter RXLPM_HF_CFG3 bound to: 4'b0000 
+	Parameter RXLPM_HOLD_DURING_EIDLE bound to: 1'b0 
+	Parameter RXLPM_INCM_CFG bound to: 1'b0 
+	Parameter RXLPM_IPCM_CFG bound to: 1'b1 
+	Parameter RXLPM_LF_CFG bound to: 18'b000000001111110000 
+	Parameter RXLPM_LF_CFG2 bound to: 5'b01010 
+	Parameter RXLPM_OSINT_CFG bound to: 3'b100 
+	Parameter RXOOB_CFG bound to: 7'b0000110 
+	Parameter RXOOB_CLK_CFG bound to: PMA - type: string 
+	Parameter RXOSCALRESET_TIME bound to: 5'b00011 
+	Parameter RXOSCALRESET_TIMEOUT bound to: 5'b00000 
+	Parameter RXOUT_DIV bound to: 1 - type: integer 
+	Parameter RXPCSRESET_TIME bound to: 5'b00001 
+	Parameter RXPHDLY_CFG bound to: 24'b000010000100000000100000 
+	Parameter RXPH_CFG bound to: 24'b110000000000000000000010 
+	Parameter RXPH_MONITOR_SEL bound to: 5'b00000 
+	Parameter RXPI_CFG0 bound to: 3'b000 
+	Parameter RXPI_CFG1 bound to: 1'b1 
+	Parameter RXPI_CFG2 bound to: 1'b1 
+	Parameter RXPMARESET_TIME bound to: 5'b00011 
+	Parameter RXPRBS_ERR_LOOPBACK bound to: 1'b0 
+	Parameter RXSLIDE_AUTO_WAIT bound to: 7 - type: integer 
+	Parameter RXSLIDE_MODE bound to: OFF - type: string 
+	Parameter RXSYNC_MULTILANE bound to: 1'b0 
+	Parameter RXSYNC_OVRD bound to: 1'b0 
+	Parameter RXSYNC_SKIP_DA bound to: 1'b0 
+	Parameter RX_BIAS_CFG bound to: 16'b0000111100110011 
+	Parameter RX_BUFFER_CFG bound to: 6'b000000 
+	Parameter RX_CLK25_DIV bound to: 10 - type: integer 
+	Parameter RX_CLKMUX_EN bound to: 1'b1 
+	Parameter RX_CM_SEL bound to: 2'b01 
+	Parameter RX_CM_TRIM bound to: 4'b0000 
+	Parameter RX_DATA_WIDTH bound to: 40 - type: integer 
+	Parameter RX_DDI_SEL bound to: 6'b000000 
+	Parameter RX_DEBUG_CFG bound to: 14'b00000000000000 
+	Parameter RX_DEFER_RESET_BUF_EN bound to: TRUE - type: string 
+	Parameter RX_DISPERR_SEQ_MATCH bound to: TRUE - type: string 
+	Parameter RX_OS_CFG bound to: 13'b0000010000000 
+	Parameter RX_SIG_VALID_DLY bound to: 10 - type: integer 
+	Parameter RX_XCLK_SEL bound to: RXREC - type: string 
+	Parameter SAS_MAX_COM bound to: 64 - type: integer 
+	Parameter SAS_MIN_COM bound to: 36 - type: integer 
+	Parameter SATA_BURST_SEQ_LEN bound to: 4'b0101 
+	Parameter SATA_BURST_VAL bound to: 3'b100 
+	Parameter SATA_EIDLE_VAL bound to: 3'b100 
+	Parameter SATA_MAX_BURST bound to: 8 - type: integer 
+	Parameter SATA_MAX_INIT bound to: 21 - type: integer 
+	Parameter SATA_MAX_WAKE bound to: 7 - type: integer 
+	Parameter SATA_MIN_BURST bound to: 4 - type: integer 
+	Parameter SATA_MIN_INIT bound to: 12 - type: integer 
+	Parameter SATA_MIN_WAKE bound to: 4 - type: integer 
+	Parameter SATA_PLL_CFG bound to: VCO_3000MHZ - type: string 
+	Parameter SHOW_REALIGN_COMMA bound to: TRUE - type: string 
+	Parameter SIM_RECEIVER_DETECT_PASS bound to: TRUE - type: string 
+	Parameter SIM_RESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter SIM_TX_EIDLE_DRIVE_LEVEL bound to: X - type: string 
+	Parameter SIM_VERSION bound to: 2.0 - type: string 
+	Parameter TERM_RCAL_CFG bound to: 15'b100001000010000 
+	Parameter TERM_RCAL_OVRD bound to: 3'b000 
+	Parameter TRANS_TIME_RATE bound to: 8'b00001110 
+	Parameter TST_RSV bound to: 0 - type: integer 
+	Parameter TXBUF_EN bound to: TRUE - type: string 
+	Parameter TXBUF_RESET_ON_RATE_CHANGE bound to: TRUE - type: string 
+	Parameter TXDLY_CFG bound to: 16'b0000000000011111 
+	Parameter TXDLY_LCFG bound to: 9'b000110000 
+	Parameter TXDLY_TAP_CFG bound to: 16'b0000000000000000 
+	Parameter TXGEARBOX_EN bound to: FALSE - type: string 
+	Parameter TXOOB_CFG bound to: 1'b0 
+	Parameter TXOUT_DIV bound to: 1 - type: integer 
+	Parameter TXPCSRESET_TIME bound to: 5'b00001 
+	Parameter TXPHDLY_CFG bound to: 24'b000010000100000000100000 
+	Parameter TXPH_CFG bound to: 16'b0000011110000000 
+	Parameter TXPH_MONITOR_SEL bound to: 5'b00000 
+	Parameter TXPI_CFG0 bound to: 2'b00 
+	Parameter TXPI_CFG1 bound to: 2'b00 
+	Parameter TXPI_CFG2 bound to: 2'b00 
+	Parameter TXPI_CFG3 bound to: 1'b0 
+	Parameter TXPI_CFG4 bound to: 1'b0 
+	Parameter TXPI_CFG5 bound to: 3'b000 
+	Parameter TXPI_GREY_SEL bound to: 1'b0 
+	Parameter TXPI_INVSTROBE_SEL bound to: 1'b0 
+	Parameter TXPI_PPMCLK_SEL bound to: TXUSRCLK2 - type: string 
+	Parameter TXPI_PPM_CFG bound to: 8'b00000000 
+	Parameter TXPI_SYNFREQ_PPM bound to: 3'b001 
+	Parameter TXPMARESET_TIME bound to: 5'b00001 
+	Parameter TXSYNC_MULTILANE bound to: 1'b0 
+	Parameter TXSYNC_OVRD bound to: 1'b0 
+	Parameter TXSYNC_SKIP_DA bound to: 1'b0 
+	Parameter TX_CLK25_DIV bound to: 10 - type: integer 
+	Parameter TX_CLKMUX_EN bound to: 1'b1 
+	Parameter TX_DATA_WIDTH bound to: 40 - type: integer 
+	Parameter TX_DEEMPH0 bound to: 6'b000000 
+	Parameter TX_DEEMPH1 bound to: 6'b000000 
+	Parameter TX_DRIVE_MODE bound to: DIRECT - type: string 
+	Parameter TX_EIDLE_ASSERT_DELAY bound to: 3'b110 
+	Parameter TX_EIDLE_DEASSERT_DELAY bound to: 3'b100 
+	Parameter TX_LOOPBACK_DRIVE_HIZ bound to: FALSE - type: string 
+	Parameter TX_MAINCURSOR_SEL bound to: 1'b0 
+	Parameter TX_MARGIN_FULL_0 bound to: 7'b1001110 
+	Parameter TX_MARGIN_FULL_1 bound to: 7'b1001001 
+	Parameter TX_MARGIN_FULL_2 bound to: 7'b1000101 
+	Parameter TX_MARGIN_FULL_3 bound to: 7'b1000010 
+	Parameter TX_MARGIN_FULL_4 bound to: 7'b1000000 
+	Parameter TX_MARGIN_LOW_0 bound to: 7'b1000110 
+	Parameter TX_MARGIN_LOW_1 bound to: 7'b1000100 
+	Parameter TX_MARGIN_LOW_2 bound to: 7'b1000010 
+	Parameter TX_MARGIN_LOW_3 bound to: 7'b1000000 
+	Parameter TX_MARGIN_LOW_4 bound to: 7'b1000000 
+	Parameter TX_PREDRIVER_MODE bound to: 1'b0 
+	Parameter TX_RXDETECT_CFG bound to: 14'b01100000110010 
+	Parameter TX_RXDETECT_REF bound to: 3'b100 
+	Parameter TX_XCLK_SEL bound to: TXOUT - type: string 
+	Parameter UCODEER_CLR bound to: 1'b0 
+	Parameter USE_PCS_CLK_PHASE_SEL bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'GTPE2_CHANNEL' (11#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:19961]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_GT' (12#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_gt.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_multi_gt' (13#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_multi_gt.v:71]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_TX_STARTUP_FSM' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_tx_startup_fsm.v:94]
+	Parameter STABLE_CLOCK_PERIOD bound to: 25 - type: integer 
+	Parameter RETRY_COUNTER_BITWIDTH bound to: 8 - type: integer 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter TX_PLL0_USED bound to: TRUE - type: string 
+	Parameter RX_PLL0_USED bound to: FALSE - type: string 
+	Parameter PHASE_ALIGNMENT_MANUAL bound to: FALSE - type: string 
+	Parameter INIT bound to: 4'b0000 
+	Parameter ASSERT_ALL_RESETS bound to: 4'b0001 
+	Parameter WAIT_FOR_PLL_LOCK bound to: 4'b0010 
+	Parameter RELEASE_PLL_RESET bound to: 4'b0011 
+	Parameter WAIT_FOR_TXOUTCLK bound to: 4'b0100 
+	Parameter RELEASE_MMCM_RESET bound to: 4'b0101 
+	Parameter WAIT_FOR_TXUSRCLK bound to: 4'b0110 
+	Parameter WAIT_RESET_DONE bound to: 4'b0111 
+	Parameter DO_PHASE_ALIGNMENT bound to: 4'b1000 
+	Parameter RESET_FSM_DONE bound to: 4'b1001 
+	Parameter MMCM_LOCK_CNT_MAX bound to: 256 - type: integer 
+	Parameter STARTUP_DELAY bound to: 500 - type: integer 
+	Parameter WAIT_CYCLES bound to: 20 - type: integer 
+	Parameter WAIT_MAX bound to: 30 - type: integer 
+	Parameter WAIT_TIMEOUT_2ms bound to: 80000 - type: integer 
+	Parameter WAIT_TLOCK_MAX bound to: 4000 - type: integer 
+	Parameter WAIT_TIMEOUT_500us bound to: 20000 - type: integer 
+	Parameter WAIT_1us_CYCLES bound to: 40 - type: integer 
+	Parameter WAIT_1us bound to: 50 - type: integer 
+	Parameter WAIT_TIME_MAX bound to: 400 - type: integer 
+	Parameter PORT_WIDTH bound to: 17 - type: integer 
+	Parameter MAX_RETRIES bound to: 255 - type: integer 
+	Parameter MAX_WAIT_BYPASS bound to: 25344 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_0_sync_block' [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_sync_block.v:78]
+	Parameter INITIALISE bound to: 6'b000000 
+INFO: [Synth 8-6157] synthesizing module 'FD' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:13467]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FD' (14#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:13467]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_sync_block' (15#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_sync_block.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_TX_STARTUP_FSM' (16#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_tx_startup_fsm.v:94]
+WARNING: [Synth 8-3848] Net gt0_rx_fsm_reset_done_out in module/entity gtwizard_0_init does not have driver. [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_init.v:84]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_init' (17#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_init.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0_support' (18#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_support.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_0' (19#1) [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0.v:72]
+WARNING: [Synth 8-3331] design gtwizard_0_TX_STARTUP_FSM has unconnected port PLL1REFCLKLOST
+WARNING: [Synth 8-3331] design gtwizard_0_init has unconnected port gt0_rx_fsm_reset_done_out
+WARNING: [Synth 8-3331] design gtwizard_0_init has unconnected port dont_reset_on_data_error_in
+WARNING: [Synth 8-3331] design gtwizard_0_init has unconnected port gt0_data_valid_in
+WARNING: [Synth 8-3331] design gtwizard_0_init has unconnected port gt0_gtrxreset_in
+WARNING: [Synth 8-3331] design gtwizard_0_init has unconnected port gt0_gttxreset_in
+WARNING: [Synth 8-3331] design gtwizard_0_init has unconnected port gt0_txuserrdy_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1072.145 ; gain = 292.344
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1072.145 ; gain = 292.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1072.145 ; gain = 292.344
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1072.145 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 43 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.srcs/sources_1/ip/gtwizard_0/gtwizard_0.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1190.535 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  FD => FDRE: 42 instances
+
+INFO: [Timing 38-2] Deriving generated clocks
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.245 . Memory (MB): peak = 1200.066 ; gain = 9.531
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  {C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1/dont_touch.xdc}, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'gtwizard_0_TX_STARTUP_FSM'
+INFO: [Synth 8-5544] ROM "TXUSERRDY" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gttxreset_i" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MMCM_RESET" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_fsm_reset_done_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PLL0_RESET" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reset_time_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "run_phase_alignment_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                             0000 |                             0000
+       ASSERT_ALL_RESETS |                             0001 |                             0001
+       WAIT_FOR_PLL_LOCK |                             0010 |                             0010
+       RELEASE_PLL_RESET |                             0011 |                             0011
+       WAIT_FOR_TXOUTCLK |                             0100 |                             0100
+      RELEASE_MMCM_RESET |                             0101 |                             0101
+       WAIT_FOR_TXUSRCLK |                             0110 |                             0110
+         WAIT_RESET_DONE |                             0111 |                             0111
+      DO_PHASE_ALIGNMENT |                             1000 |                             1000
+          RESET_FSM_DONE |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_state_reg' using encoding 'sequential' in module 'gtwizard_0_TX_STARTUP_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               96 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 13    
+	  10 Input      1 Bit        Muxes := 17    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module gtwizard_0_cpll_railing 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+	               96 Bit    Registers := 1     
+Module gtwizard_0_common_reset 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module gtwizard_0_TX_STARTUP_FSM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 3     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 9     
+	  10 Input      1 Bit        Muxes := 17    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design gtwizard_0_support has unconnected port gt0_rx_fsm_reset_done_out
+WARNING: [Synth 8-3331] design gtwizard_0_support has unconnected port dont_reset_on_data_error_in
+WARNING: [Synth 8-3331] design gtwizard_0_support has unconnected port gt0_data_valid_in
+WARNING: [Synth 8-3331] design gtwizard_0_support has unconnected port gt0_gtrxreset_in
+WARNING: [Synth 8-3331] design gtwizard_0_support has unconnected port gt0_gttxreset_in
+WARNING: [Synth 8-3331] design gtwizard_0_support has unconnected port gt0_txuserrdy_in
+INFO: [Synth 8-3332] Sequential element (gtwizard_0_init_i/gt0_txresetfsm_i/sync_pll1lock/data_sync_reg1) is unused and will be removed from module gtwizard_0_support.
+INFO: [Synth 8-3332] Sequential element (gtwizard_0_init_i/gt0_txresetfsm_i/sync_pll1lock/data_sync_reg2) is unused and will be removed from module gtwizard_0_support.
+INFO: [Synth 8-3332] Sequential element (gtwizard_0_init_i/gt0_txresetfsm_i/sync_pll1lock/data_sync_reg3) is unused and will be removed from module gtwizard_0_support.
+INFO: [Synth 8-3332] Sequential element (gtwizard_0_init_i/gt0_txresetfsm_i/sync_pll1lock/data_sync_reg4) is unused and will be removed from module gtwizard_0_support.
+INFO: [Synth 8-3332] Sequential element (gtwizard_0_init_i/gt0_txresetfsm_i/sync_pll1lock/data_sync_reg5) is unused and will be removed from module gtwizard_0_support.
+INFO: [Synth 8-3332] Sequential element (gtwizard_0_init_i/gt0_txresetfsm_i/sync_pll1lock/data_sync_reg6) is unused and will be removed from module gtwizard_0_support.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:28 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 1200.066 ; gain = 420.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name        | RTL Name                                                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|gtwizard_0_support | cpll_railing_pll0_q0_clk0_refclk_i/cpllreset_wait_reg[127] | 128    | 1     | NO           | NO                 | YES               | 0      | 4       | 
+|gtwizard_0_support | cpll_railing_pll0_q0_clk0_refclk_i/cpllpd_wait_reg[95]     | 96     | 1     | NO           | NO                 | YES               | 0      | 3       | 
++-------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     3|
+|2     |BUFH          |     1|
+|3     |CARRY4        |    14|
+|4     |GTPE2_CHANNEL |     1|
+|5     |GTPE2_COMMON  |     1|
+|6     |IBUFDS_GTE2   |     1|
+|7     |LUT1          |    23|
+|8     |LUT2          |    16|
+|9     |LUT3          |    11|
+|10    |LUT4          |    16|
+|11    |LUT5          |    14|
+|12    |LUT6          |    34|
+|13    |MMCME2_ADV    |     1|
+|14    |SRLC32E       |     7|
+|15    |FD            |    36|
+|16    |FDCE          |     9|
+|17    |FDRE          |    90|
+|18    |FDSE          |     3|
++------+--------------+------+
+
+Report Instance Areas: 
++------+---------------------------------------+----------------------------+------+
+|      |Instance                               |Module                      |Cells |
++------+---------------------------------------+----------------------------+------+
+|1     |top                                    |                            |   281|
+|2     |  inst                                 |gtwizard_0_support          |   281|
+|3     |    common0_i                          |gtwizard_0_common           |     1|
+|4     |    common_reset_i                     |gtwizard_0_common_reset     |    30|
+|5     |    cpll_railing_pll0_q0_clk0_refclk_i |gtwizard_0_cpll_railing     |    10|
+|6     |    gt_usrclk_source                   |gtwizard_0_GT_USRCLK_SOURCE |     5|
+|7     |      txoutclk_mmcm0_i                 |gtwizard_0_CLOCK_MODULE     |     4|
+|8     |    gtwizard_0_init_i                  |gtwizard_0_init             |   235|
+|9     |      gt0_txresetfsm_i                 |gtwizard_0_TX_STARTUP_FSM   |   234|
+|10    |        sync_TXRESETDONE               |gtwizard_0_sync_block       |     6|
+|11    |        sync_mmcm_lock_reclocked       |gtwizard_0_sync_block_0     |     8|
+|12    |        sync_pll0lock                  |gtwizard_0_sync_block_1     |    11|
+|13    |        sync_run_phase_alignment_int   |gtwizard_0_sync_block_2     |     6|
+|14    |        sync_time_out_wait_bypass      |gtwizard_0_sync_block_3     |     6|
+|15    |        sync_tx_fsm_reset_done_int     |gtwizard_0_sync_block_4     |     6|
+|16    |      gtwizard_0_i                     |gtwizard_0_multi_gt         |     1|
+|17    |        gt0_gtwizard_0_i               |gtwizard_0_GT               |     1|
++------+---------------------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:38 . Memory (MB): peak = 1201.293 ; gain = 293.570
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1201.293 ; gain = 421.492
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1201.293 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1220.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  FD => FDRE: 36 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:52 . Memory (MB): peak = 1220.555 ; gain = 761.859
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1220.555 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1/gtwizard_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP gtwizard_0, cache-ID = c089116d3c4dd98c
+INFO: [Coretcl 2-1174] Renamed 16 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1220.555 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1/gtwizard_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file gtwizard_0_utilization_synth.rpt -pb gtwizard_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 27 16:53:58 2020...

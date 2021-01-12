@@ -1,0 +1,71 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2ac981d467634ac8a1045bd2f086cac6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot gtwizard_0_TB_func_synth xil_defaultlib.gtwizard_0_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUFDS
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.IOBUF
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.OBUFT
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=53.75...
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDPE_default
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.GTPE2_COMMON(BIAS_CFG=64'b010100...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_common
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_common_res...
+Compiling module unisims_ver.SRLC32E_default
+Compiling module unisims_ver.BUFH
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_cpll_raili...
+Compiling module unisims_ver.IBUFDS_GTE2
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=3.0,C...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_CLOCK_MODU...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_GT_USRCLK_...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_sync_block
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_sync_block...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_sync_block...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_sync_block...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_sync_block...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_sync_block...
+Compiling module unisims_ver.FDSE_default
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_TX_STARTUP...
+Compiling module unisims_ver.GTPE2_CHANNEL(ALIGN_COMMA_ENABLE...
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_GT
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_multi_gt
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_init
+Compiling module xil_defaultlib.gtwizard_0_gtwizard_0_support
+Compiling module xil_defaultlib.gtwizard_0
+Compiling module unisims_ver.FDPE(INIT=1'b0)
+Compiling module xil_defaultlib.si5324_init
+Compiling module xil_defaultlib.i2c_core
+Compiling module xil_defaultlib.simple_i2c
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB36E1(READ_WIDTH_A=1,READ_WID...
+Compiling module xil_defaultlib.top_logic_5000
+Compiling module xil_defaultlib.gtwizard_0_exdes
+Compiling module xil_defaultlib.gtwizard_0_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot gtwizard_0_TB_func_synth

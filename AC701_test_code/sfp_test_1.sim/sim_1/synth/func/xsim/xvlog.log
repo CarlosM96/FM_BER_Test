@@ -1,0 +1,31 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.sim/sim_1/synth/func/xsim/gtwizard_0_TB_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz_1_clk_wiz
+INFO: [VRFC 10-311] analyzing module gtwizard_0
+INFO: [VRFC 10-311] analyzing module gtwizard_0_exdes
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_CLOCK_MODULE
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_GT
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_GT_USRCLK_SOURCE
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_TX_STARTUP_FSM
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_common
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_common_reset
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_cpll_railing
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_init
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_multi_gt
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_support
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_sync_block
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_sync_block_0
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_sync_block_1
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_sync_block_2
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_sync_block_3
+INFO: [VRFC 10-311] analyzing module gtwizard_0_gtwizard_0_sync_block_4
+INFO: [VRFC 10-311] analyzing module i2c_core
+INFO: [VRFC 10-311] analyzing module si5324_init
+INFO: [VRFC 10-311] analyzing module simple_i2c
+INFO: [VRFC 10-311] analyzing module top_logic_5000
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_0_TB
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v:113]
+WARNING: [VRFC 10-2019] loop variable declaration is not allowed in this mode of verilog [C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v:277]
+WARNING: [VRFC 10-2019] loop variable declaration is not allowed in this mode of verilog [C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.srcs/sim_1/imports/simulation/gtwizard_0_tb.v:283]

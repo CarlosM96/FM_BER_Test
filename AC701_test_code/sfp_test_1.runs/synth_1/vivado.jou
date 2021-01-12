@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Jan 11 17:00:09 2021
+# Process ID: 22350
+# Current directory: /home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.runs/synth_1
+# Command line: vivado -log gtwizard_0_exdes.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gtwizard_0_exdes.tcl
+# Log file: /home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.runs/synth_1/gtwizard_0_exdes.vds
+# Journal file: /home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source gtwizard_0_exdes.tcl -notrace

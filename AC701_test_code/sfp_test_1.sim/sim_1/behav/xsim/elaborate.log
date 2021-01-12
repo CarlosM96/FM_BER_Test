@@ -1,0 +1,53 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/daphnelme/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 2ac981d467634ac8a1045bd2f086cac6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot gtwizard_0_TB_behav xil_defaultlib.gtwizard_0_TB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'gt0_gtrxreset_in' is not connected on this instance [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:346]
+WARNING: [VRFC 10-5021] port 'led1' is not connected on this instance [/home/daphnelme/Desktop/CarlosPrueba/sfp_test_1/sfp_test_1.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v:527]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module unisims_ver.IBUFDS_GTE2
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=3.0,C...
+Compiling module xil_defaultlib.gtwizard_0_CLOCK_MODULE(MULT=3.0...
+Compiling module xil_defaultlib.gtwizard_0_GT_USRCLK_SOURCE
+Compiling module unisims_ver.BUFH
+Compiling module xil_defaultlib.gtwizard_0_cpll_railing_default
+Compiling module unisims_ver.GTPE2_COMMON(BIAS_CFG=64'b010100...
+Compiling module xil_defaultlib.gtwizard_0_common
+Compiling module xil_defaultlib.gtwizard_0_common_reset(STABLE_C...
+Compiling module unisims_ver.GTPE2_CHANNEL(ALIGN_COMMA_ENABLE...
+Compiling module xil_defaultlib.gtwizard_0_GT(GT_SIM_GTRESET_SPE...
+Compiling module xil_defaultlib.gtwizard_0_multi_gt(WRAPPER_SIM_...
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.FD
+Compiling module xil_defaultlib.gtwizard_0_sync_block
+Compiling module xil_defaultlib.gtwizard_0_TX_STARTUP_FSM(STABLE...
+Compiling module xil_defaultlib.gtwizard_0_init_default
+Compiling module xil_defaultlib.gtwizard_0_support
+Compiling module xil_defaultlib.gtwizard_0
+Compiling module xil_defaultlib.uart_delay_test
+Compiling module xil_defaultlib.top_logic_n_packs
+Compiling architecture rtl of entity xil_defaultlib.si5324_init [si5324_init_default]
+Compiling architecture structural of entity xil_defaultlib.i2c_core [i2c_core_default]
+Compiling architecture structural of entity xil_defaultlib.simple_i2c [simple_i2c_default]
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=53.75...
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module unisims_ver.OBUFDS
+Compiling module xil_defaultlib.gtwizard_0_exdes
+Compiling module xil_defaultlib.gtwizard_0_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot gtwizard_0_TB_behav

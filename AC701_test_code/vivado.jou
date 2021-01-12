@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Tue Nov 24 15:25:10 2020
+# Process ID: 3452
+# Current directory: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10320 C:\Users\Diego\Documents\Fiuna\LME\Link test\AC701\sfp_test_1\sfp_test_1.xpr
+# Log file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/vivado.log
+# Journal file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_1/sfp_test_1.xpr}
+update_compile_order -fileset sources_1

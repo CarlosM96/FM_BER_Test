@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Tue Oct 27 16:52:55 2020
+# Process ID: 15152
+# Current directory: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1
+# Command line: vivado.exe -log gtwizard_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gtwizard_0.tcl
+# Log file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1/gtwizard_0.vds
+# Journal file: C:/Users/Diego/Documents/Fiuna/LME/Link test/AC701/sfp_test_simple/sfp_test_simple.runs/gtwizard_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source gtwizard_0.tcl -notrace
